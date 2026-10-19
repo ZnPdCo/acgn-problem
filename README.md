@@ -48,7 +48,7 @@ https://uoj.ac/problem/1094
 
 - **浓度**：按唯一题目数计算。同一道题即使出现在多个作品栏位，也只计一次；
 - **等级**：`Newbie → Pupil → Specialist → Expert → Candidate Master → Master → International Master → Grandmaster → International Grandmaster → Legendary Grandmaster → ACGN tourist`；
-- **成就**：题目数量、作品数量、东方 / Key 系列、作品类别（百合、恋爱、奇幻、科幻、悬疑、Galgame）、全制霸；
+- **成就**：题目数量、作品数量、东方 / Key 系列、作品类别（百合、恋爱、奇幻、科幻、Galgame）、全制霸；
 - **随机推荐**：随机抽一道还没做的题，可换一题或直接标记 AC；
 - **来源分布**：洛谷 / UOJ / QOJ 的完成情况。
 
