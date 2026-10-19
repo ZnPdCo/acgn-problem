@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+web/node_modules/
+
+# build output
+dist/
+web/dist/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors / os
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# local scratch
+*.log
+.tmp*

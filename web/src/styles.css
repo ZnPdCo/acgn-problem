@@ -1,0 +1,277 @@
+/* Layout and small adjustments only. The visual language is Fomantic UI's. */
+
+body {
+  background: #f7f7f7;
+}
+
+.site-header {
+  padding-top: 2rem;
+}
+
+.site-header .ui.segment {
+  margin-bottom: 0;
+}
+
+.site-menu {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.main-content {
+  padding: 2rem 0 3rem;
+}
+
+.main-content > section {
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 64px;
+}
+
+.loading-screen {  padding: 6rem 0;
+  text-align: center;
+}
+
+.loading-screen .ui.message {
+  text-align: left;
+}
+
+.stat-suffix {
+  margin-left: 0.2em;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 0.45em;
+  font-weight: 400;
+}
+
+.rank-line {
+  margin-top: 0.5rem;
+}
+
+.current-rank {
+  color: #a333c8;
+  font-weight: 600;
+}
+
+.muted-text {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 0.9rem;
+}
+
+.inline-hint {
+  margin-left: 0.5rem;
+}
+
+/* ------------------------------------------------------------ dashboard */
+
+#dashboard .ui.segment .ui.statistic {
+  margin-bottom: 0.75rem;
+}
+
+#dashboard .ui.segment .ui.statistic > .value {
+  font-weight: 400;
+}
+
+#dashboard .ui.list .ui.progress {
+  margin: 0.35rem 0 0;
+}
+
+.compact-list .item {
+  padding: 0.5em 0 !important;
+}
+
+.recommend-title {
+  margin: 0.75rem 0 0.5rem !important;
+}
+
+.dashboard-actions {
+  margin-top: 1rem;
+}
+
+/* --------------------------------------------------------------- import */
+
+.report-message {
+  margin-top: 1rem !important;
+}
+
+.backup-buttons {
+  margin-top: 1rem;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.stale-note {
+  margin-top: 1rem !important;
+  text-align: left;
+}
+
+/* ---------------------------------------------------------------- table */
+
+.table-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.table-search {
+  width: 280px;
+}
+
+.table-search input {
+  width: 100%;
+}
+
+.result-count {
+  margin-left: auto;
+}
+
+.table-scroll {
+  max-height: 70vh;
+  overflow: auto;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+}
+
+.work-column {
+  width: 200px;
+}
+
+.oj-column {
+  width: 90px;
+}
+
+.state-column {
+  width: 100px;
+}
+
+.work-cell {
+  width: 200px;
+  vertical-align: top !important;
+}
+
+/*
+ * The work cell is rowspanned, so in continuation rows the problem cell is the
+ * first <td>. Fomantic's `.celled.table td:first-child` then removes its left
+ * border. Restore the divider between the work and problem columns.
+ */
+.acgn-table.ui.table.celled > tbody > tr > td.problem-cell {
+  border-left: 1px solid rgba(34, 36, 38, 0.2) !important;
+}
+
+.state-cell {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.state-cell .ui.button {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.oj-cell,
+.state-cell {
+  white-space: nowrap;
+}
+
+.work-name-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+
+.work-name-link {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+}
+
+.work-name-link:hover {
+  color: #4183c4;
+}
+
+.work-original {
+  margin-top: 0.2em;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+.work-progress {
+  margin-top: 0.4em;
+}
+
+.problem-title-line a {
+  font-weight: 500;
+}
+
+.problem-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+}
+
+.problem-id {
+  padding: 0.05em 0.3em;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.04);
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 0.8em;
+}
+
+.problem-meta .ui.label {
+  margin: 0;
+}
+
+.table-footer {
+  margin-top: 0.75rem;
+}
+
+.table-empty {
+  margin-top: 1rem !important;
+}
+
+/* ------------------------------------------------------------ responsive */
+
+@media (max-width: 767px) {
+  .site-header {
+    padding-top: 1rem;
+  }
+
+  .main-content {
+    padding-top: 1rem;
+  }
+
+  .main-content > section {
+    margin-bottom: 2rem;
+  }
+
+  .site-menu .item .icon {
+    display: none;
+  }
+
+  .table-search {
+    width: 100%;
+  }
+
+  .result-count {
+    margin-left: 0;
+  }
+
+  .acgn-table.ui.table {
+    min-width: 620px;
+  }
+
+  .work-column,
+  .work-cell {
+    width: 130px;
+  }
+
+  .table-footer {
+    margin-top: 0.5rem;
+  }
+}

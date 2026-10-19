@@ -1,0 +1,754 @@
+upd on 2026.10.18: 开放了来自 qoj 和 uoj 的除相同题以外的题目补充。
+
+---
+
+本文的「ACGN」使用**相对狭义**的定义：
+- **A**nimation，即动画，尤指 **A**nime，即日本动画。
+- **C**omics，即漫画。
+- **G**algame，即美少女游戏。
+- Light **N**ovel，即轻小说。
+- 上面这么解释主要是用来说明为什么没有某些二游。如果该二游存在官方的改编动画，则也可以加入。
+
+Boring Collections.
+
+目前支持的题目来源：
+- **Luogu**（题号格式形如 $\tt Pxxxx$ 或 $\tt Bxxxx$）；
+- **QOJ**（题号格式形如 $\tt QOJxxx$）；
+- **UOJ**（题号格式形如 $\tt UOJxxx$）。
+- 若多个 OJ 有同一个题，出于题目名相同，且题目量过大等原因，只会保留题号字典序最小的那个。您可以搜索题目名称。
+
+**欢迎在评论区 / 私信进行纠错 / 补遗**，而不是在评论区扔一句「为什么没有 xx」就跑路。
+
+排序基本以 [Bangumi](https://bgm.tv/) 显示的作品中文翻译为基准，但是会给出原作品名；排序方式比较显然，但是如果有你想找的，推荐 **Ctrl+F** 搜索，不过需要注意可能的翻译差异。
+
+作品的续作会被归为同一栏，如 Fate 系列、樱之诗系列等。
+
+若一个作品 neta 了多个作品，会在多个对应栏下展示。
+
+$\gdef\jp#1{\quad\color{999999}\footnotesize\textsf{#1}}$
+
+---
+
+Some other fun facts:
+- 「Segment Tree Beats」名称 neta 自《Angel Beats!》。
+- 「Old Driver Tree」别名「Chtholly Tree（珂朵莉树）」。
+
+---
+
+- 9-nine-
+  - [P12533 [XJTUPC 2025] 9-Nine](/problem/P12533)
+- anemoi $\jp{anemoi -アネモイ-}$
+  - [UOJ1094 【UNR #10】麦田](https://uoj.ac/problem/1094)
+  - [UOJ1095 【UNR #10】分披萨](https://uoj.ac/problem/1095)
+- 安达与岛村 $\jp{安達としまむら}$
+  - [P11660 我终将成为你的倒影](/problem/P11660)
+  - [P12411 抱月](/problem/P12411)
+  - [P14200 朝向过去的远方](/problem/P14200)
+  - [P14201 樱](/problem/P14201)
+  - [P14203 这次要永远 做朋友](/problem/P14203)
+  - [P17629 永远的朋友](/problem/P17629)
+  - [P17630 安达与岛村](/problem/P17630)
+- 暗杀教室 $\jp{暗殺教室}$
+  - [P6038 「ACOI2020」惊吓路径](/problem/P6038)
+  - [P6039 「ACOI2020」音速](/problem/P6039)
+  - [P6040 「ACOI2020」课后期末考试滑溜滑溜补习班](/problem/P6040)
+  - [P6041 「ACOI2020」布丁暗杀计划](/problem/P6041)
+  - [P6042 「ACOI2020」学园祭](/problem/P6042)
+  - [P6043 「ACOI2020」修学旅行](/problem/P6043)
+- BanG Dream!
+  - [P3694 邦邦的大合唱站队](/problem/P3694)
+  - [P11472 命运黄之瓜](/problem/P11472)
+  - [P12539 [XJTUPC 2025] 结束乐队](/problem/P12539)
+  - [P14316 [Aboi Round 2] 礎の花冠](/problem/P14316)
+  - [P14513 [NFLSPC #8] 追忆desuwa](/problem/P14513)
+  - [P14582 [LNCPC 2025] 被抠的键盘](/problem/P14582)
+  - [P14754 猫石游戏](/problem/P14754)
+  - [P14962 [LBA-OI R2 A] 一次买够](/problem/P14962)
+  - [P15650 [省选联考 2026] 摩卡串 / string](/problem/P15650)
+  - [P17626 多首的怪物](/problem/P17626)
+  - [P17632 [ICPC 2019 Yinchuan R] Girls Band Party](/problem/P17632)
+- 白色相簿 2 $\jp{WHITE ALBUM2}$
+  - [P16331 After All ～綴る想い～](/problem/P16331)
+- 宝可梦 $\jp{ポケットモンスター}$
+  - [P1936 水晶灯火灵](/problem/P1936)
+  - [P4542 [ZJOI2011] 营救皮卡丘](/problem/P4542)
+  - [P4679 [ZJOI2011] 道馆之战](/problem/P4679)
+  - [P6494 [COCI 2016/2017 #2] Go](/problem/P6494)
+  - [P13084 [NOISG 2017] I want to be the very best too! / 宝可梦大师](/problem/P13084)
+  - [P15844 [Bulgarian NOI 2024] 宝可梦 / pokemons](/problem/P15844)
+- 彼时蓝星 $\jp{あの頃の青い星}$
+  - [P15417 「yrOI R1」彼时蓝星](/problem/P15417)
+- 不正经的魔术讲师与禁忌教典 $\jp{ロクでなし魔術講師と禁忌教典}$
+  - [P16963 [SCCPC 2026] 禁忌教典的消失咒文](/problem/P16963)
+- CLANNAD $\jp{CLANNAD -クラナド-}$
+  - [P4828 Nagisa loves Tomoya](/problem/P4828)
+  - [P6559 [SBCOI2020] 小镇](/problem/P6559)
+  - [P6560 [SBCOI2020] 时光的流逝](/problem/P6560)
+  - [P6561 [SBCOI2020] 人](/problem/P6561)
+  - [P6563 [SBCOI2020] 一直在你身旁](/problem/P6563)
+- 超辉夜姬！ $\jp{超かぐや姫！}$
+  - [P16326 星降る海](/problem/P16326)
+  - [P17496 [ICPC 2026 Wuhan I] Prime Game](/problem/P17496)
+  - [P17498 [ICPC 2026 Wuhan I] Lottery](/problem/P17498)
+  - [P17500 [ICPC 2026 Wuhan I] Rectangle Cutting](/problem/P17500)
+  - [P17503 [ICPC 2026 Wuhan I] Deletion Game](/problem/P17503)
+  - [P17505 [ICPC 2026 Wuhan I] Iroha and the Kingdom of Construction](/problem/P17505)
+  - [P17529 [JAG 2026 Summer Camp #1] CPK! Remix](/problem/P17529)
+  - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
+- 传颂之物 $\jp{うたわれるもの}$
+  - [P9336 [Ynoi2001] 梦想歌](/problem/P9336)
+- 吹响吧！上低音号 $\jp{響け！ユーフォニアム}$
+  - [P12007 【MX-X10-T3】[LSOT-4] 全国联赛？](/problem/P12007)
+- 春开，意遥遥。 $\jp{はるまで、くるる。}$
+  - [P12011 【MX-X10-T7】[LSOT-4] 春开，意遥遥。](/problem/P12011)
+- 纯白交响曲 $\jp{ましろ色シンフォニー -The color of lovers-}$
+  - [P14250 [集训队互测 2025] 携春同行](/problem/P14250)
+- 弹丸论破 $\jp{ダンガンロンパ}$
+  - [B3655 [语言月赛202208] 天天爱跑步](/problem/B3655)
+  - [B3705 [语言月赛202302] 听见下雨的声音](/problem/B3705)
+  - [P6879 [JOI 2020 Final] 集邮比赛 3 / Collecting Stamps 3](/problem/P6879)
+  - [P7159 「dWoi R1」Sweet Fruit Chocolate](/problem/P7159)
+- 刀剑神域 $\jp{ソードアート・オンライン}$
+  - [P4099 [HEOI2013] SAO](/problem/P4099) 
+- [^1]东方 Project $\jp{東方Project}$
+  - [B3709 [语言月赛202302] 最澄澈的空与海](/problem/B3709)
+  - [B3889 [语言月赛 202311] 式神考核](/problem/B3889)
+  - [P1383 高级打字机](/problem/P1383)
+  - [P1724 东风谷早苗](/problem/P1724)
+  - [P1725 琪露诺](/problem/P1725)
+  - [P1726 上白泽慧音](/problem/P1726)
+  - [P1861 星之器](/problem/P1861)
+  - [P3241 [HNOI2015] 开店](/problem/P3241)
+  - [P3242 [HNOI2015] 接水果](/problem/P3242)
+  - [P3343 [ZJOI2015] 地震后的幻想乡](/problem/P3343)
+  - [P3344 [ZJOI2015] 幻想乡 Wi-Fi 搭建计划](/problem/P3344)
+  - [P3345 [ZJOI2015] 幻想乡战略游戏](/problem/P3345)
+  - [P3346 [ZJOI2015] 诸神眷顾的幻想乡](/problem/P3346)
+  - [P3347 [ZJOI2015] 醉熏熏的幻想乡](/problem/P3347)
+  - [P3598 Koishi Loves Number Theory](/problem/P3598)
+  - [P3599 Koishi Loves Construction](/problem/P3599)
+  - [P3602 Koishi Loves Segments](/problem/P3602)
+  - [P3691 妖精大战争](/problem/P3691)
+  - [P3693 琪露诺的冰雪小屋](/problem/P3693)
+  - [P3708 koishi的数学题](/problem/P3708)
+  - [P3786 萃香抱西瓜](/problem/P3786)
+  - [P3787 冰精冻西瓜](/problem/P3787)
+  - [P3788 幽幽子吃西瓜](/problem/P3788)
+  - [P3797 妖梦斩木棒](/problem/P3797)
+  - [P3798 辉夜姬的十道难题](/problem/P3798)
+  - [P3800 Power 收集](/problem/P3800)
+  - [P3801 红色的幻想乡](/problem/P3801)
+  - [P3802 小魔女帕琪](/problem/P3802)
+  - [P3921 小学数学题](/problem/P3921)
+  - [P3922 中学数学题](/problem/P3922)
+  - [P3923 大学数学题](/problem/P3923)
+  - [P3931 SAC E#1   - 一道难题 Tree](/problem/P3931)
+  - [P4102 [HEOI2014] 林中路径](/problem/P4102)
+  - [P4230 连环病原体](/problem/P4230)
+  - [P4231 三步必杀](/problem/P4231)
+  - [P4232 无意识之外的捉迷藏](/problem/P4232)
+  - [P4233 射命丸文的笔记](/problem/P4233)
+  - [P4275 萃香的请柬](/problem/P4275)
+  - [P4276 封兽鵺的激光游戏](/problem/P4276)
+  - [P4277 河城荷取的烟花](/problem/P4277)
+  - [P4336 [SHOI2016] 黑暗前的幻想乡](/problem/P4336)
+  - [P4511 [CTSC2015] 日程管理](/problem/P4511)
+  - [P4569 [BJWC2011] 禁忌](/problem/P4569)
+  - [P4822 [BJWC2012] 冻结](/problem/P4822)
+  - [P4831 Scarlet loves WenHuaKe](/problem/P4831)
+  - [P4872 OIer们的东方梦](/problem/P4872)
+  - [P4885 灭顶之灾](/problem/P4885)
+  - [P4910 帕秋莉的手环](/problem/P4910)
+  - [P4911 河童重工的计算机](/problem/P4911)
+  - [P4912 帕秋莉的魔法](/problem/P4912)
+  - [P4914 難題「龍の頸の玉　-五色の弾丸-」](/problem/P4914)
+  - [P4915 帕秋莉的魔导书](/problem/P4915)
+  - [P4917 天守阁的地板](/problem/P4917)
+  - [P4918 信仰收集](/problem/P4918)
+  - [P4919 Marisa采蘑菇](/problem/P4919)
+  - [P4924 [1007] 魔法少女小Scarlet](/problem/P4924)
+  - [P4925 [1007] Scarlet 的字符串不可能这么可爱](/problem/P4925)
+  - [P4926 [1007] 倍杀测量者](/problem/P4926)
+  - [P4971 断罪者](/problem/P4971)
+  - [P5129 不可思议的迷宫](/problem/P5129)
+  - [P5130 纯粹的弹幕地狱](/problem/P5130)
+  - [P5131 荷取融合](/problem/P5131)
+  - [P5192 Shoot the Bullet | 东方文花帖](/problem/P5192)
+  - [P5239 回忆京都](/problem/P5239)
+  - [P5278 算术天才⑨与等差数列](/problem/P5278)
+  - [P5316 恋恋的数学题](/problem/P5316)
+  - [P5384 [Cnoi2019] 雪松果树](/problem/P5384)
+  - [P5385 [Cnoi2019] 须臾幻境](/problem/P5385)
+  - [P5387 [Cnoi2019] 人形演舞](/problem/P5387)
+  - [P5389 [Cnoi2019] 数学课](/problem/P5389)
+  - [P5390 [Cnoi2019] 数学作业](/problem/P5390)
+  - [P5391 [Cnoi2019] 青染之心](/problem/P5391)
+  - [P5392 [Cnoi2019] 雪松树之约](/problem/P5392)
+  - [P5433 月宫的符卡序列](/problem/P5433)
+  - [P5514 [MtOI2019] 永夜的报应](/problem/P5514)
+  - [P5515 [MtOI2019] 灵梦的计算器](/problem/P5515)
+  - [P5516 [MtOI2019] 小铃的烦恼](/problem/P5516)
+  - [P5517 [MtOI2019] 幻想乡数学竞赛](/problem/P5517)
+  - [P5518 [MtOI2019] 幽灵乐团 / 莫比乌斯反演基础练习题](/problem/P5518)
+  - [P5519 [MtOI2019] 埋骨于弘川](/problem/P5519)
+  - [P6159 [Cnoi2020] 光图](/problem/P6159)
+  - [P6160 [Cnoi2020] 向量](/problem/P6160)
+  - [P6161 [Cnoi2020] 高维](/problem/P6161)
+  - [P6162 [Cnoi2020] 四角链](/problem/P6162)
+  - [P6163 [Cnoi2020] 领域极限](/problem/P6163)
+  - [P6199 [EER1] 河童重工](/problem/P6199)
+  - [P6306 「Wdsr-1」小铃的书](/problem/P6306)
+  - [P6307 「Wdsr-1」贤者之石](/problem/P6307)
+  - [P6308 「Wdsr-1」笨蛋结构](/problem/P6308)
+  - [P6309 「Wdsr-1」人间之里](/problem/P6309)
+  - [P6310 「Wdsr-1」仓库建设](/problem/P6310)
+  - [P6523 「Wdoi-1」加密通信](/problem/P6523)
+  - [P6524 「Wdoi-1」托卡马克](/problem/P6524)
+  - [P6525 「Wdoi-1」蓬莱玉枝](/problem/P6525)
+  - [P6526 「Wdoi-1」四重存在](/problem/P6526)
+  - [P6527 「Wdoi-1」幻能采集](/problem/P6527)
+  - [P6528 「Wdoi-1」完美冻结](/problem/P6528)
+  - [P6733 「Wdsr-2」间歇泉](/problem/P6733)
+  - [P6734 「Wdsr-2」阴阳玉](/problem/P6734)
+  - [P6735 「Wdsr-2」环](/problem/P6735)
+  - [P6736 「Wdsr-2」白泽教育](/problem/P6736)
+  - [P6832 [Cnoi2020] 子弦](/problem/P6832)
+  - [P6833 [Cnoi2020] 雷雨](/problem/P6833)
+  - [P6834 [Cnoi2020] 梦原](/problem/P6834)
+  - [P6835 [Cnoi2020] 线形生物](/problem/P6835)
+  - [P7493 [传智杯 #3 决赛] 旅人1969](/problem/P7493)
+  - [P7505 「Wdsr-2.5」小小的埴轮兵团](/problem/P7505)
+  - [P7506 「Wdsr-2.5」琪露诺的算数游戏](/problem/P7506)
+  - [P7507 「Wdsr-2.5」未来水妖集市](/problem/P7507)
+  - [P7508 「Wdsr-2.5」第二次月面战争](/problem/P7508)
+  - [P7705 「Wdsr-2.7」天才⑨与数学递推式](/problem/P7705)
+  - [P7706 「Wdsr-2.7」文文的摄影布置](/problem/P7706)
+  - [P7707 「Wdsr-2.7」百花齐放的太阳花田](/problem/P7707)
+  - [P7708 「Wdsr-2.7」八云蓝自动机 Ⅰ](/problem/P7708)
+  - [P7709 「Wdsr-2.7」八云蓝自动机 Ⅱ](/problem/P7709)
+  - [P7835 「Wdoi-3」夜雀 dreaming](/problem/P7835)
+  - [P7836 「Wdoi-3」夜雀 collecting](/problem/P7836)
+  - [P7837 「Wdoi-3」夜雀 cooking](/problem/P7837)
+  - [P7838 「Wdoi-3」夜雀 treating](/problem/P7838)
+  - [P7839 「Wdoi-3」夜雀 singing](/problem/P7839)
+  - [P7869 「Wdoi-4」使用三个系统程度的能力](/problem/P7869)
+  - [P7870 「Wdoi-4」兔已着陆](/problem/P7870)
+  - [P7871 「Wdoi-4」芙兰？姆Q！贤者与谜题](/problem/P7871)
+  - [P7872 「Wdoi-4」觉姐姐和恋妹妹](/problem/P7872)
+  - [P7938 「Wdcfr-1」Beautiful Array](/problem/P7938)
+  - [P7939 「Wdcfr-1」Alice Wins! (easy version)](/problem/P7939)
+  - [P7940 「Wdcfr-1」Alice Wins! (hard version)](/problem/P7940)
+  - [P7941 「Wdcfr-1」Magical Expression](/problem/P7941)
+  - [P7942 「Wdcfr-1」CONsecutive and CONcat (easy version)](/problem/P7942)
+  - [P7943 「Wdcfr-1」CONsecutive and CONcat (hard version)](/problem/P7943)
+  - [P7944 「Wdcfr-1」Border of Gensokyo](/problem/P7944)
+  - [P7945 「Wdcfr-1」Yet Another Cirno Game (easy version)](/problem/P7945)
+  - [P7946 「Wdcfr-1」Yet Another Cirno Game (hard version)](/problem/P7946)
+  - [P8007 「Wdsr-3」永远与须臾的走廊](/problem/P8007)
+  - [P8008 「Wdsr-3」迷途竹林](/problem/P8008)
+  - [P8009 「Wdsr-3」船往低处流](/problem/P8009)
+  - [P8010 「Wdsr-3」令人感伤的红雨](/problem/P8010)
+  - [P8011 「Wdsr-3」蓬莱药局（gene）](/problem/P8011)
+  - [P8106 [Cnoi2021] 数学练习](/problem/P8106)
+  - [P8107 [Cnoi2021] 未来试题](/problem/P8107)
+  - [P8108 [Cnoi2021] 绀珠传说](/problem/P8108)
+  - [P8109 [Cnoi2021] 幻想乡程序设计大赛](/problem/P8109)
+  - [P8110 [Cnoi2021] 矩阵](/problem/P8110)
+  - [P8111 [Cnoi2021] 区间](/problem/P8111)
+  - [P8112 [Cnoi2021] 符文破译](/problem/P8112)
+  - [P8113 [Cnoi2021] 自我主义的平衡者](/problem/P8113)
+  - [P8114 [Cnoi2021] 六边形战士](/problem/P8114)
+  - [P8116 「Wdoi-1.5」魔理沙的计算器](/problem/P8116)
+  - [P8117 「Wdoi-1.5」旅人 1977](/problem/P8117)
+  - [P8119 「Wdoi-1.5」幻想乡游览计划](/problem/P8119)
+  - [P8225 「Wdoi-5」天才⑨与天才拆分](/problem/P8225)
+  - [P8226 「Wdoi-5」樱点收集](/problem/P8226)
+  - [P8227 「Wdoi-5」建立与摧毁的结界](/problem/P8227)
+  - [P8228 「Wdoi-5」模块化核熔炉](/problem/P8228)
+  - [P8322 『JROI-4』少女幻葬](/problem/P8322)
+  - [P8344 「Wdoi-6」走在夜晚的莲台野](/problem/P8344)
+  - [P8345 「Wdoi-6」华胥之梦](/problem/P8345)
+  - [P8346 「Wdoi-6」最澄澈的空与海](/problem/P8346)
+  - [P8347 「Wdoi-6」另一侧的月](/problem/P8347)
+  - [P8348 「Wdoi-6」未知之花魅知之旅](/problem/P8348)
+  - [P8444 不等价交换法则](/problem/P8444)
+  - [P8445 射命丸文的取材之旅](/problem/P8445)
+  - [P8446 虹色的北斗七星](/problem/P8446)
+  - [P8466 [Aya Round 1 A] 幻想乡扑克游戏](/problem/P8466)
+  - [P8468 [Aya Round 1 C] 文文的构造游戏](/problem/P8468)
+  - [P8469 [Aya Round 1 D] 文文的数学游戏](/problem/P8469)
+  - [P8471 [Aya Round 1 F] 琪露诺的选择题](/problem/P8471)
+  - [P8473 [Aya Round 1 H] 破碎的历史](/problem/P8473)
+  - [P8488 「Wdoi-(-1)」恋弹者们的黑集市](/problem/P8488)
+  - [P8489 「Wdoi-(-1)」妖精退治计划](/problem/P8489)
+  - [P8530 [Ynoi2003] 博丽灵梦](/problem/P8530)
+  - [P8532 [Ynoi2003] 雾雨魔理沙](/problem/P8532)
+  - [P8534 「Wdoi-2」比赤色更红的梦](/problem/P8534)
+  - [P8535 「Wdoi-2」森罗结界](/problem/P8535)
+  - [P8536 「Wdoi-2」幻胧月睨](/problem/P8536)
+  - [P8537 「Wdoi-2」花如幻想一般](/problem/P8537)
+  - [P8538 「Wdoi-2」灵山之上神风起](/problem/P8538)
+  - [P8539 「Wdoi-2」来自地上的支援](/problem/P8539)
+  - [P8540 「Wdoi-2」夜空中的 UFO 恋曲](/problem/P8540)
+  - [P8541 「Wdoi-2」死亡之后愈发愉悦](/problem/P8541)
+  - [P8542 「Wdoi-2」魔力的雷云](/problem/P8542)
+  - [P8543 「Wdoi-2」纯粹的复仇女神](/problem/P8543)
+  - [P8544 「Wdoi-2」禁断之门对面，是此世还是彼世](/problem/P8544)
+  - [P8545 「Wdoi-2」不败的无尽兵团](/problem/P8545)
+  - [P8869 [传智杯 #5 初赛] A-莲子的软件工程学](/problem/P8869)
+  - [P8870 [传智杯 #5 初赛] B-莲子的机械动力学](/problem/P8870)
+  - [P8871 [传智杯 #5 初赛] C-莲子的排版设计学](/problem/P8871)
+  - [P8872 [传智杯 #5 初赛] D-莲子的物理热力学](/problem/P8872)
+  - [P8873 [传智杯 #5 初赛] E-梅莉的市场经济学](/problem/P8873)
+  - [P8874 [传智杯 #5 初赛] F-二人的大富翁游戏](/problem/P8874)
+  - [P8875 [传智杯 #5 初赛] G-二人的花纹纸游戏](/problem/P8875)
+  - [P8876 [传智杯 #5 初赛] H-二人的世界](/problem/P8876)
+  - [P8877 [传智杯 #5 初赛] I-不散的宴会](/problem/P8877)
+  - [P8927 「GMOI R1-T4」Rain](/problem/P8927)
+  - [P9007 [入门赛 #9] 最澄澈的空与海 (Hard Version)](/problem/P9007)
+  - [P9070 [CTS2023] 琪露诺的符卡交换](/problem/P9070)
+  - [P9203 [传智杯 #5 决赛] A-时效「月岩笠的诅咒」](/problem/P9203)
+  - [P9204 [传智杯 #5 决赛] B-不死「火鸟　−凤翼天翔−」](/problem/P9204)
+  - [P9205 [传智杯 #5 决赛] C-藤原「灭罪寺院伤」](/problem/P9205)
+  - [P9206 [传智杯 #5 决赛] D-不死「徐福时空」](/problem/P9206)
+  - [P9207 [传智杯 #5 决赛] E-灭罪「正直者之死」](/problem/P9207)
+  - [P9208 [传智杯 #5 决赛] F-虚人「无」](/problem/P9208)
+  - [P9209 [传智杯 #5 决赛] G-不灭「不死鸟之尾」](/problem/P9209)
+  - [P9210 [传智杯 #5 决赛] H-蓬莱「凯风快晴　−富士火山−」](/problem/P9210)
+  - [P9211 [传智杯 #5 决赛] I-「不死鸟附体」](/problem/P9211)
+  - [P9212 [传智杯 #5 决赛] J-「蓬莱人形」](/problem/P9212)
+  - [P10176 「OICon-02」Native Faith](/problem/P10176)
+  - [P10268 符卡对决](/problem/P10268)
+  - [P10605 下头论文](/problem/P10605)
+  - [P10606 物理实验 (easy)](/problem/P10606)
+  - [P10607 物理实验 (hard)](/problem/P10607)
+  - [P10608 双人游戏](/problem/P10608)
+  - [P10609 排除干扰](/problem/P10609)
+  - [P10610 异界之门](/problem/P10610)
+  - [P10611 故事结局](/problem/P10611)
+  - [P11772 报社天狗](/problem/P11772)
+  - [P12717 [Algo Beat Contest 002 D] Distance of Trip](/problem/P12717)
+  - [P15561 [CCPC 2025 哈尔滨站] 幻想乡的裁判长](/problem/P15561)
+  - [P16349 「Gensokyo OI Round 1」坊巷逸闻](/problem/P16349)
+  - [P16350 「Gensokyo OI Round 1」隙间插曲](/problem/P16350)
+  - [P16351 「Gensokyo OI Round 1」秘神之钥](/problem/P16351)
+  - [P16352 「Gensokyo OI Round 1」雨后长虹](/problem/P16352)
+  - [P16411 [Algo Beat Contest 004 G] Go Playing with Reimu](/problem/P16411)
+  - [P16683 盆栽](/problem/P16683)
+  - [P16686 商店](/problem/P16686)
+  - [P16919 [JLCPC 2026] 古明地恋世界第一](/problem/P16919)
+  - [P17225 [Math×Girl²] 算术课堂](/problem/P17225)
+  - [P17246 「Gensokyo OI Round 2」长夜梦难却](/problem/P17246)
+  - [P17247 「Gensokyo OI Round 2」奇迹的诅咒](/problem/P17247)
+  - [P17248 「Gensokyo OI Round 2」审判与救赎](/problem/P17248)
+  - [P17249 「Gensokyo OI Round 2」长夜梦终觉](/problem/P17249)
+  - [P17483 宇宙巫女现身](/problem/P17483)
+  - [P17484 月兔通信网络](/problem/P17484)
+  - [P17485 湖上的前线基地](/problem/P17485)
+  - [P17486 第四槐安通道](/problem/P17486)
+  - [P17487 狱符「狱炎灯笼迷宫」](/problem/P17487)
+  - [P17488 故乡之星倒映之海](/problem/P17488)
+  - [P17489 王牌无论何时都是坏棋](/problem/P17489)
+  - [P17693 砕月](/problem/P17693)
+- Fate
+  - [P4474 王者之剑](/problem/P4474)
+  - [P5664 [CSP-S 2019] Emiya 家今天的饭](/problem/P5664)
+  - [P10242 [THUSC 2021] Emiya 家明天的饭](/problem/P10242)
+  - [P17118 [Algo Beat 009 & MROI-R1] ERESHKIGAL](/problem/P17118)
+- 风灵玉秀
+  - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
+- GOSICK $\jp{GOSICK -ゴシック-}$
+  - [P5398 [Ynoi2018] GOSICK](/problem/P5398)
+- 干物妹！小埋 $\jp{干物妹! うまるちゃん}$
+  - [P4961 小埋与扫雷](/problem/P4961)
+  - [P4987 回文项链](/problem/P4987)
+  - [P4988 重排DL](/problem/P4988)
+  - [P4989 二进制之谜](/problem/P4989)
+  - [P4990 小埋与刺客传奇](/problem/P4990)
+- 孤独摇滚！ $\jp{ぼっち・ざ・ろっく！}$
+  - [P12539 [XJTUPC 2025] 结束乐队](/problem/P12539)
+- 关于我在无意间被隔壁的天使变成废柴这件事 $\jp{お隣の天使様にいつの間にか駄目人間にされていた件}$
+  - [P9220 「TAOI-1」椎名真昼](/problem/P9220)
+- Happy Sugar Life ～幸福甜蜜生活～ $\jp{ハッピーシュガーライフ}$
+  - [P6579 [Ynoi2019] Happy Sugar Life](/problem/P6579)
+- 海猫鸣泣之时 $\jp{うみねこのなく頃に}$
+  - [P5935 [清华集训 2012] 攻占黄金乡](/problem/P5935)
+  - [P11566 【MX-X7-T7】[LSOT-3] 魔女与推理的轮舞曲](/problem/P11566)
+- 寒蝉鸣泣之时 $\jp{ひぐらしのなく頃に}$
+  - [P13826 [Ynoi Easy Round 2026] 寒蝉鸣泣之时](/problem/P13826)
+  - [P13827 [Ynoi Easy Round 2026] 寒蝉鸣泣之时·业](/problem/P13827)
+  - [P13828 [Ynoi Easy Round 2026] 寒蝉鸣泣之时·卒](/problem/P13828)
+- 欢迎来到实力至上主义的教室 $\jp{ようこそ実力至上主義の教室へ}$
+  - [P4964 绫小路的特别考试](/problem/P4964)
+- 黄金拼图 $\jp{きんいろモザイク}$
+  - [P3687 [ZJOI2017] 仙人掌](/problem/P3687)
+  - [P3688 [ZJOI2017] 树状数组](/problem/P3688)
+  - [P3689 [ZJOI2017] 多项式](/problem/P3689)
+  - [P4063 [JXOI2017] 数列](/problem/P4063)
+  - [P4064 [JXOI2017] 加法](/problem/P4064)
+  - [P4065 [JXOI2017] 颜色](/problem/P4065)
+  - [P4227 [清华集训 2017] 我的生命已如风中残烛](/problem/P4227)
+  - [P4337 [ZJOI2018] 线图](/problem/P4337)
+  - [P4338 [ZJOI2018] 历史](/problem/P4338)
+  - [P4339 [ZJOI2018] 迷宫](/problem/P4339)
+  - [P4500 [ZJOI2018] 树](/problem/P4500)
+  - [P4501 [ZJOI2018] 胖](/problem/P4501)
+  - [P4502 [ZJOI2018] 保镖](/problem/P4502)
+  - [P4561 [JXOI2018] 排序问题](/problem/P4561)
+  - [P4562 [JXOI2018] 游戏](/problem/P4562)
+  - [P4563 [JXOI2018] 守卫](/problem/P4563)
+  - [P4557 [JSOI2018] 战争](/problem/P4557)
+  - [P4558 [JSOI2018] 机器人](/problem/P4558)
+  - [P4559 [JSOI2018] 列队](/problem/P4559)
+  - [P5209 [ZJOI2017] 汉诺塔](/problem/P5209)
+  - [P5210 [ZJOI2017] 线段树](/problem/P5210)
+  - [P5279 [ZJOI2019] 麻将](/problem/P5279)
+  - [P5280 [ZJOI2019] 线段树](/problem/P5280)
+  - [P5281 [ZJOI2019] Minimax搜索](/problem/P5281)
+  - [P5299 [PKUWC2018] Slay the Spire](/problem/P5299)
+  - [P5326 [ZJOI2019] 开关](/problem/P5326)
+  - [P5327 [ZJOI2019] 语言](/problem/P5327)
+  - [P5328 [ZJOI2019] 浙江省选](/problem/P5328)
+  - [P5370 [PKUSC2018] 主斗地](/problem/P5370)
+  - [P5467 [PKUSC2018] PKUSC](/problem/P5467)
+  - [P8329 [ZJOI2022] 树](/problem/P8329)
+  - [P8330 [ZJOI2022] 众数](/problem/P8330)
+  - [P8331 [ZJOI2022] 简单题](/problem/P8331)
+  - [P8332 [ZJOI2022] 面条](/problem/P8332)
+  - [P8333 [ZJOI2022] 计算几何](/problem/P8333)
+  - [P8334 [ZJOI2022] 深搜](/problem/P8334)
+- 回转企鹅罐 $\jp{輪るピングドラム}$
+  - [P11561 【MX-X7-T2】[LSOT-3] 姬誉蛙](/problem/P11561)
+  - [P11563 【MX-X7-T4】[LSOT-3] 命运](/problem/P11563)
+  - [P11564 【MX-X7-T5】[LSOT-3] 你的列车是生存战略](/problem/P11564)
+- 火影忍者 $\jp{NARUTO -ナルト-}$
+  - [P17281 「IXOI R2」阴圆](/problem/P17281)
+- JOJO 的奇妙冒险 $\jp{ジョジョの奇妙な冒険}$
+  - [P5287 [HNOI2019] JOJO](/problem/P5287)
+  - [P7511 三到六](/problem/P7511)
+- Just Because!
+  - [P16330 Just Because!](/problem/P16330)
+- 珈百璃的堕落 $\jp{ガヴリールドロップアウト}$
+  - [P4832 珈百璃堕落的开始](/problem/P4832)
+  - [P4833 萨塔尼亚的一生之敌](/problem/P4833)
+  - [P4834 萨塔尼亚的期末考试](/problem/P4834)
+- K
+  - [P9337 [Ynoi2001] 冷たい部屋、一人](/problem/P9337)
+- Kanon
+  - [P14591 [LNCPC 2025] Kanon](/problem/P14591)
+- Little Busters! $\jp{リトルバスターズ！}$
+  - [P7845 「dWoi R2」Change / 改造](/problem/P7845)
+  - [B4488 [语言月赛 202602] 甜品食用](/problem/B4488)
+  - [B4491 [语言月赛 202602] 数学补习](/problem/B4491)
+  - [B4494 [语言月赛 202602] 弹珠方阵](/problem/B4494)
+  - [P16942 「LAOI-18」铃喵](/problem/P16942)
+- Love Live! $\jp{ラブライブ!}$
+  - [P3651 展翅翱翔之时 (はばたきのとき)](/problem/P3651)
+  - [P3654 First Step (ファーストステップ) ](/problem/P3654)
+  - [P3655 不成熟的梦想家 (未熟 DREAMER)](/problem/P3655)
+  - [P3695 CYaRon!语](/problem/P3695)
+  - [P3697 开心派对小火车](/problem/P3697)
+  - [P3741 小果的键盘](/problem/P3741)
+  - [P3742 umi的函数](/problem/P3742)
+  - [P3743 小鸟的设备](/problem/P3743)
+  - [P3946 ことりのおやつ（小鸟的点心）](/problem/P3946)
+  - [P3947 肝活动](/problem/P3947)
+  - [P4851 yyf hates ganhuodong](/problem/P4851)
+  - [P4852 yyf hates choukapai](/problem/P4852)
+  - [P4851 yyf hates dagequ](/problem/P4853)
+- 来自新世界 $\jp{新世界より}$
+  - [P9335 [Ynoi2001] 雪に咲く花](/problem/P9335)
+- 离别的钢琴奏鸣曲 $\jp{さよならピアノソナタ}$
+  - [P17229 [Math×Girl²] 英雄变奏曲](/problem/P17229)
+- 莉可丽丝 $\jp{リコリス・リコイル}$
+  - [P15851 [NOISG 2026 Finals] 柠檬 / Lemon](/problem/P15851)
+  - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
+- 龙猫 $\jp{となりのトトロ}$
+  - [P11028 [COTS 2020] 龙猫 Totoro](/problem/P11028)
+- 龙王的工作！ $\jp{りゅうおうのおしごと！}$
+  - [P15444 「IXOI R1」出题人完全不会给题目起名字](/problem/P15444)
+- 鹿乃子乃子虎视眈眈 $\jp{しかのこのこのここしたんたん}$
+  - [P12602 指鹿为马](/problem/P12602)
+- 美好的每一天 ～不连续的存在～ $\jp{素晴らしき日々～不連続存在～}$
+  - [P3934 [Ynoi Easy Round 2016] 炸脖龙 I](/problem/P3934)
+  - [P4688 [Ynoi Easy Round 2016] 掉进兔子洞](/problem/P4688)
+  - [P4689 [Ynoi Easy Round 2016] 这是我自己的发明](/problem/P4689)
+  - [P4690 [Ynoi Easy Round 2016] 镜中的昆虫](/problem/P4690)
+  - [P4692 [Ynoi Easy Round 2016] 谁的梦](/problem/P4692)
+  - [P4693 [Ynoi Easy Round 2016] 炸脖龙 II](/problem/P4693)
+  - [P6580 [Ynoi2019] 美好的每一天~ 不连续的存在](/problem/P6580)
+- 弥留之国的爱丽丝 $\jp{今際の路のアリス}$
+  - [P11369 [Ynoi2024] 弥留之国的爱丽丝](/problem/P11369)
+- 明日方舟
+  - [P8323 『JROI-4』傀影与猩红孤钻](/problem/P8323)
+  - [P10704 救赎（Redemption）](/problem/P10704)
+  - [P12538 [XJTUPC 2025] 泰拉构史](/problem/P12538)
+  - [P15370 『ICerOI Round 1』这是兔兔，她很可爱](/problem/P15370)
+  - [P17464 Wiš'adel](/problem/P17464)
+- 命运石之门 $\jp{STEINS;GATE}$
+  - [P2101 命运石之门的选择](/problem/P2101)
+  - [P8147 [JRKSJ R4] Salieri](/problem/P8147)
+  - [P11472 命运黄之瓜](/problem/P11472)
+- 魔法禁书目录 $\jp{とある魔術の禁書目録}$
+  - [P7948 [✗✓OI R1] 前方之风](/problem/P7948)
+  - [P7949 [✗✓OI R1] 左方之地](/problem/P7949)
+  - [P7950 [✗✓OI R1] 后方之水](/problem/P7950)
+  - [P7951 [✗✓OI R1] 右方之火](/problem/P7951)
+  - [P7982 [JRKSJ R3] 琴琴的树](/problem/P7982)
+  - [P7983 [JRKSJ R3] practiceZ](/problem/P7983)
+  - [P8569 [JRKSJ R6] 第七学区](/problem/P8569)
+  - [P8571 [JRKSJ R6] Dedicatus545](/problem/P8571)
+  - [P12477 [集训队互测 2024] 无限地狱](/problem/P12477)
+  - [P14472 [集训队互测 2025] Misaka Network](/problem/P14472)
+  - [P15108 白井黑子](/problem/P15108)
+  - [P17280 飞向天空的约定](/problem/P17280)
+- 魔法少女的魔女审判 $\jp{魔法少女ノ魔女裁判}$
+  - [P15971 [Aboi 2077] Permutation Counting 3](/problem/P15971)
+  - [P16329 bloom](/problem/P16329)
+  - [P17597 「RiOI-8」桜羽 エマ](/problem/P17597)
+  - [P17598 「RiOI-8」二階堂 ヒロ](/problem/P17598)
+  - [P17599 「RiOI-8」夏目 アンアン](/problem/P17599)
+  - [P17600 「RiOI-8」城ケ崎 ノア](/problem/P17600)
+  - [P17601 「RiOI-8」蓮見 レイア](/problem/P17601)
+  - [P17602 「RiOI-8」佐伯 ミリア](/problem/P17602)
+  - [P17603 「RiOI-8」宝生 マーゴ](/problem/P17603)
+  - [P17604 「RiOI-8」黒部 ナノカ](/problem/P17604)
+  - [P17605 「RiOI-8」紫藤 アリサ](/problem/P17605)
+  - [P17606 「RiOI-8」橘 シェリー](/problem/P17606)
+  - [P17607 「RiOI-8」遠野 ハンナ](/problem/P17607)
+  - [P17608 「RiOI-8」沢渡 ココ](/problem/P17608)
+  - [P17609 「RiOI-8」氷上 メルル](/problem/P17609)
+  - [P17610 「RiOI-8」月代 ユキ](/problem/P17610)
+- 魔法少女网站 $\jp{魔法少女サイト}$
+  - [P5047 [Ynoi2019 模拟赛] Yuno loves sqrt technology II](/problem/P5047)
+  - [P6578 [Ynoi2019] 魔法少女网站](/problem/P6578)
+  - [P11367 [Ynoi2024] 魔法少女网站第二部](/problem/P11367)
+- 魔法少女小圆 $\jp{魔法少女まどか☆マギカ}$
+  - [P4822 [BJWC2012] 冻结](/problem/P4822)
+  - [P4859 已经没有什么好害怕的了](/problem/P4859)
+  - [P4924 [1007] 魔法少女小Scarlet](/problem/P4924)
+  - [P5437 【XR-2】约定](/problem/P5437)
+  - [P8560 约定（Promise）](/problem/P8560)
+  - [P11144 「SFMOI Round I」Strange Madoka Game](/problem/P11144)
+  - [P11145 「SFMOI Round I」Strange Homura Game](/problem/P11145)
+  - [P14944 已经没有什么好构造的了](/problem/P14944)
+- 魔女的夜宴 $\jp{サノバウィッチ}$
+  - [P5113 Sabbat of the witch](/problem/P5113)
+  - [P9576 「TAOI-2」Ciallo～(∠・ω< )⌒★](/problem/P9576)
+  - [P11191 「KDOI-10」超级演出](/problem/P11191)
+  - [P17080 「Miku × Nene」共鸣序列](/problem/P17080)
+  - [P17081 课间的白日梦](/problem/P17081)
+- 魔女之旅 $\jp{魔女の旅々}$
+  - [P13908 「TFXOI Round 3」旅者之树](/problem/P13908)
+  - [P17316 [KismetOI 2026 I] 孤独绽放的彼岸花](/problem/P17316)
+  - [P17568 「FAOI-R15」XOR and Trivial Construction](/problem/P17568)
+- 末日时在做什么？有没有空？可以来拯救吗？ $\jp{終末なにしてますか？ 忙しいですか？ 救ってもらっていいですか？}$
+  - [P1947 猜数](/problem/P1947) 
+  - [P3932 浮游大陆的68号岛](/problem/P3932)
+  - [P3933 Chtholly Nota Seniorious](/problem/P3933)
+  - [P3987 我永远喜欢珂朵莉~](/problem/P3987)
+  - [P4118 [Ynoi2018] 末日时在做什么？有没有空？可以来拯救吗？](/problem/P4118)
+  - [P4691 Nephren Ruq Insania](/problem/P4691)
+  - [P5062 [Ynoi Easy Round 2014] 在太阳西斜的这个世界里](/problem/P5062)
+  - [P5063 [Ynoi Easy Round 2014] 置身天上之森](/problem/P5063)
+  - [P5064 [Ynoi Easy Round 2014] 等这场战争结束之后](/problem/P5064)
+  - [P5065 [Ynoi Easy Round 2014] 不归之人与望眼欲穿的人们](/problem/P5065)
+  - [P5066 [Ynoi Easy Round 2014] 人人本着正义之名](/problem/P5066)
+  - [P5067 [Ynoi Easy Round 2014] 长存不灭的过去、逐渐消逝的未来](/problem/P5067)
+  - [P5068 [Ynoi Easy Round 2015] 我回来了](/problem/P5068)
+  - [P5069 [Ynoi Easy Round 2015] 纵使日薄西山](/problem/P5069)
+  - [P5070 [Ynoi Easy Round 2015] 即便看不到未来](/problem/P5070)
+  - [P5071 [Ynoi Easy Round 2015] 此时此刻的光辉](/problem/P5071)
+  - [P5072 [Ynoi Easy Round 2015] 盼君勿忘](/problem/P5072)
+  - [P5073 [Ynoi Easy Round 2015] 世上最幸福的女孩](/problem/P5073)
+  - [P8458 「REOI-p1」打捞](/problem/P8458)
+  - [P8460 「REOI-p1」按摩](/problem/P8460)
+  - [P8461 「REOI-p1」回忆](/problem/P8461)
+  - [P8462 「REOI-1」奶油蛋糕](/problem/P8462)
+  - [P8463 「REOI-1」深潜的第六兽](/problem/P8463)
+  - [P8464 「REOI-1」渺茫的希望](/problem/P8464)
+  - [P8465 「REOI-1」调整圣剑](/problem/P8465)
+  - [P17149 [ICPC 2017 Xi'an R] Island](/problem/P17149)
+- 你的名字。 $\jp{君の名は。}$
+  - [P4770 [NOI2018] 你的名字](/problem/P4770) 
+  - [P7811 [JRKSJ R2] 你的名字。](/problem/P7811)
+  - [P13242 「2.48sOI R1」你的名字](/problem/P13242)
+  - [P14471 [集训队互测 2025] 火花](/problem/P14471)
+- 偶像大师 $\jp{アイドルマスター}$
+  - [P8527 [Ynoi2003] 樋口円香](/problem/P8527)
+- 巧可甜恋 $\jp{あまいろショコラータ}$
+  - [P11647 【MX-X8-T6】「TAOI-3」俄罗斯蓝猫](/problem/P11647)
+- 青春猪头少年不会梦到兔女郎学姐 $\jp{青春ブタ野郎はバニーガール先輩の夢を見ない}$
+  - [P6151 [集训队作业2019] 青春猪头少年不会梦到兔女郎学姐](/problem/P6151)
+- 轻拍翻转小魔女 $\jp{フリップフラッパーズ}$
+  - [P3792 由乃与大母神原型和偶像崇拜](/problem/P3792)
+  - [P17063 [JRKSJ R10 热身赛] Nelumbo nucifera](/problem/P17063)
+- 请记得我 $\jp{終わる世界のアルバム}$
+  - [P17226 [Math×Girl²] 终末电台](/problem/P17226)
+- Remember11：无限轮回的时光 $\jp{Remember11 -the age of infinity-}$
+  - [P10158 [LSOT-2] 笼中鸟](/problem/P10158)
+- Rewrite
+  - [B4487 [语言月赛 202602] 烤秋刀鱼](/problem/B4487)
+  - [B4489 [语言月赛 202602] 树枝收集](/problem/B4489)
+  - [B4490 [语言月赛 202602] 房间占用](/problem/B4490)
+  - [B4492 [语言月赛 202602] 草莓蛋糕](/problem/B4492)
+  - [B4493 [语言月赛 202602] 缩写记录](/problem/B4493)
+- Re：从零开始的异世界生活 $\jp{Re:ゼロから始める異世界生活}$
+  - [P7346 【DSOI 2021】归零](/problem/P7346)
+  - [P7524 魔女的茶会](/problem/P7524)
+- RIDDLE JOKER
+  - [P17079 Lab](/problem/P17079)
+- 人渣的本愿 $\jp{クズの本懐}$
+  - [P3674 小清新人渣的本愿](/problem/P3674)
+- 上伊那牡丹，酒醉身姿似百合花般 $\jp{上伊那ぼたん、酔へる姿は百合の花}$
+  - [P17315 [KismetOI 2026 I] Gujyo Senpai and Chin-Lan's Game](/problem/P17315)
+- 少女星间漂流记 $\jp{少女星間漂流記}$
+  - [P15416 「yrOI R1」夏日已逝](/problem/P15416)
+- 少女乐队的呐喊 $\jp{ガールズバンドクライ}$
+  - [P15368 『ICerOI Round 1』快进来听歌！](/problem/P15368)
+- 少女终末旅行 $\jp{少女終末旅行}$
+  - [P10574 [JRKSJ R8] 暴风雪](/problem/P10574)
+  - [P11695 [JRKSJ ExR] 昼寝](/problem/P11695)
+- 盛开的钢琴之森下 $\jp{ピアノの森の満開の下}$
+  - [P11803 【MX-X9-T7】『GROI-R3』此花绽放之时](/problem/P11803)
+- TARI TARI
+  - [P16125 [USTCPC 2026] Melody](/problem/P16125)
+- 天降之物 $\jp{そらのおとしもの}$
+  - [P5397 [Ynoi2018] 天降之物](/problem/P5397)
+- 天气之子 $\jp{天気の子}$
+  - [P13664 「TPOI-5C」mαtrixing ωiθ μ](/problem/P13664)
+- 天选庶民的真命之选 $\jp{セレクトオブリージュ}$
+  - [P11645 【MX-X8-T4】「TAOI-3」Warmth of the Eternity](/problem/P11645)
+- 駄作
+  - [P5399 [Ynoi2018] 駄作](/problem/P5399)
+- 未来日记 $\jp{未来日記}$
+  - [P3603 雪辉](/problem/P3603)
+  - [P4119 [Ynoi2018] 未来日记](/problem/P4119)
+  - [P5354 [Ynoi Easy Round 2017] 由乃的 OJ](/problem/P5354)
+  - [P5355 [Ynoi Easy Round 2017] 由乃的玉米田](/problem/P5355)
+  - [P5356 [Ynoi Easy Round 2017] 由乃打扑克](/problem/P5356)
+- 蔚蓝档案 $\jp{ブルーアーカイブ -Blue Archive-}$
+  - [P14322 「ALFR Round 11」E 空崎ヒナ](/problem/P14322)
+  - [P11690 [Ynoi Hard Round 2025] 《十字神名的预言者》理解（色彩）](/problem/P11690)
+  - [P11691 [Ynoi Hard Round 2025] 《十字神名的预言者》慈悲（色彩）](/problem/P11691)
+  - [P11692 [Ynoi Hard Round 2025] 《十字神名的预言者》宏伟（色彩）](/problem/P11692)
+- 为美好的世界献上祝福！ $\jp{この素晴らしい世界に祝福を！}$
+  - [P10316 [SHUPC 2024] 为美好的世界献上爆焰！](/problem/P10316)
+- 我的妹妹哪有这么可爱！ $\jp{俺の妹がこんなに可愛いわけがない}$
+  - [P4925 [1007] Scarlet的字符串不可能这么可爱](/problem/P4925)
+- 我的青春恋爱物语果然有问题。 $\jp{やはり俺の青春ラブコメはまちがっている。}$
+  - [P8570 [JRKSJ R6] 牵连的世界](/problem/P8570)
+- 我们仍未知道那天所看见的花的名字。 $\jp{あの日見た花の名前を僕達はまだ知らない。}$
+  - [P16957 [SCCPC 2026] 那一年的秘密基地](/problem/P16957)
+  - [P16960 [SCCPC 2026] 那一天的回文字符串](/problem/P16960)
+- 我心里危险的东西 $\jp{僕の心のヤバイやつ}$
+  - [P13665 「TPOI-5D」「僕は…」](/problem/P13665)
+- 污秽不堪的你最惹人怜爱 $\jp{きたない君がいちばんかわいい}$
+  - [P15419 「yrOI R1」冬日永恒](/problem/P15419)
+- 五彩斑斓的世界 $\jp{いろとりどりのセカイ}$
+  - [P4117 [Ynoi2018] 五彩斑斓的世界](/problem/P4117)
+  - [P8937 [JRKSJ R7] 五彩斑斓的曙光](/problem/P8937)
+  - [P11643 【MX-X8-T2】「TAOI-3」终有一天，飞向水平线的彼方](/problem/P11643)
+- 西历 2236 年 $\jp{西暦2236年}$
+  - [P12009 【MX-X10-T5】[LSOT-4] Masuko or Haru？](/problem/P12009)
+- 夏日口袋 $\jp{Summer Pockets}$
+  - [P11696 [JRKSJ ExR] 七影蝶](/problem/P11696)
+- 消融于夜色 $\jp{夜にとけてゆく}$
+  - [P15418 「yrOI R1」消融于夜色](/problem/P15418)
+- 小林家的龙女仆 $\jp{小林さんちのメイドラゴン}$
+  - [P3924 康娜的线段树](/problem/P3924)
+- 小市民系列 $\jp{小市民シリーズ}$
+  - [P15367 秋季限定生成树问题](/problem/P15367)
+  - [P16637 春季限定独立集问题](/problem/P16637)
+- 新本格魔法少女莉丝佳 $\jp{新本格魔法少女りすか}$
+  - [P10081 [GDKOI2024 提高组] 新本格魔法少女](/problem/P10081)
+  - [P11365 [Ynoi2024] 新本格魔法少女りすか](/problem/P11365)
+- 新世纪福音战士 $\jp{新世紀エヴァンゲリオン}$
+  - [P13699 「CyOI」YZZYWW：Doomed Doom](/problem/P13699)
+- 星光咖啡馆与死神之蝶 $\jp{喫茶ステラと死神の蝶}$
+  - [P17078 夏日甜点](/problem/P17078)
+- 星空列车与白的旅行 $\jp{星空鉄道とシロの旅}$
+  - [P11801 【MX-X9-T5】『GROI-R3』Star Trip](/problem/P11801)
+- 星之梦 $\jp{planetarian～ちいさなほしのゆめ～}$
+  - [P4927 [1007] 梦美与线段树](/problem/P4927)
+- 幸运草的约定 $\jp{Clover Day's}$
+  - [P11642 【MX-X8-T1】「TAOI-3」幸运草](/problem/P11642)
+- 亚托莉 -我挚爱的时光- $\jp{ATRI -My Dear Moments-}$
+  - [P12521 [Aboi Round 1] ATRI](/problem/P12521)
+- 一周一次买下同班同学的那些事 $\jp{週に一度クラスメイトを買う話 ~ふたりの時間、言い訳の五千円~}$
+  - [P17627 过期的命令](/problem/P17627)
+  - [P17628 信封的选择](/problem/P17628)
+- 义妹生活 $\jp{義妹生活}$
+  - [P12732 磨合](/problem/P12732)
+  - [P12733 外人](/problem/P12733)
+  - [P12734 理解](/problem/P12734)
+  - [P12735 回报](/problem/P12735)
+  - [P12777 理解 加强版](/problem/P12777)
+  - [P14257 嫉妒（jealousy）](/problem/P14257)
+  - [P14258 好感（favor）](/problem/P14258)
+  - [P14259 兄妹（siblings）](/problem/P14259)
+  - [P14260 期待（counting）](/problem/P14260)
+- 银河英雄传说 $\jp{銀河英雄伝説}$
+  - [P1196 [NOI2002] 银河英雄传说](/problem/P1196)
+  - [P4847 银河英雄传说V2](/problem/P4847)
+- 樱花庄的宠物女孩 $\jp{さくら荘のペットな彼女}$
+  - [P17695 椎名真白](/problem/P17695)
+- 樱花、萌放。-as the Night's, Reincarnation- $\jp{さくら、もゆ。-as the Night's, Reincarnation-}$
+  - [P11270 【MX-S5-T4】魔法少女们](/problem/P11270)
+- 樱之诗 - 在樱花之森上飞舞 $\jp{サクラノ詩 —櫻の森の上を舞う—}$
+  - [P10882 [JRKSJ R9] ZYPRESSEN](/problem/P10882)
+  - [P11959 「ZHQOI R1」诗歌](/problem/P11959)
+  - [P12082 [Ynoi1998] Frühlingsbeginn](/problem/P12082)
+  - [P12083 [Ynoi1998] Marchen](/problem/P12083)
+  - [UOJ1089 【ULR #4】A Nice Derangement of Epitaphs](https://uoj.ac/problem/1089)
+  - [UOJ1091 【ULR #4】The Happy Prince and Other Tales](https://uoj.ac/problem/1091)
+- 游戏人生 $\jp{ノーゲーム・ノーライフ}$
+  - [P9355 「SiR-1」Checkmate](/problem/P9355)
+  - [P11661 无聊](/problem/P11661)
+  - [P11799 【MX-X9-T3】『GROI-R3』Powerless](/problem/P11799)
+  - [P14949 游戏人生](/problem/P14949)
+  - [P16966 [SCCPC 2026] 献给空白的无败冠冕](/problem/P16966)
+- 约会大作战 $\jp{デート・ア・ライブ}$
+  - [P6749 『MdOI R3』Yoshino](/problem/P6749)
+  - [P11657 「FAOI-R5」datealive](/problem/P11657)
+- 葬送的芙莉莲 $\jp{葬送のフリーレン}$
+  - [P16928	聚魔石](/problem/P16928)
+  - [P16929	迷向术式](/problem/P16929)
+  - [P16930	拱辰封仪](/problem/P16930)
+  - [P16931	星界碑针](/problem/P16931)
+  - [P16932	魔物](/problem/P16932)
+  - [P16933	远古卷轴](/problem/P16933)
+  - [P16934	列星衡仪](/problem/P16934)
+  - [P16935	大图书管理员](/problem/P16935)
+  - [P16936	时间的含义](/problem/P16936)
+  - [P16937	时间之书](/problem/P16937)
+  - [P16938	归途](/problem/P16938)
+  - [P16939	后记](/problem/P16939)
+  - [P17520 [ECUSTPC 2026 Fall] 一般攻击魔法](/problem/P17520)
+- 这里是终局停滞委员会。 $\jp{こちら、終末停滞委員会。}$
+  - [P14652 [集训队互测 2025] 这里是，终末停滞委员会。](/problem/P14652)
+- 纸上的魔法使 $\jp{紙の上の魔法使い}$
+  - [P11646 【MX-X8-T5】「TAOI-3」蓝宝石的存在证明](/problem/P11646)
+- 中二病也要谈恋爱！ $\jp{中二病でも恋がしたい！}$
+  - [P5617 [MtOI2019] 不可视境界线](/problem/P5617)
+  - [P6455 不可视境界线[环版本]](/problem/P6455)
+  - [P6672 [清华集训 2016] 你的生命已如风中残烛](/problem/P6672)
+  - [P7289 「EZEC-5」「KrOI2021」Chasse Neige](/problem/P7289)
+  - [P7292 「EZEC-5」「KrOI2021」Chasse Neige 加强版](/problem/P7289)
+- 终将成为你 $\jp{やがて君になる}$
+  - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
+- 紫罗兰永恒花园 $\jp{ヴァイオレット・エヴァーガーデン}$
+  - [P4965	薇尔莉特的打字机](/problem/P4965)
+- 【我推的孩子】 $\jp{【推しの子】}$
+  - [P12012 [Ynoi April Fool's Round 2025] 牢爱](/problem/P12012)
+  - [P12013 [Ynoi April Fool's Round 2025] 牢夸](/problem/P12013)
+  - [P12014 [Ynoi April Fool's Round 2025] 牢帽](/problem/P12014)
+  - [P12461 [Ynoi Easy Round 2018] 星野爱](/problem/P12461)
+  - [P12462 [Ynoi Easy Round 2018] 星野爱久爱海](/problem/P12462)
+  - [P12463 [Ynoi Easy Round 2018] 星野瑠美衣](/problem/P12463)
+  - [P13129 [Ynoi Easy Round 2019] 有马加奈](/problem/P13129)
+  - [P13130 [Ynoi Easy Round 2019] 黑川赤音](/problem/P13130)
+  - [P13131 [Ynoi Easy Round 2019] 神木辉](/problem/P13131)
+
+
+[^1]:非常感谢 @[zhoumurui](/user/305928) 的[整理](/paste/mgi7nok1)。
