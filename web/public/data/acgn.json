@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "url": "https://www.luogu.com.cn/article/93r0yhdc",
-    "fetchedAt": "2026-10-19T12:49:42Z"
+    "fetchedAt": "2026-10-19T23:46:54Z"
   },
   "works": [
     {
@@ -275,6 +275,17 @@
         {
           "key": "QOJ18255",
           "title": "Secret Key Transfer"
+        }
+      ]
+    },
+    {
+      "id": "w65d77feb",
+      "name": "炽焰天穹",
+      "original": "ヘブンバーンズレッド",
+      "problems": [
+        {
+          "key": "UOJ984",
+          "title": "【UNR #9】欢迎来到最前线"
         }
       ]
     },
@@ -1339,6 +1350,10 @@
         {
           "key": "P17118",
           "title": "[Algo Beat 009 & MROI-R1] ERESHKIGAL"
+        },
+        {
+          "key": "UOJ213",
+          "title": "【UNR #1】争夺圣杯"
         }
       ]
     },
@@ -1647,6 +1662,21 @@
         {
           "key": "P17281",
           "title": "「IXOI R2」阴圆"
+        }
+      ]
+    },
+    {
+      "id": "w1dc0dc52",
+      "name": "ISLAND",
+      "original": "",
+      "problems": [
+        {
+          "key": "P4890",
+          "title": "Never·island"
+        },
+        {
+          "key": "P5692",
+          "title": "[MtOI2019] 手牵手走向明天"
         }
       ]
     },
@@ -2733,8 +2763,27 @@
       "original": "Summer Pockets",
       "problems": [
         {
+          "key": "P4935",
+          "title": "口袋里的纸飞机"
+        },
+        {
           "key": "P11696",
           "title": "[JRKSJ ExR] 七影蝶"
+        },
+        {
+          "key": "UOJ431",
+          "title": "【集训队作业2018】time map"
+        }
+      ]
+    },
+    {
+      "id": "w1d68278d",
+      "name": "向日葵",
+      "original": "ひまわり",
+      "problems": [
+        {
+          "key": "UOJ1035",
+          "title": "【UR #33】双子之争"
         }
       ]
     },
@@ -2798,6 +2847,17 @@
         {
           "key": "P13699",
           "title": "「CyOI」YZZYWW：Doomed Doom"
+        }
+      ]
+    },
+    {
+      "id": "w345a1ffb",
+      "name": "星空的记忆",
+      "original": "星空のメモリア",
+      "problems": [
+        {
+          "key": "UOJ983",
+          "title": "【UNR #9】星图"
         }
       ]
     },
@@ -2930,6 +2990,17 @@
       ]
     },
     {
+      "id": "w702165e8",
+      "name": "银魂",
+      "original": "銀魂",
+      "problems": [
+        {
+          "key": "UOJ182",
+          "title": "【UR #12】a^-1 + b problem"
+        }
+      ]
+    },
+    {
       "id": "wbb88ad51",
       "name": "樱花庄的宠物女孩",
       "original": "さくら荘のペットな彼女",
@@ -3015,8 +3086,16 @@
       "original": "デート・ア・ライブ",
       "problems": [
         {
+          "key": "P6380",
+          "title": "『MdOI R2』Mayuri"
+        },
+        {
           "key": "P6749",
           "title": "『MdOI R3』Yoshino"
+        },
+        {
+          "key": "P7339",
+          "title": "『MdOI R4』Kotori"
         },
         {
           "key": "P11657",
@@ -3140,6 +3219,17 @@
         {
           "key": "QOJ18255",
           "title": "Secret Key Transfer"
+        }
+      ]
+    },
+    {
+      "id": "we773bba6",
+      "name": "咒术回战",
+      "original": "呪術廻戦",
+      "problems": [
+        {
+          "key": "P13993",
+          "title": "【MX-X19-T2】「LAOI-14」SPECIALZ"
         }
       ]
     },
@@ -3741,6 +3831,17 @@
         "w7904333b",
         "wed555f35",
         "wb6a2ec6b"
+      ]
+    },
+    "UOJ984": {
+      "key": "UOJ984",
+      "id": "UOJ984",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UNR #9】欢迎来到最前线",
+      "url": "https://uoj.ac/problem/984",
+      "works": [
+        "w65d77feb"
       ]
     },
     "P9336": {
@@ -6518,6 +6619,17 @@
         "w05207708"
       ]
     },
+    "UOJ213": {
+      "key": "UOJ213",
+      "id": "UOJ213",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UNR #1】争夺圣杯",
+      "url": "https://uoj.ac/problem/213",
+      "works": [
+        "w05207708"
+      ]
+    },
     "P5398": {
       "key": "P5398",
       "id": "P5398",
@@ -7110,6 +7222,28 @@
       "url": "https://www.luogu.com.cn/problem/P17281",
       "works": [
         "w62e25954"
+      ]
+    },
+    "P4890": {
+      "key": "P4890",
+      "id": "P4890",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "Never·island",
+      "url": "https://www.luogu.com.cn/problem/P4890",
+      "works": [
+        "w1dc0dc52"
+      ]
+    },
+    "P5692": {
+      "key": "P5692",
+      "id": "P5692",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "[MtOI2019] 手牵手走向明天",
+      "url": "https://www.luogu.com.cn/problem/P5692",
+      "works": [
+        "w1dc0dc52"
       ]
     },
     "P5287": {
@@ -8960,6 +9094,17 @@
         "wf56d3a95"
       ]
     },
+    "P4935": {
+      "key": "P4935",
+      "id": "P4935",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "口袋里的纸飞机",
+      "url": "https://www.luogu.com.cn/problem/P4935",
+      "works": [
+        "w811495b5"
+      ]
+    },
     "P11696": {
       "key": "P11696",
       "id": "P11696",
@@ -8969,6 +9114,28 @@
       "url": "https://www.luogu.com.cn/problem/P11696",
       "works": [
         "w811495b5"
+      ]
+    },
+    "UOJ431": {
+      "key": "UOJ431",
+      "id": "UOJ431",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【集训队作业2018】time map",
+      "url": "https://uoj.ac/problem/431",
+      "works": [
+        "w811495b5"
+      ]
+    },
+    "UOJ1035": {
+      "key": "UOJ1035",
+      "id": "UOJ1035",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UR #33】双子之争",
+      "url": "https://uoj.ac/problem/1035",
+      "works": [
+        "w1d68278d"
       ]
     },
     "P15418": {
@@ -9046,6 +9213,17 @@
       "url": "https://www.luogu.com.cn/problem/P13699",
       "works": [
         "w0c5405ec"
+      ]
+    },
+    "UOJ983": {
+      "key": "UOJ983",
+      "id": "UOJ983",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UNR #9】星图",
+      "url": "https://uoj.ac/problem/983",
+      "works": [
+        "w345a1ffb"
       ]
     },
     "P17078": {
@@ -9246,6 +9424,17 @@
         "w60290047"
       ]
     },
+    "UOJ182": {
+      "key": "UOJ182",
+      "id": "UOJ182",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UR #12】a^-1 + b problem",
+      "url": "https://uoj.ac/problem/182",
+      "works": [
+        "w702165e8"
+      ]
+    },
     "P17695": {
       "key": "P17695",
       "id": "P17695",
@@ -9389,6 +9578,17 @@
         "wfa9a169c"
       ]
     },
+    "P6380": {
+      "key": "P6380",
+      "id": "P6380",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "『MdOI R2』Mayuri",
+      "url": "https://www.luogu.com.cn/problem/P6380",
+      "works": [
+        "w081bb0dc"
+      ]
+    },
     "P6749": {
       "key": "P6749",
       "id": "P6749",
@@ -9396,6 +9596,17 @@
       "ojName": "洛谷",
       "title": "『MdOI R3』Yoshino",
       "url": "https://www.luogu.com.cn/problem/P6749",
+      "works": [
+        "w081bb0dc"
+      ]
+    },
+    "P7339": {
+      "key": "P7339",
+      "id": "P7339",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "『MdOI R4』Kotori",
+      "url": "https://www.luogu.com.cn/problem/P7339",
       "works": [
         "w081bb0dc"
       ]
@@ -9618,6 +9829,17 @@
       "url": "https://www.luogu.com.cn/problem/P7289",
       "works": [
         "w65f22552"
+      ]
+    },
+    "P13993": {
+      "key": "P13993",
+      "id": "P13993",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "【MX-X19-T2】「LAOI-14」SPECIALZ",
+      "url": "https://www.luogu.com.cn/problem/P13993",
+      "works": [
+        "we773bba6"
       ]
     },
     "P4965": {
