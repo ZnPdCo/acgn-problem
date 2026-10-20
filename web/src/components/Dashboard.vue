@@ -139,10 +139,7 @@ function rankThreshold(min) {
               <div class="ui mini progress">
                 <div class="bar" :style="{ width: `${progress}%` }"></div>
               </div>
-              <p class="muted-text">
-                总难度点 {{ formatWeight(stats.totalWeight) }}
-                · 满浓度目标 {{ formatWeight(stats.targetWeight) }}
-              </p>
+              <p class="muted-text">总难度点 {{ formatWeight(stats.totalWeight) }}</p>
             </div>
           </div>
 
