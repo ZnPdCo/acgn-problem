@@ -59,9 +59,6 @@ const CATEGORY_ACHIEVEMENTS = [
       "樱花、萌放。-as the Night's, Reincarnation-",
     ],
   },
-]
-
-const SERIES_ACHIEVEMENTS = [
   {
     id: 'touhou',
     icon: 'moon',
@@ -88,7 +85,6 @@ const SERIES_ACHIEVEMENTS = [
     threshold: 10,
   },
 ]
-
 const GROWTH_ACHIEVEMENTS = [
   {
     id: 'first',
@@ -100,7 +96,7 @@ const GROWTH_ACHIEVEMENTS = [
   },
   {
     id: 'ten',
-    icon: 'fire',
+    icon: 'code',
     name: '十题入门',
     desc: '累计 AC 10 道题',
     metric: 'solvedCount',
@@ -108,7 +104,7 @@ const GROWTH_ACHIEVEMENTS = [
   },
   {
     id: 'fifty',
-    icon: 'star',
+    icon: 'fire',
     name: '渐入佳境',
     desc: '累计 AC 50 道题',
     metric: 'solvedCount',
@@ -116,8 +112,8 @@ const GROWTH_ACHIEVEMENTS = [
   },
   {
     id: 'hundred',
-    icon: 'trophy',
-    name: '百题斩',
+    icon: 'star',
+    name: '百炼成钢',
     desc: '累计 AC 100 道题',
     metric: 'solvedCount',
     threshold: 100,
@@ -125,15 +121,15 @@ const GROWTH_ACHIEVEMENTS = [
   {
     id: 'twohundred',
     icon: 'trophy',
-    name: '两百题斩',
+    name: '驾轻就熟',
     desc: '累计 AC 200 道题',
     metric: 'solvedCount',
     threshold: 200,
   },
   {
     id: 'threehundred',
-    icon: 'trophy',
-    name: '三百题斩',
+    icon: 'medal',
+    name: '传奇大师',
     desc: '累计 AC 300 道题',
     metric: 'solvedCount',
     threshold: 300,
@@ -149,7 +145,7 @@ const GROWTH_ACHIEVEMENTS = [
   },
   {
     id: 'works10',
-    icon: 'users',
+    icon: 'map',
     name: 'DD 全开',
     desc: '点亮 10 部不同作品',
     metric: 'touchedWorkCount',
@@ -158,7 +154,7 @@ const GROWTH_ACHIEVEMENTS = [
   },
   {
     id: 'works30',
-    icon: 'compass',
+    icon: 'map marked',
     name: '多坑巡礼',
     desc: '点亮 30 部不同作品',
     metric: 'touchedWorkCount',
@@ -167,8 +163,8 @@ const GROWTH_ACHIEVEMENTS = [
   },
   {
     id: 'works50',
-    icon: 'compass',
-    name: '多多坑巡礼',
+    icon: 'globe',
+    name: '博闻强识',
     desc: '点亮 50 部不同作品',
     metric: 'touchedWorkCount',
     threshold: 50,
@@ -176,8 +172,8 @@ const GROWTH_ACHIEVEMENTS = [
   },
   {
     id: 'works80',
-    icon: 'compass',
-    name: '多多多坑巡礼',
+    icon: 'route',
+    name: '行者无疆',
     desc: '点亮 80 部不同作品',
     metric: 'touchedWorkCount',
     threshold: 80,
@@ -185,8 +181,8 @@ const GROWTH_ACHIEVEMENTS = [
   },
   {
     id: 'works100',
-    icon: 'compass',
-    name: '多多多多坑巡礼',
+    icon: 'award',
+    name: '集大成者',
     desc: '点亮 100 部不同作品',
     metric: 'touchedWorkCount',
     threshold: 100,
@@ -196,7 +192,6 @@ const GROWTH_ACHIEVEMENTS = [
 
 export const ACHIEVEMENTS = [
   ...GROWTH_ACHIEVEMENTS,
-  ...SERIES_ACHIEVEMENTS,
   ...CATEGORY_ACHIEVEMENTS,
   {
     id: 'complete',
