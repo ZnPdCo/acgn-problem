@@ -15,7 +15,12 @@ const dataset = {
         { key: 'P2', title: '二' },
       ],
     },
-    { id: 'w2', name: '东方 Project', original: '東方Project', problems: [{ key: 'P2', title: '二' }] },
+    {
+      id: 'w2',
+      name: '东方 Project',
+      original: '東方Project',
+      problems: [{ key: 'P2', title: '二' }],
+    },
     { id: 'w3', name: 'Fate', original: '', problems: [{ key: 'P3', title: '三' }] },
   ],
   problems: {
@@ -35,6 +40,11 @@ const dataset = {
 }
 
 const index = buildIndex(dataset)
+const tagMap = {
+  CLANNAD: ['key', 'galgame', 'romance'],
+  '东方 Project': ['touhou'],
+  Fate: [],
+}
 const now = Date.now()
 
 test('concentration uses unique problems, not work rows', () => {
@@ -60,6 +70,23 @@ test('problemsToNext is based on unique problems', () => {
   const stats = computeStats(dataset, index, { P1: now })
   assert.equal(stats.nextRank.min, 35)
   assert.equal(stats.problemsToNext, 1)
+})
+
+test('tag achievements count unique solved problems across tagged works', () => {
+  const stats = computeStats(dataset, index, { P1: now, P2: now }, tagMap)
+  const key = stats.achievements.find((item) => item.id === 'key')
+  assert.equal(key.progress, '2 / 10')
+  assert.equal(key.unlocked, false)
+  const touhou = stats.achievements.find((item) => item.id === 'touhou')
+  assert.equal(touhou.progress, '1 / 10')
+  const galgame = stats.achievements.find((item) => item.id === 'category-galgame')
+  assert.equal(galgame.progress, '2 / 10')
+})
+
+test('tag achievements stay locked when no tag map is loaded', () => {
+  const stats = computeStats(dataset, index, { P1: now, P2: now })
+  const key = stats.achievements.find((item) => item.id === 'key')
+  assert.equal(key.progress, '0 / 10')
 })
 
 test('does not expose time-based statistics', () => {

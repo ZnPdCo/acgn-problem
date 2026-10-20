@@ -11,15 +11,39 @@ import { computeStats } from './lib/stats.js'
 const { solved, mark } = useSolved()
 
 const dataset = ref(null)
+const tagMap = ref({})
+const tagError = ref('')
 const loading = ref(true)
 const error = ref('')
 
 const index = computed(() => (dataset.value ? buildIndex(dataset.value) : null))
 const stats = computed(() =>
-  dataset.value && index.value ? computeStats(dataset.value, index.value, solved) : null,
+  dataset.value && index.value
+    ? computeStats(dataset.value, index.value, solved, tagMap.value)
+    : null,
 )
 
 const dataUrl = new URL('data/acgn.json', document.baseURI).href
+const tagsUrl = new URL('data/tags.json', document.baseURI).href
+
+async function loadTags() {
+  tagError.value = ''
+  try {
+    const response = await fetch(tagsUrl, { cache: 'no-cache' })
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} ${response.statusText}`)
+    }
+    const payload = await response.json()
+    if (!payload || typeof payload !== 'object' || Array.isArray(payload)) {
+      throw new Error('标签数据格式不正确')
+    }
+    tagMap.value = payload
+  } catch (cause) {
+    tagMap.value = {}
+    tagError.value = cause instanceof Error ? cause.message : String(cause)
+    console.warn('标签数据加载失败，类别成就暂时不可用：', cause)
+  }
+}
 
 async function loadDataset() {
   loading.value = true
@@ -39,6 +63,7 @@ async function loadDataset() {
       throw new Error('数据格式不正确')
     }
     dataset.value = payload
+    await loadTags()
   } catch (cause) {
     error.value = cause instanceof Error ? cause.message : String(cause)
   } finally {
@@ -97,6 +122,11 @@ onMounted(loadDataset)
     </header>
 
     <main class="ui container main-content">
+      <div v-if="tagError" class="ui warning message">
+        <i class="tags icon"></i>
+        标签数据加载失败，类别成就暂时不可用：{{ tagError }}
+      </div>
+
       <ProblemTable :dataset="dataset" :index="index" />
 
       <ImportPanel :dataset="dataset" :index="index" />

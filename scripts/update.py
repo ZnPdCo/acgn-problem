@@ -36,6 +36,12 @@ from fetch_article import (  # noqa: E402
     article_from_file,
     fetch_article,
 )
+from work_tags import (  # noqa: E402
+    DEFAULT_TAG_FILE,
+    TagFileError,
+    sync_work_tags,
+    write_tag_file,
+)
 
 DEFAULT_OUTPUT = REPO_ROOT / "web" / "public" / "data" / "acgn.json"
 DEFAULT_RAW_OUTPUT = REPO_ROOT / "data" / "article.md"
@@ -90,6 +96,12 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument(
+        "--tag-file",
+        type=Path,
+        default=DEFAULT_TAG_FILE,
+        help="per-work tag mapping (default: web/public/data/tags.json)",
+    )
+    parser.add_argument(
         "--raw-output",
         type=Path,
         default=DEFAULT_RAW_OUTPUT,
@@ -119,6 +131,12 @@ def main(argv: list[str] | None = None) -> int:
 
     source = article.source_meta()
     dataset = build_dataset(parsed, source=source)
+
+    try:
+        tag_report = sync_work_tags(dataset, args.tag_file)
+    except TagFileError as exc:
+        print(f"error: could not read tag file: {exc}", file=sys.stderr)
+        return 1
 
     errors = validate_dataset(dataset)
     if errors:
@@ -170,6 +188,25 @@ def main(argv: list[str] | None = None) -> int:
         f"{stats['multiWorkProblemCount']} multi-work problems "
         f"(OJ: {stats['ojCounts']})"
     )
+    tagged_count = len(tag_report.tags) - len(tag_report.untagged)
+    print(
+        f"tags: {tagged_count} / {len(tag_report.tags)} works tagged "
+        f"({args.tag_file})"
+    )
+    if tag_report.added:
+        print(
+            f"warning: {len(tag_report.added)} new work(s) added with empty tags: "
+            + ", ".join(tag_report.added),
+            file=sys.stderr,
+        )
+    if tag_report.untagged:
+        preview = ", ".join(tag_report.untagged[:12])
+        more = " ..." if len(tag_report.untagged) > 12 else ""
+        print(
+            f"warning: {len(tag_report.untagged)} work(s) still need tags: "
+            f"{preview}{more}",
+            file=sys.stderr,
+        )
     for warning in parsed.warnings:
         print(f"warning (line {warning.line}): {warning.message}", file=sys.stderr)
 
@@ -182,6 +219,7 @@ def main(argv: list[str] | None = None) -> int:
     if raw_output and not args.from_file:
         _atomic_write(raw_output, article.markdown.rstrip("\n") + "\n")
 
+    write_tag_file(args.tag_file, tag_report.tags)
     payload = json.dumps(dataset, ensure_ascii=False, indent=2) + "\n"
     _atomic_write(args.output, payload)
     print(

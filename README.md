@@ -48,13 +48,51 @@ https://uoj.ac/problem/1094
 
 - **浓度**：按唯一题目数计算。同一道题即使出现在多个作品栏位，也只计一次；
 - **等级**：`Newbie → Pupil → Specialist → Expert → Candidate Master → Master → International Master → Grandmaster → International Grandmaster → Legendary Grandmaster → ACGN tourist`；
-- **成就**：题目数量、作品数量、东方 / Key 系列、作品类别（百合、恋爱、奇幻、科幻、Galgame）、全制霸；
+- **成就**：题目数量、作品数量、东方 / Key 系列、作品类别（百合、恋爱、奇幻、科幻、Galgame 等）、全制霸；
 - **随机推荐**：随机抽一道还没做的题，可换一题或直接标记 AC；
 - **来源分布**：洛谷 / UOJ / QOJ 的完成情况。
 
 看板**不做任何基于时间的统计**。用户通常一次性导入大量题目，导入时间不代表真实 AC 时间，因此没有「最近 AC」「连续打卡」「签到」「修仙模式」等功能。
 
-所有成就（通用、系列、类别、全制霸）都定义在 [achievements.js](web/src/lib/achievements.js) 中，`stats.js` 只负责计算指标和进度。
+所有成就都定义在 [achievements.js](web/src/lib/achievements.js) 中，`stats.js` 只负责计算指标和进度。
+
+类别成就**只引用 tag**，不硬编码作品名。作品与 tag 的对应关系保存在 [web/public/data/tags.json](web/public/data/tags.json)：作品名是键，值是 tag 列表。前端在运行时单独读取这个文件，不把 tag 写进 `acgn.json`。
+
+```json
+{
+  "安达与岛村": ["yuri", "romance", "school", "slice"],
+  "CLANNAD": ["galgame", "key", "romance", "school", "slice"],
+  "新作品": []
+}
+```
+
+- 新作品由脚本自动追加到文件末尾，tag 列表为空，作为人工补标的提醒；
+- tag 为空的条目会排在所有已标注作品之后；
+- 类别成就的 tag 名称直接取自 `achievements.js` 里对应条目的 `tag` 字段。
+
+目前支持的 tag：
+
+| tag | 成就 | 题材 |
+| --- | --- | --- |
+| `yuri` | 百合绽放 | 百合 |
+| `galgame` | Galgame 玩家 | Galgame / 视觉小说 |
+| `key` | Key 社信徒 | Key 社作品 |
+| `touhou` | 幻想乡住民 | 东方 Project |
+| `music` | 一起组乐队吧 | 音乐 / 乐队 |
+| `mahou` | 魔法少女契约 | 魔法少女 |
+
+### 作品标签
+
+`web/public/data/tags.json` 是类别成就的唯一数据源。文章新增作品后：
+
+```bash
+python scripts/sync_tags.py              # 同步作品列表到 tags.json
+python scripts/sync_tags.py --list-untagged
+python scripts/sync_tags.py --prune      # 删除已从文章消失的作品条目
+python scripts/sync_tags.py --check      # CI：文件不是最新时退出 1
+```
+
+`update.py` 抓取文章时也会自动执行同样的同步。补 tag 后重新运行同步脚本（或重新抓取）即可让看板生效；`acgn.json` 不需要改动。
 
 ## 本地运行
 
@@ -86,7 +124,8 @@ python scripts/update.py
 它会访问洛谷，解析文章，写入：
 
 - `data/article.md`：原文 Markdown 快照（仅供审阅，前端不读取）；
-- `web/public/data/acgn.json`：前端数据。
+- `web/public/data/tags.json`：作品 → tag 列表，新增作品自动追加为空列表；
+- `web/public/data/acgn.json`：前端题目数据（不包含 tag）。
 
 离线解析本地 Markdown：
 
@@ -106,21 +145,26 @@ cd web && npm test
 ```text
 .
 ├── .github/workflows/update-and-deploy.yml  # 定时抓取 + Pages 部署
-├── data/article.md                          # 最近一次抓取的原文快照
+├── data/
+│   └── article.md                           # 最近一次抓取的原文快照
 ├── scripts/
 │   ├── fetch_article.py                     # 抓取 lentille-context 中的 Markdown
 │   ├── acgn_parser.py                       # Markdown → 最小结构化数据
+│   ├── work_tags.py                         # 标签文件读写 / 合并
+│   ├── sync_tags.py                         # 同步作品列表与 tags.json
 │   └── update.py                            # 抓取 + 解析 + 写文件
 ├── tests/                                   # Python 单元测试
 └── web/
-    ├── public/data/acgn.json                # 前端数据
+    ├── public/data/
+    │   ├── acgn.json                        # 前端题目数据
+    │   └── tags.json                        # 作品 → tag 列表（类别成就数据源）
     ├── src/
     │   ├── components/                      # 看板 / 表格 / 导入
     │   ├── composables/useSolved.js          # localStorage 记录
     │   └── lib/
     │       ├── dataset.js                   # 展平 row / 搜索索引
     │       ├── stats.js                     # 浓度、等级、成就指标计算
-    │       ├── achievements.js              # 全部成就定义（含类别/系列）
+    │       ├── achievements.js              # 全部成就定义（含类别成就）
     │       └── input.js                     # 题号提取
     ├── tests/                               # Node 单元测试
     └── vite.config.js
@@ -164,6 +208,7 @@ cd web && npm test
 
 - `works[].problems` 是**行**，保留原文顺序和重复项；每行有自己的 `title`；
 - `problems[key].works` 是同一道题出现在哪些作品下，用于跨栏同步 AC 状态；
+- 作品 tag 不在这里，前端单独请求 `web/public/data/tags.json`；
 - 不保存原文说明、作者、点赞数、脚注、统计汇总等前端不用的数据。
 
 ## 抓取与解析

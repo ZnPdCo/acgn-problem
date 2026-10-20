@@ -49,10 +49,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- data/article.md web/public/data/acgn.json; then
+          if git diff --quiet -- data/article.md web/public/data/tags.json web/public/data/acgn.json; then
             echo "No data changes."
           else
-            git add data/article.md web/public/data/acgn.json
+            git add data/article.md web/public/data/tags.json web/public/data/acgn.json
             git commit -m "chore(data): refresh ACGN problem list"
             git push
           fi

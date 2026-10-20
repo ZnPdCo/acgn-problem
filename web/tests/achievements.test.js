@@ -7,7 +7,10 @@ import { ACHIEVEMENTS } from '../src/lib/achievements.js'
 const dataset = JSON.parse(
   readFileSync(fileURLToPath(new URL('../public/data/acgn.json', import.meta.url)), 'utf8'),
 )
-const works = new Map(dataset.works.map((work) => [work.name, work]))
+const tagMap = JSON.parse(
+  readFileSync(fileURLToPath(new URL('../public/data/tags.json', import.meta.url)), 'utf8'),
+)
+const workNames = dataset.works.map((work) => work.name)
 
 test('achievement configs have unique ids and required fields', () => {
   const ids = new Set()
@@ -20,8 +23,9 @@ test('achievement configs have unique ids and required fields', () => {
     assert.ok(achievement.icon, `missing icon: ${achievement.id}`)
     assert.ok(achievement.metric, `missing metric: ${achievement.id}`)
     assert.ok(achievement.threshold, `missing threshold: ${achievement.id}`)
-    if (achievement.metric === 'works') {
-      assert.ok(Array.isArray(achievement.works) && achievement.works.length > 0)
+    if (achievement.metric === 'tag') {
+      assert.match(achievement.tag, /^[a-z][a-z0-9-]*$/, `bad tag: ${achievement.id}`)
+      assert.equal('works' in achievement, false, `${achievement.id} still hardcodes works`)
     }
   }
 })
@@ -33,18 +37,69 @@ test('all achievement definitions live in one external config', () => {
   assert.ok(ACHIEVEMENTS.some((achievement) => achievement.id === 'complete'))
 })
 
-test('works-based achievements reference real works and enough problems', () => {
+test('tag definitions use unique slugs', () => {
+  const tags = ACHIEVEMENTS.filter((achievement) => achievement.metric === 'tag').map(
+    (achievement) => achievement.tag,
+  )
+  assert.equal(new Set(tags).size, tags.length)
+})
+
+test('acgn.json does not embed tags', () => {
+  for (const work of dataset.works) {
+    assert.equal('tags' in work, false, `${work.name} still embeds tags`)
+  }
+})
+
+test('public/data/tags.json covers exactly the works in the dataset', () => {
+  assert.deepEqual(Object.keys(tagMap).sort(), [...workNames].sort())
+  for (const name of workNames) {
+    assert.ok(Array.isArray(tagMap[name]), `${name} should map to a tag list`)
+    for (const tag of tagMap[name]) {
+      assert.equal(typeof tag, 'string')
+      assert.equal(tag.trim(), tag, `${name} has a padded tag`)
+      assert.equal(/\s/.test(tag), false, `${name} has a tag containing whitespace`)
+    }
+    assert.equal(new Set(tagMap[name]).size, tagMap[name].length, `${name} repeats a tag`)
+  }
+})
+
+test('untagged works are listed after tagged ones', () => {
+  const entries = Object.entries(tagMap)
+  const firstUntagged = entries.findIndex(([, tags]) => tags.length === 0)
+  if (firstUntagged === -1) return
+  assert.equal(
+    entries.slice(firstUntagged).every(([, tags]) => tags.length === 0),
+    true,
+    'untagged works should form a block at the end of public/data/tags.json',
+  )
+})
+
+test('every tag achievement is reachable with the current tags', () => {
+  const problemTotals = new Map()
+  for (const work of dataset.works) {
+    for (const tag of tagMap[work.name] ?? []) {
+      problemTotals.set(tag, (problemTotals.get(tag) ?? 0) + work.problems.length)
+    }
+  }
   for (const achievement of ACHIEVEMENTS) {
-    if (achievement.metric !== 'works') continue
-    const missing = achievement.works.filter((name) => !works.has(name))
-    assert.deepEqual(missing, [], `${achievement.name} has unknown works`)
-    const total = achievement.works.reduce(
-      (count, name) => count + (works.get(name)?.problems.length ?? 0),
-      0,
-    )
+    if (achievement.metric !== 'tag') continue
+    const total = problemTotals.get(achievement.tag) ?? 0
     assert.ok(
       total >= achievement.threshold,
-      `${achievement.name} only has ${total} problems, threshold is ${achievement.threshold}`,
+      `${achievement.name} only has ${total} tagged problems, threshold is ${achievement.threshold}`,
     )
+  }
+})
+
+test('every tag used by a work belongs to a category achievement', () => {
+  const knownTags = new Set(
+    ACHIEVEMENTS.filter((achievement) => achievement.metric === 'tag').map(
+      (achievement) => achievement.tag,
+    ),
+  )
+  for (const [name, tags] of Object.entries(tagMap)) {
+    for (const tag of tags) {
+      assert.ok(knownTags.has(tag), `${name} uses unknown tag ${tag}`)
+    }
   }
 })

@@ -34,12 +34,11 @@ function touchCount(work, solvedSet) {
   )
 }
 
-function countSolvedInWorks(workNames, dataset, solvedSet) {
-  const names = new Set(workNames)
+function countSolvedWithTag(tag, dataset, solvedSet, tagMap) {
   const solved = new Set()
   for (const work of dataset.works) {
-    if (!names.has(work.name)) continue
-    for (const ref of work.problems) {
+    if (!(tagMap[work.name] ?? []).includes(tag)) continue
+    for (const ref of work.problems ?? []) {
       const key = refKey(ref)
       if (solvedSet.has(key)) solved.add(key)
     }
@@ -47,7 +46,7 @@ function countSolvedInWorks(workNames, dataset, solvedSet) {
   return solved.size
 }
 
-export function computeStats(dataset, index, solved) {
+export function computeStats(dataset, index, solved, tagMap = {}) {
   const validSolvedKeys = Object.keys(solved).filter((key) => index.problems[key])
   const solvedSet = new Set(validSolvedKeys)
 
@@ -83,18 +82,18 @@ export function computeStats(dataset, index, solved) {
     touchedWorkCount: touchedWorks.length,
     problemCount: index.problemCount,
   }
-  const worksMetricCache = new Map()
+  const tagMetricCache = new Map()
 
   const achievements = ACHIEVEMENTS.map((config) => {
     let value
-    if (config.metric === 'works') {
-      if (!worksMetricCache.has(config.id)) {
-        worksMetricCache.set(
-          config.id,
-          countSolvedInWorks(config.works ?? [], dataset, solvedSet),
+    if (config.metric === 'tag') {
+      if (!tagMetricCache.has(config.tag)) {
+        tagMetricCache.set(
+          config.tag,
+          countSolvedWithTag(config.tag, dataset, solvedSet, tagMap),
         )
       }
-      value = worksMetricCache.get(config.id)
+      value = tagMetricCache.get(config.tag)
     } else {
       value = metrics[config.metric] ?? 0
     }
