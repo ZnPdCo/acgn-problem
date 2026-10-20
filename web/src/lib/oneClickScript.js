@@ -1,0 +1,23 @@
+// Script copied by the "复制一键脚本" button. It runs in the Luogu console,
+// reads the current user's practice page and prints all passed problem ids.
+export const ONE_CLICK_SCRIPT = [
+  '(async () => {',
+  '  const parseCtx = html => {',
+  '    const m = html.match(/<script id="lentille-context" type="application\\/json">([\\s\\S]*?)<\\/script>/);',
+  '    return m ? JSON.parse(m[1]) : null;',
+  '  };',
+  "  const getText = url => fetch(url, { credentials: 'same-origin' }).then(r => r.text());",
+  '',
+  "  const el = document.getElementById('lentille-context');",
+  '  const cur = el ? JSON.parse(el.textContent) : null;',
+  '  uid = cur?.user?.uid || cur?.data?.user?.uid;',
+  '  uid = String(uid).trim();',
+  '',
+  '  const ctx = parseCtx(await getText(`/user/${uid}/practice`));',
+  '',
+  '  const pids = [...new Set(ctx.data.passed.map(p => p.pid).filter(Boolean))];',
+  '',
+  "  console.log(pids.join(' '));",
+  '  console.log(`↑ 复制上面这一行`);',
+  '})()',
+].join('\n')

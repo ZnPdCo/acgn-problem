@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { useSolved } from '../composables/useSolved.js'
 import { parseProblemInput } from '../lib/input.js'
+import { ONE_CLICK_SCRIPT } from '../lib/oneClickScript.js'
 
 const props = defineProps({
   dataset: { type: Object, required: true },
@@ -13,6 +14,8 @@ const { solved, mark, clearAll, exportPayload, importPayload } = useSolved()
 const text = ref('')
 const report = ref(null)
 const fileInput = ref(null)
+const showScriptHelp = ref(false)
+const scriptCopied = ref(false)
 
 const validKeys = computed(() => new Set(Object.keys(props.index.problems)))
 
@@ -127,6 +130,41 @@ function clearRecords() {
     unknown: [],
   }
 }
+
+function fallbackCopy(value) {
+  const area = document.createElement('textarea')
+  area.value = value
+  area.setAttribute('readonly', '')
+  area.style.position = 'fixed'
+  area.style.top = '0'
+  area.style.left = '-9999px'
+  document.body.appendChild(area)
+  area.select()
+  let copied = false
+  try {
+    copied = document.execCommand('copy')
+  } catch {
+    copied = false
+  } finally {
+    area.remove()
+  }
+  return copied
+}
+
+async function copyOneClickScript() {
+  let copied = false
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(ONE_CLICK_SCRIPT)
+      copied = true
+    }
+  } catch {
+    copied = false
+  }
+  if (!copied) copied = fallbackCopy(ONE_CLICK_SCRIPT)
+  scriptCopied.value = copied
+  showScriptHelp.value = true
+}
 </script>
 
 <template>
@@ -155,6 +193,15 @@ function clearRecords() {
               增量导入
             </button>
             <button type="button" class="ui button" @click="clearRecords">清空所有做题记录</button>
+            <button
+              type="button"
+              class="ui button"
+              title="复制在洛谷控制台运行的一键脚本"
+              @click="copyOneClickScript"
+            >
+              <i class="copy icon"></i>
+              复制一键脚本
+            </button>
           </div>
 
           <div v-if="report" class="ui message report-message" :class="report.tone">
@@ -169,5 +216,47 @@ function clearRecords() {
         </div>
       </div>
     </div>
+
+    <Teleport to="body">
+      <div
+        v-if="showScriptHelp"
+        class="script-help-backdrop"
+        @click.self="showScriptHelp = false"
+      >
+        <div
+          class="script-help-dialog"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="script-help-title"
+        >
+          <h3 id="script-help-title">
+            {{ scriptCopied ? '一键脚本已复制' : '复制一键脚本' }}
+          </h3>
+          <p v-if="scriptCopied">脚本已复制到剪贴板。</p>
+          <p v-else class="script-help-error">自动复制失败，请手动复制下面的脚本。</p>
+          <p>在 洛谷 任意界面 F12 控制台粘贴，复制对应内容到上面的输入框即可。</p>
+          <textarea
+            v-if="!scriptCopied"
+            class="script-help-code"
+            readonly
+            spellcheck="false"
+            :value="ONE_CLICK_SCRIPT"
+          ></textarea>
+          <div class="script-help-actions">
+            <button
+              v-if="!scriptCopied"
+              type="button"
+              class="ui primary button"
+              @click="copyOneClickScript"
+            >
+              重新复制
+            </button>
+            <button type="button" class="ui button" @click="showScriptHelp = false">
+              知道了
+            </button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
   </section>
 </template>
