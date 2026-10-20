@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { ACHIEVEMENTS } from '../src/lib/achievements.js'
+import { difficultyWeight } from '../src/lib/difficulty.js'
 
 const dataset = JSON.parse(
   readFileSync(fileURLToPath(new URL('../public/data/acgn.json', import.meta.url)), 'utf8'),
@@ -75,20 +76,41 @@ test('untagged works are listed after tagged ones', () => {
 })
 
 test('every tag achievement is reachable with the current tags', () => {
-  const problemTotals = new Map()
+  const taggedKeys = new Map()
   for (const work of dataset.works) {
     for (const tag of tagMap[work.name] ?? []) {
-      problemTotals.set(tag, (problemTotals.get(tag) ?? 0) + work.problems.length)
+      if (!taggedKeys.has(tag)) taggedKeys.set(tag, new Set())
+      for (const ref of work.problems ?? []) {
+        taggedKeys.get(tag).add(typeof ref === 'string' ? ref : ref.key)
+      }
     }
   }
   for (const achievement of ACHIEVEMENTS) {
     if (achievement.metric !== 'tag') continue
-    const total = problemTotals.get(achievement.tag) ?? 0
+    let total = 0
+    for (const key of taggedKeys.get(achievement.tag) ?? []) {
+      total += difficultyWeight(dataset.problems[key]?.difficulty)
+    }
     assert.ok(
       total >= achievement.threshold,
-      `${achievement.name} only has ${total} tagged problems, threshold is ${achievement.threshold}`,
+      `${achievement.name} only has ${total} difficulty points, threshold is ${achievement.threshold}`,
     )
   }
+})
+
+test('problem-count achievements use difficulty points', () => {
+  const weighted = ACHIEVEMENTS.filter(
+    (achievement) =>
+      achievement.metric === 'weightedSolved' || achievement.metric === 'tag',
+  )
+  assert.ok(weighted.length > 0)
+  for (const achievement of weighted) {
+    assert.equal(achievement.unit, ' 点', `${achievement.name} should use points`)
+  }
+  assert.equal(
+    ACHIEVEMENTS.find((achievement) => achievement.id === 'complete').metric,
+    'solvedCount',
+  )
 })
 
 test('every tag used by a work belongs to a category achievement', () => {

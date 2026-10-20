@@ -58,6 +58,10 @@ body {
   font-size: 0.9rem;
 }
 
+.weight-line {
+  margin-top: 0.35rem;
+}
+
 .inline-hint {
   margin-left: 0.5rem;
 }
@@ -144,6 +148,10 @@ body {
   width: 90px;
 }
 
+.difficulty-column {
+  width: 110px;
+}
+
 .state-column {
   width: 100px;
 }
@@ -173,8 +181,13 @@ body {
 }
 
 .oj-cell,
+.difficulty-cell,
 .state-cell {
   white-space: nowrap;
+}
+
+.difficulty-cell {
+  text-align: center;
 }
 
 .work-name-row {
@@ -263,7 +276,7 @@ body {
   }
 
   .acgn-table.ui.table {
-    min-width: 620px;
+    min-width: 720px;
   }
 
   .work-column,

@@ -2,6 +2,11 @@
 import { computed, ref } from 'vue'
 import { useSolved } from '../composables/useSolved.js'
 import { normalizeSearch, ojMeta } from '../lib/dataset.js'
+import {
+  difficultyColor,
+  difficultyLabel,
+  difficultyTitle,
+} from '../lib/difficulty.js'
 
 const props = defineProps({
   dataset: { type: Object, required: true },
@@ -106,6 +111,11 @@ function ojColor(oj) {
   return ''
 }
 
+function difficultyClass(difficulty) {
+  const color = difficultyColor(difficulty)
+  return color ? `ui mini ${color} label` : 'ui mini basic label'
+}
+
 function filterByWork(work) {
   query.value = work.name
   status.value = 'all'
@@ -196,6 +206,7 @@ function resetFilters() {
               <th class="work-column">作品</th>
               <th>题目</th>
               <th class="oj-column">来源</th>
+              <th class="difficulty-column">难度</th>
               <th class="state-column">状态</th>
             </tr>
           </thead>
@@ -257,6 +268,16 @@ function resetFilters() {
                 <td class="oj-cell">
                   <span class="ui mini label" :class="ojColor(row.problem.oj)">
                     {{ row.problem.ojName }}
+                  </span>
+                </td>
+
+                <td class="difficulty-cell">
+                  <span
+                    class="ui mini label"
+                    :class="difficultyClass(row.problem.difficulty)"
+                    :title="difficultyTitle(row.problem.difficulty)"
+                  >
+                    {{ difficultyLabel(row.problem.difficulty) }}
                   </span>
                 </td>
 

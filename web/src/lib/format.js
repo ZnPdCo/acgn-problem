@@ -19,3 +19,10 @@ export function formatDateTime(value) {
   if (!date) return '—'
   return DATE_TIME_FORMATTER.format(date).replaceAll('/', '-')
 }
+
+export function formatWeight(value) {
+  const numeric = Number(value)
+  if (!Number.isFinite(numeric)) return '0'
+  const rounded = Math.round(numeric * 10) / 10
+  return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1)
+}

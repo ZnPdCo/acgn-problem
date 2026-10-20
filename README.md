@@ -46,11 +46,15 @@ https://uoj.ac/problem/1094
 
 ### ACGN 浓度看板
 
-- **浓度**：按唯一题目数计算。同一道题即使出现在多个作品栏位，也只计一次；
+- **浓度**：按难度赋权题目计算。入门 1 点，难度每升一级 +0.5 点，NOI/NOI+/CTS 5 点；暂无评定 / 未设置难度按 1 点。达到总权重的 **50%** 即为 100% 浓度，同一道题只计一次；
 - **等级**：`Newbie → Pupil → Specialist → Expert → Candidate Master → Master → International Master → Grandmaster → International Grandmaster → Legendary Grandmaster → ACGN tourist`；
-- **成就**：题目数量、作品数量、东方 / Key 系列、作品类别（百合、恋爱、奇幻、科幻、Galgame 等）、全制霸；
+- **成就**：难度点、作品数量、东方 / Key 系列、作品类别（百合、恋爱、奇幻、科幻、Galgame 等）、全制霸；
 - **随机推荐**：随机抽一道还没做的题，可换一题或直接标记 AC；
 - **来源分布**：洛谷 / UOJ / QOJ 的完成情况。
+
+浓度公式：`min(100, 已获得难度点 / (总难度点 × 50%) × 100)`。因此不需要全清也能满浓度；「全制霸」成就仍然要求完成全部题目。
+
+成就中的 10 / 50 / 100 / 200 / 300 均指**难度点**，不是原始题数；作品数成就仍按作品数计算。
 
 看板**不做任何基于时间的统计**。用户通常一次性导入大量题目，导入时间不代表真实 AC 时间，因此没有「最近 AC」「连续打卡」「签到」「修仙模式」等功能。
 
@@ -94,6 +98,36 @@ python scripts/sync_tags.py --check      # CI：文件不是最新时退出 1
 
 `update.py` 抓取文章时也会自动执行同样的同步。补 tag 后重新运行同步脚本（或重新抓取）即可让看板生效；`acgn.json` 不需要改动。
 
+### 题目难度
+
+洛谷难度来自官方快照：
+
+```text
+https://cdn.luogu.com.cn/problemset-open/latest.ndjson.gz
+```
+
+`update.py` 会把它下载到系统临时目录，流式读取 `pid` 和 `difficulty` 后立即删除，不会提交进仓库。
+
+UOJ / QOJ 没有同类的公开难度源，使用 [data/difficulty.json](data/difficulty.json) 手动维护：
+
+```json
+{
+  "UOJ1094": "提高",
+  "QOJ18255": "省选/NOI−"
+}
+```
+
+值可以写难度名称，也可以写洛谷的数字等级 `0`–`8`；空字符串表示未设置。没有配置的题目会写为「未设置难度」。
+
+难度顺序：
+
+```text
+暂无评定 < 入门 < 普及− < 普及 < 普及+/提高− < 提高
+< 提高+/省选− < 省选/NOI− < NOI/NOI+/CTS
+```
+
+最终每个题目都会在 `acgn.json` 的 `problems[key].difficulty` 里得到上述标签之一。
+
 ## 本地运行
 
 只需要 Node.js：
@@ -125,13 +159,18 @@ python scripts/update.py
 
 - `data/article.md`：原文 Markdown 快照（仅供审阅，前端不读取）；
 - `web/public/data/tags.json`：作品 → tag 列表，新增作品自动追加为空列表；
-- `web/public/data/acgn.json`：前端题目数据（不包含 tag）。
+- `web/public/data/acgn.json`：前端题目数据（不包含 tag，包含每道题的 `difficulty`）。
+
+运行时还会下载洛谷难度快照到系统临时目录，读取后删除；UOJ / QOJ 的难度从 `data/difficulty.json` 读取。修改难度文件后重新运行 `update.py` 即可写入 `acgn.json`。
 
 离线解析本地 Markdown：
 
 ```bash
-python scripts/update.py --from-file path/to/article.md --allow-shrink --output .tmp/acgn.json
+python scripts/update.py --from-file path/to/article.md --allow-shrink \
+  --skip-difficulty --output .tmp/acgn.json
 ```
+
+`--skip-difficulty` 不会联网，只沿用输出文件中已有的洛谷难度；没有旧数据时写为「未设置难度」。
 
 ### 测试
 
@@ -146,12 +185,14 @@ cd web && npm test
 .
 ├── .github/workflows/update-and-deploy.yml  # 定时抓取 + Pages 部署
 ├── data/
-│   └── article.md                           # 最近一次抓取的原文快照
+│   ├── article.md                           # 最近一次抓取的原文快照
+│   └── difficulty.json                      # UOJ / QOJ 手动难度
 ├── scripts/
 │   ├── fetch_article.py                     # 抓取 lentille-context 中的 Markdown
 │   ├── acgn_parser.py                       # Markdown → 最小结构化数据
 │   ├── work_tags.py                         # 标签文件读写 / 合并
 │   ├── sync_tags.py                         # 同步作品列表与 tags.json
+│   ├── difficulty.py                        # 洛谷难度快照 + UOJ/QOJ 难度
 │   └── update.py                            # 抓取 + 解析 + 写文件
 ├── tests/                                   # Python 单元测试
 └── web/
@@ -163,6 +204,7 @@ cd web && npm test
     │   ├── composables/useSolved.js          # localStorage 记录
     │   └── lib/
     │       ├── dataset.js                   # 展平 row / 搜索索引
+    │       ├── difficulty.js                # 难度权重 / 标签颜色
     │       ├── stats.js                     # 浓度、等级、成就指标计算
     │       ├── achievements.js              # 全部成就定义（含类别成就）
     │       └── input.js                     # 题号提取
@@ -200,6 +242,7 @@ cd web && npm test
       "ojName": "洛谷",
       "title": "我终将成为你的倒影",
       "url": "https://www.luogu.com.cn/problem/P11660",
+      "difficulty": "提高",
       "works": ["w..."]
     }
   }
@@ -208,6 +251,7 @@ cd web && npm test
 
 - `works[].problems` 是**行**，保留原文顺序和重复项；每行有自己的 `title`；
 - `problems[key].works` 是同一道题出现在哪些作品下，用于跨栏同步 AC 状态；
+- `problems[key].difficulty` 是题目难度标签，只存一份，所有引用该题的行共享；
 - 作品 tag 不在这里，前端单独请求 `web/public/data/tags.json`；
 - 不保存原文说明、作者、点赞数、脚注、统计汇总等前端不用的数据。
 

@@ -1,6 +1,12 @@
 <script setup>
 import { computed, ref, watch } from 'vue'
 import { displayWorkFor } from '../lib/dataset.js'
+import {
+  difficultyColor,
+  difficultyLabel,
+  difficultyTitle,
+} from '../lib/difficulty.js'
+import { formatWeight } from '../lib/format.js'
 import { RANKS } from '../lib/stats.js'
 
 const props = defineProps({
@@ -73,6 +79,11 @@ function markRecommended() {
 function rankThreshold(min) {
   return min > 0 && min < 0.01 ? '> 0%' : `${min}%`
 }
+
+function difficultyClass(difficulty) {
+  const color = difficultyColor(difficulty)
+  return color ? `ui mini ${color} label` : 'ui mini basic label'
+}
 </script>
 
 <template>
@@ -105,8 +116,14 @@ function rankThreshold(min) {
             </div>
           </div>
 
+          <p class="muted-text weight-line">
+            难度点 {{ formatWeight(stats.solvedWeight) }} /
+            {{ formatWeight(stats.totalWeight) }}
+            · 满浓度目标 {{ formatWeight(stats.targetWeight) }}
+          </p>
+
           <p v-if="stats.nextRank" class="muted-text">
-            再点亮 <strong>{{ stats.problemsToNext }}</strong> 道题，晋级
+            再获得 <strong>{{ formatWeight(stats.weightToNext) }}</strong> 难度点，晋级
             <strong>{{ stats.nextRank.name }}</strong>
           </p>
           <p v-else class="muted-text">已达到最高浓度。</p>
@@ -114,7 +131,8 @@ function rankThreshold(min) {
           <div class="ui divider"></div>
 
           <div class="ui mini info message">
-            浓度按唯一题目数计算；同一道题即使出现在多个作品栏位，也只计一次。
+            浓度按难度赋权：入门 1 点，每升一级 +0.5 点，NOI/NOI+/CTS 5
+            点，暂无评定 / 未设置难度按 1 点；达到总权重的 50% 即 100%。同一道题只计一次。
           </div>
         </div>
       </div>
@@ -132,7 +150,10 @@ function rankThreshold(min) {
               <div class="ui mini progress">
                 <div class="bar" :style="{ width: `${Math.min(100, stats.uniquePercent)}%` }"></div>
               </div>
-              <p class="muted-text">题目完成度 {{ stats.uniquePercent.toFixed(1) }}%</p>
+              <p class="muted-text">
+                题目完成度 {{ stats.uniquePercent.toFixed(1) }}%
+                · 难度点 {{ formatWeight(stats.solvedWeight) }}
+              </p>
             </div>
           </div>
 
@@ -167,7 +188,7 @@ function rankThreshold(min) {
               <div class="ui mini progress">
                 <div class="bar" :style="{ width: `${achievementPercent}%` }"></div>
               </div>
-              <p class="muted-text">按题目、作品与类别收集</p>
+              <p class="muted-text">按难度点、作品与类别收集</p>
             </div>
           </div>
         </div>
@@ -227,6 +248,13 @@ function rankThreshold(min) {
             <div class="ui labels">
               <span class="ui mini label">{{ recommended.problem.key }}</span>
               <span class="ui mini blue label">{{ recommended.problem.ojName }}</span>
+              <span
+                class="ui mini label"
+                :class="difficultyClass(recommended.problem.difficulty)"
+                :title="difficultyTitle(recommended.problem.difficulty)"
+              >
+                {{ difficultyLabel(recommended.problem.difficulty) }}
+              </span>
               <span v-if="recommended.works.length > 1" class="ui mini orange label">
                 多厨 ×{{ recommended.works.length }}
               </span>
@@ -257,7 +285,7 @@ function rankThreshold(min) {
         <div class="ui segment">
           <h3 class="ui header">
             浓度等级
-            <div class="sub header">按「作品 × 题目」栏位覆盖率划分</div>
+            <div class="sub header">按难度赋权题目计算，总权重的 50% 为满浓度</div>
           </h3>
           <div class="ui relaxed divided list compact-list">
             <div v-for="rank in RANKS" :key="rank.name" class="item">

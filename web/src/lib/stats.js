@@ -1,5 +1,13 @@
 import { ACHIEVEMENTS } from './achievements.js'
 import { ojMeta } from './dataset.js'
+import { difficultyWeight } from './difficulty.js'
+import { formatWeight } from './format.js'
+
+/**
+ * 100% concentration is reached at half of the total difficulty weight. The
+ * remaining half is headroom, so the rank does not require a full clear.
+ */
+export const CONCENTRATION_TARGET = 0.5
 
 export const RANKS = [
   { min: 0, level: 'Lv.0', name: 'Newbie' },
@@ -34,7 +42,11 @@ function touchCount(work, solvedSet) {
   )
 }
 
-function countSolvedWithTag(tag, dataset, solvedSet, tagMap) {
+function problemWeight(problem) {
+  return difficultyWeight(problem?.difficulty)
+}
+
+function weightedSolvedWithTag(tag, dataset, problems, solvedSet, tagMap) {
   const solved = new Set()
   for (const work of dataset.works) {
     if (!(tagMap[work.name] ?? []).includes(tag)) continue
@@ -43,7 +55,17 @@ function countSolvedWithTag(tag, dataset, solvedSet, tagMap) {
       if (solvedSet.has(key)) solved.add(key)
     }
   }
-  return solved.size
+
+  let weight = 0
+  for (const key of solved) {
+    const problem = problems[key]
+    if (problem) weight += problemWeight(problem)
+  }
+  return weight
+}
+
+function formatMetric(value, weighted) {
+  return weighted ? formatWeight(value) : String(Math.round(value))
 }
 
 export function computeStats(dataset, index, solved, tagMap = {}) {
@@ -53,8 +75,20 @@ export function computeStats(dataset, index, solved, tagMap = {}) {
   const uniquePercent = index.problemCount
     ? (validSolvedKeys.length / index.problemCount) * 100
     : 0
-  // Concentration is per unique problem: multi-work problems count once.
-  const concentration = uniquePercent
+
+  const totalWeight = Object.values(index.problems).reduce(
+    (sum, problem) => sum + problemWeight(problem),
+    0,
+  )
+  const solvedWeight = validSolvedKeys.reduce(
+    (sum, key) => sum + problemWeight(index.problems[key]),
+    0,
+  )
+  const targetWeight = totalWeight * CONCENTRATION_TARGET
+  // Multi-work problems are deduplicated by key before their weight is added.
+  const concentration = targetWeight > 0
+    ? Math.min(100, (solvedWeight / targetWeight) * 100)
+    : 0
 
   const workStats = dataset.works.map((work) => ({
     ...work,
@@ -79,6 +113,7 @@ export function computeStats(dataset, index, solved, tagMap = {}) {
 
   const metrics = {
     solvedCount: validSolvedKeys.length,
+    weightedSolved: solvedWeight,
     touchedWorkCount: touchedWorks.length,
     problemCount: index.problemCount,
   }
@@ -90,7 +125,13 @@ export function computeStats(dataset, index, solved, tagMap = {}) {
       if (!tagMetricCache.has(config.tag)) {
         tagMetricCache.set(
           config.tag,
-          countSolvedWithTag(config.tag, dataset, solvedSet, tagMap),
+          weightedSolvedWithTag(
+            config.tag,
+            dataset,
+            index.problems,
+            solvedSet,
+            tagMap,
+          ),
         )
       }
       value = tagMetricCache.get(config.tag)
@@ -100,27 +141,31 @@ export function computeStats(dataset, index, solved, tagMap = {}) {
 
     const threshold =
       config.threshold === 'problemCount' ? index.problemCount : config.threshold
+    const weighted = config.metric === 'weightedSolved' || config.metric === 'tag'
+    const unit = config.unit ?? (weighted ? ' 点' : '')
+    const shownValue = Math.min(value, threshold)
     return {
       id: config.id,
       icon: config.icon,
       name: config.name,
       desc: config.desc,
       unlocked: threshold > 0 && value >= threshold,
-      progress: `${Math.min(value, threshold)} / ${threshold}${config.unit ?? ''}`,
+      progress: `${formatMetric(shownValue, weighted)} / ${formatMetric(threshold, weighted)}${unit}`,
+      weighted,
     }
   })
 
   const rank = rankFor(concentration)
   const nextRank = RANKS.find((candidate) => candidate.min > concentration) ?? null
-  const problemsToNext = nextRank
-    ? Math.max(
-        0,
-        Math.ceil((index.problemCount * nextRank.min) / 100) - validSolvedKeys.length,
-      )
+  const weightToNext = nextRank && targetWeight > 0
+    ? Math.max(0, (targetWeight * nextRank.min) / 100 - solvedWeight)
     : 0
 
   return {
     solvedCount: validSolvedKeys.length,
+    solvedWeight,
+    totalWeight,
+    targetWeight,
     problemCount: index.problemCount,
     workCount: dataset.works.length,
     touchedWorkCount: touchedWorks.length,
@@ -128,7 +173,7 @@ export function computeStats(dataset, index, solved, tagMap = {}) {
     uniquePercent,
     rank,
     nextRank,
-    problemsToNext,
+    weightToNext,
     ojStats,
     achievements,
     unlockedAchievements: achievements.filter((achievement) => achievement.unlocked).length,
