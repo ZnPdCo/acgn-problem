@@ -8,6 +8,8 @@ upd on 2026.10.18: 开放了来自 qoj 和 uoj 的除相同题以外的题目补
 - **G**algame，即美少女游戏。
 - Light **N**ovel，即轻小说。
 - 上面这么解释主要是用来说明为什么没有某些二游。如果该二游存在官方的改编动画，则也可以加入。
+- 部分作品可能仍然不符合上述要求，但是介于其本身所处地位，也被加入了，如炽焰天穹。
+- 部分作品可能符合要求，但是出于其他原因（如和其他某方面重合度过大等）也并没有加入，如世界计划。
 
 Boring Collections.
 
@@ -95,6 +97,8 @@ Some other fun facts:
   - [P17505 [ICPC 2026 Wuhan I] Iroha and the Kingdom of Construction](/problem/P17505)
   - [P17529 [JAG 2026 Summer Camp #1] CPK! Remix](/problem/P17529)
   - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
+- 炽焰天穹 $\jp{ヘブンバーンズレッド}$
+  - [UOJ984 【UNR #9】欢迎来到最前线](https://uoj.ac/problem/984)
 - 传颂之物 $\jp{うたわれるもの}$
   - [P9336 [Ynoi2001] 梦想歌](/problem/P9336)
 - 吹响吧！上低音号 $\jp{響け！ユーフォニアム}$
@@ -355,6 +359,7 @@ Some other fun facts:
   - [P5664 [CSP-S 2019] Emiya 家今天的饭](/problem/P5664)
   - [P10242 [THUSC 2021] Emiya 家明天的饭](/problem/P10242)
   - [P17118 [Algo Beat 009 & MROI-R1] ERESHKIGAL](/problem/P17118)
+  - [UOJ213 【UNR #1】争夺圣杯](https://uoj.ac/problem/213)
 - 风灵玉秀
   - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
 - GOSICK $\jp{GOSICK -ゴシック-}$
@@ -423,6 +428,9 @@ Some other fun facts:
   - [P11564 【MX-X7-T5】[LSOT-3] 你的列车是生存战略](/problem/P11564)
 - 火影忍者 $\jp{NARUTO -ナルト-}$
   - [P17281 「IXOI R2」阴圆](/problem/P17281)
+- ISLAND
+  - [P4890 Never·island](/problem/P4890)
+  - [P5692 [MtOI2019] 手牵手走向明天](/problem/P5692)
 - JOJO 的奇妙冒险 $\jp{ジョジョの奇妙な冒険}$
   - [P5287 [HNOI2019] JOJO](/problem/P5287)
   - [P7511 三到六](/problem/P7511)
@@ -652,7 +660,11 @@ Some other fun facts:
 - 西历 2236 年 $\jp{西暦2236年}$
   - [P12009 【MX-X10-T5】[LSOT-4] Masuko or Haru？](/problem/P12009)
 - 夏日口袋 $\jp{Summer Pockets}$
+  - [P4935 口袋里的纸飞机](/problem/P4935)
   - [P11696 [JRKSJ ExR] 七影蝶](/problem/P11696)
+  - [UOJ431 【集训队作业2018】time map](https://uoj.ac/problem/431)
+- 向日葵 $\jp{ひまわり}$
+  - [UOJ1035 【UR #33】双子之争](https://uoj.ac/problem/1035)
 - 消融于夜色 $\jp{夜にとけてゆく}$
   - [P15418 「yrOI R1」消融于夜色](/problem/P15418)
 - 小林家的龙女仆 $\jp{小林さんちのメイドラゴン}$
@@ -665,6 +677,8 @@ Some other fun facts:
   - [P11365 [Ynoi2024] 新本格魔法少女りすか](/problem/P11365)
 - 新世纪福音战士 $\jp{新世紀エヴァンゲリオン}$
   - [P13699 「CyOI」YZZYWW：Doomed Doom](/problem/P13699)
+- 星空的记忆 $\jp{星空のメモリア}$
+  - [UOJ983 【UNR #9】星图](https://uoj.ac/problem/983)
 - 星光咖啡馆与死神之蝶 $\jp{喫茶ステラと死神の蝶}$
   - [P17078 夏日甜点](/problem/P17078)
 - 星空列车与白的旅行 $\jp{星空鉄道とシロの旅}$
@@ -691,6 +705,8 @@ Some other fun facts:
 - 银河英雄传说 $\jp{銀河英雄伝説}$
   - [P1196 [NOI2002] 银河英雄传说](/problem/P1196)
   - [P4847 银河英雄传说V2](/problem/P4847)
+- 银魂 $\jp{銀魂}$
+  - [UOJ182 【UR #12】a^-1 + b problem](https://uoj.ac/problem/182)
 - 樱花庄的宠物女孩 $\jp{さくら荘のペットな彼女}$
   - [P17695 椎名真白](/problem/P17695)
 - 樱花、萌放。-as the Night's, Reincarnation- $\jp{さくら、もゆ。-as the Night's, Reincarnation-}$
@@ -709,7 +725,9 @@ Some other fun facts:
   - [P14949 游戏人生](/problem/P14949)
   - [P16966 [SCCPC 2026] 献给空白的无败冠冕](/problem/P16966)
 - 约会大作战 $\jp{デート・ア・ライブ}$
+  - [P6380 『MdOI R2』Mayuri](/problem/P6380)
   - [P6749 『MdOI R3』Yoshino](/problem/P6749)
+  - [P7339 『MdOI R4』Kotori](/problem/P7339)
   - [P11657 「FAOI-R5」datealive](/problem/P11657)
 - 葬送的芙莉莲 $\jp{葬送のフリーレン}$
   - [P16928	聚魔石](/problem/P16928)
@@ -737,6 +755,8 @@ Some other fun facts:
   - [P7292 「EZEC-5」「KrOI2021」Chasse Neige 加强版](/problem/P7289)
 - 终将成为你 $\jp{やがて君になる}$
   - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
+- 咒术回战 $\jp{呪術廻戦}$
+  - [P13993 【MX-X19-T2】「LAOI-14」SPECIALZ](/problem/P13993)
 - 紫罗兰永恒花园 $\jp{ヴァイオレット・エヴァーガーデン}$
   - [P4965	薇尔莉特的打字机](/problem/P4965)
 - 【我推的孩子】 $\jp{【推しの子】}$
