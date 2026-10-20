@@ -95,11 +95,11 @@ class ApplyDifficultyTests(unittest.TestCase):
         report = apply_difficulties(
             dataset,
             luogu_difficulties={"P1": "提高", "P2": "省选/NOI−"},
-            extra_difficulties={"U1": "入门"},
+            extra_difficulties={"P2": "NOI/NOI+/CTS", "U1": "入门"},
             previous_difficulties={"P3": "普及"},
         )
         self.assertEqual(dataset["problems"]["P1"]["difficulty"], "提高")
-        self.assertEqual(dataset["problems"]["P2"]["difficulty"], "省选/NOI−")
+        self.assertEqual(dataset["problems"]["P2"]["difficulty"], "NOI/NOI+/CTS")
         self.assertEqual(dataset["problems"]["P3"]["difficulty"], "普及")
         self.assertEqual(dataset["problems"]["U1"]["difficulty"], "入门")
         self.assertEqual(dataset["problems"]["Q1"]["difficulty"], UNSET_DIFFICULTY)
@@ -107,6 +107,24 @@ class ApplyDifficultyTests(unittest.TestCase):
         self.assertEqual(report.missing_extra, ["Q1"])
         self.assertEqual(report.used_previous, ["P3"])
         self.assertEqual(report.counts[UNSET_DIFFICULTY], 1)
+
+    def test_manual_override_fills_a_luogu_gap(self) -> None:
+        dataset = {
+            "problems": {
+                "P1": {"oj": "luogu"},
+                "P2": {"oj": "luogu"},
+            }
+        }
+        report = apply_difficulties(
+            dataset,
+            luogu_difficulties={"P1": "提高"},
+            extra_difficulties={"P2": "省选/NOI−"},
+        )
+        self.assertEqual(dataset["problems"]["P1"]["difficulty"], "提高")
+        self.assertEqual(dataset["problems"]["P2"]["difficulty"], "省选/NOI−")
+        self.assertEqual(report.missing_luogu, [])
+        self.assertEqual(report.missing_extra, [])
+        self.assertEqual(report.used_previous, [])
 
     def test_previous_labels_are_read_from_a_dataset(self) -> None:
         dataset = {

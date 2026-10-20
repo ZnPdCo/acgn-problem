@@ -116,7 +116,7 @@ test('problem-count achievements use the configured difficulty thresholds', () =
   }
 
   const categories = ACHIEVEMENTS.filter((achievement) => achievement.metric === 'tag')
-  assert.ok(categories.every((achievement) => achievement.threshold === 50))
+  assert.ok(categories.every((achievement) => achievement.threshold === 30))
 
   const growth = ACHIEVEMENTS.filter(
     (achievement) => achievement.metric === 'weightedSolved',

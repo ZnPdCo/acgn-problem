@@ -87,3 +87,9 @@ test('Luogu difficulties are populated when the problem is in the snapshot', () 
   assert.ok(withDifficulty.length > 0)
   assert.ok(withDifficulty.length >= luogu.length * 0.9)
 })
+
+test('manual Luogu overrides fill snapshot gaps', () => {
+  assert.equal(dataset.problems.P15851.difficulty, 'NOI/NOI+/CTS')
+  assert.equal(dataset.problems.P8489.difficulty, '省选/NOI−')
+  assert.equal(dataset.problems.P4691.difficulty, '省选/NOI−')
+})

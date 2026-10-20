@@ -121,18 +121,18 @@ test('weightToNext is based on difficulty points', () => {
 test('tag achievements count weighted points across tagged works', () => {
   const stats = computeStats(dataset, index, { P1: now, P2: now }, tagMap)
   const key = stats.achievements.find((item) => item.id === 'key')
-  assert.equal(key.progress, '4 / 50 点')
+  assert.equal(key.progress, '4 / 30 点')
   assert.equal(key.unlocked, false)
   const touhou = stats.achievements.find((item) => item.id === 'touhou')
-  assert.equal(touhou.progress, '3 / 50 点')
+  assert.equal(touhou.progress, '3 / 30 点')
   const galgame = stats.achievements.find((item) => item.id === 'category-galgame')
-  assert.equal(galgame.progress, '4 / 50 点')
+  assert.equal(galgame.progress, '4 / 30 点')
 })
 
 test('tag achievements stay locked when no tag map is loaded', () => {
   const stats = computeStats(dataset, index, { P1: now, P2: now })
   const key = stats.achievements.find((item) => item.id === 'key')
-  assert.equal(key.progress, '0 / 50 点')
+  assert.equal(key.progress, '0 / 30 点')
 })
 
 test('does not expose time-based statistics', () => {

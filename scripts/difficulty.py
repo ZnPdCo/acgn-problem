@@ -7,7 +7,9 @@ temporary directory, streamed line by line, and deleted automatically; it is
 never committed.
 
 UOJ and QOJ problems have no comparable public difficulty feed, so their
-labels come from the manually maintained ``data/difficulty.json``.
+labels come from the manually maintained ``data/difficulty.json``.  The same
+file can also override Luogu labels or fill Luogu problems that are missing
+from the snapshot (for example, very new problems).
 """
 
 from __future__ import annotations
@@ -169,7 +171,11 @@ def apply_difficulties(
     extra_difficulties: dict[str, str] | None = None,
     previous_difficulties: dict[str, str] | None = None,
 ) -> DifficultyReport:
-    """Write ``problems[*].difficulty`` and return a small report."""
+    """Write ``problems[*].difficulty`` and return a small report.
+
+    Manual entries win for every OJ.  Luogu then falls back to its snapshot and
+    finally to the label already present in the previous dataset.
+    """
 
     problems = dataset.get("problems")
     if not isinstance(problems, dict):
@@ -185,16 +191,16 @@ def apply_difficulties(
         if not isinstance(problem, dict):
             raise DifficultyError(f"problem {key!r} is not an object")
         oj = problem.get("oj")
-        if oj == "luogu":
-            label = luogu_difficulties.get(key)
-            if label is None:
-                report.missing_luogu.append(key)
-                label = previous_difficulties.get(key)
-                if label is not None:
-                    report.used_previous.append(key)
-        else:
-            label = extra_difficulties.get(key)
-            if label is None:
+        label = extra_difficulties.get(key)
+        if label is None:
+            if oj == "luogu":
+                label = luogu_difficulties.get(key)
+                if label is None:
+                    report.missing_luogu.append(key)
+                    label = previous_difficulties.get(key)
+                    if label is not None:
+                        report.used_previous.append(key)
+            else:
                 report.missing_extra.append(key)
 
         label = normalize_difficulty(label)

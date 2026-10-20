@@ -116,7 +116,7 @@ def main(argv: list[str] | None = None) -> int:
         "--difficulty-file",
         type=Path,
         default=DEFAULT_DIFFICULTY_FILE,
-        help="manual UOJ/QOJ difficulty mapping (default: data/difficulty.json)",
+        help="manual difficulty overrides for UOJ/QOJ and Luogu snapshot gaps (default: data/difficulty.json)",
     )
     parser.add_argument(
         "--difficulty-url",
@@ -132,7 +132,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--skip-difficulty",
         action="store_true",
-        help="do not download the Luogu difficulty snapshot; keep previous labels",
+        help="do not download the Luogu difficulty snapshot; keep previous labels and apply manual overrides",
     )
     parser.add_argument(
         "--raw-output",
@@ -303,7 +303,8 @@ def main(argv: list[str] | None = None) -> int:
         more = " ..." if len(difficulty_report.missing_luogu) > 12 else ""
         print(
             f"warning: {len(difficulty_report.missing_luogu)} Luogu problem(s) "
-            f"not found in the difficulty snapshot: {preview}{more}",
+            f"not found in the difficulty snapshot or {args.difficulty_file}: "
+            f"{preview}{more}",
             file=sys.stderr,
         )
     if difficulty_report.missing_extra:

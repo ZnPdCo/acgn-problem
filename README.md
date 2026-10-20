@@ -54,7 +54,7 @@ https://uoj.ac/problem/1094
 
 浓度公式：`min(100, 已获得难度点 / (总难度点 × 50%) × 100)`。因此不需要全清也能满浓度。
 
-题材成就需要 50 **难度点**；成长成就档位为 1 / 100 / 300 / 500 / 700 / 1000 **难度点**；作品数成就仍按作品数计算。
+题材成就需要 30 **难度点**；成长成就档位为 1 / 100 / 300 / 500 / 700 / 1000 **难度点**；作品数成就仍按作品数计算。
 
 看板**不做任何基于时间的统计**。用户通常一次性导入大量题目，导入时间不代表真实 AC 时间，因此没有「最近 AC」「连续打卡」「签到」「修仙模式」等功能。
 
@@ -108,16 +108,17 @@ https://cdn.luogu.com.cn/problemset-open/latest.ndjson.gz
 
 `update.py` 会把它下载到系统临时目录，流式读取 `pid` 和 `difficulty` 后立即删除，不会提交进仓库。
 
-UOJ / QOJ 没有同类的公开难度源，使用 [data/difficulty.json](data/difficulty.json) 手动维护：
+UOJ / QOJ 没有同类的公开难度源；洛谷快照里缺失的题目也可以用同一个文件手动补。使用 [data/difficulty.json](data/difficulty.json) 手动维护：
 
 ```json
 {
+  "P15851": "NOI/NOI+/CTS",
   "UOJ1094": "提高",
   "QOJ18255": "省选/NOI−"
 }
 ```
 
-值可以写难度名称，也可以写洛谷的数字等级 `0`–`8`；空字符串表示未设置。没有配置的题目会写为「未设置难度」。
+值可以写难度名称，也可以写洛谷的数字等级 `0`–`8`；空字符串表示未设置。手动值优先于洛谷快照；洛谷题在快照缺失时使用手动值，仍未配置则写为「未设置难度」。
 
 难度顺序：
 
@@ -161,7 +162,7 @@ python scripts/update.py
 - `web/public/data/tags.json`：作品 → tag 列表，新增作品自动追加为空列表；
 - `web/public/data/acgn.json`：前端题目数据（不包含 tag，包含每道题的 `difficulty`）。
 
-运行时还会下载洛谷难度快照到系统临时目录，读取后删除；UOJ / QOJ 的难度从 `data/difficulty.json` 读取。修改难度文件后重新运行 `update.py` 即可写入 `acgn.json`。
+运行时还会下载洛谷难度快照到系统临时目录，读取后删除；UOJ / QOJ 的难度和洛谷快照缺失题目的补录值从 `data/difficulty.json` 读取。修改难度文件后重新运行 `update.py` 即可写入 `acgn.json`。
 
 离线解析本地 Markdown：
 
@@ -170,7 +171,7 @@ python scripts/update.py --from-file path/to/article.md --allow-shrink \
   --skip-difficulty --output .tmp/acgn.json
 ```
 
-`--skip-difficulty` 不会联网，只沿用输出文件中已有的洛谷难度；没有旧数据时写为「未设置难度」。
+`--skip-difficulty` 不会联网，洛谷难度沿用输出文件中已有的值，手动覆盖仍会应用；没有旧数据时写为「未设置难度」。
 
 ### 测试
 
@@ -186,13 +187,13 @@ cd web && npm test
 ├── .github/workflows/update-and-deploy.yml  # 定时抓取 + Pages 部署
 ├── data/
 │   ├── article.md                           # 最近一次抓取的原文快照
-│   └── difficulty.json                      # UOJ / QOJ 手动难度
+│   └── difficulty.json                      # 手动难度覆盖（UOJ/QOJ、洛谷补录）
 ├── scripts/
 │   ├── fetch_article.py                     # 抓取 lentille-context 中的 Markdown
 │   ├── acgn_parser.py                       # Markdown → 最小结构化数据
 │   ├── work_tags.py                         # 标签文件读写 / 合并
 │   ├── sync_tags.py                         # 同步作品列表与 tags.json
-│   ├── difficulty.py                        # 洛谷难度快照 + UOJ/QOJ 难度
+│   ├── difficulty.py                        # 洛谷难度快照 + 手动难度覆盖
 │   └── update.py                            # 抓取 + 解析 + 写文件
 ├── tests/                                   # Python 单元测试
 └── web/
