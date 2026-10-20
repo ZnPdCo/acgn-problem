@@ -94,7 +94,12 @@ function rankThreshold(min) {
             </div>
           </div>
 
-          <div class="ui small teal progress" :title="`${percentText}%`">
+          <!-- Fomantic hides non-empty bars when data-percent is absent (no JS init here). -->
+          <div
+            class="ui small teal progress"
+            :data-percent="progress"
+            :title="`${percentText}%`"
+          >
             <div class="bar" :style="{ width: `${progress}%` }">
               <div class="progress">{{ percentText }}%</div>
             </div>
