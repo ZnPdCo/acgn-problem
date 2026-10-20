@@ -7,6 +7,7 @@ import {
   UNSET_DIFFICULTY,
   difficultyColor,
   difficultyLabel,
+  difficultyStyle,
   difficultyWeight,
 } from '../src/lib/difficulty.js'
 
@@ -56,9 +57,28 @@ test('difficulty weights rise with difficulty and have a safe fallback', () => {
   assert.equal(difficultyWeight(UNSET_DIFFICULTY), 1)
   assert.equal(difficultyWeight('unknown'), 1)
   assert.equal(difficultyLabel(''), UNSET_DIFFICULTY)
-  assert.equal(difficultyColor('NOI/NOI+/CTS'), 'red')
-  assert.equal(difficultyColor(UNSET_DIFFICULTY), '')
   assert.equal(DIFFICULTY_WEIGHTS['暂无评定'], 1)
+})
+
+test('difficulty colors use the project palette', () => {
+  const expected = {
+    '暂无评定': 'rgb(191, 191, 191)',
+    '入门': 'rgb(254, 76, 97)',
+    '普及−': 'rgb(243, 156, 17)',
+    '普及': 'rgb(255, 193, 22)',
+    '普及+/提高−': 'rgb(82, 196, 26)',
+    '提高': 'rgb(19, 194, 194)',
+    '提高+/省选−': 'rgb(52, 152, 219)',
+    '省选/NOI−': 'rgb(157, 61, 207)',
+    'NOI/NOI+/CTS': 'rgb(14, 29, 105)',
+    [UNSET_DIFFICULTY]: 'rgb(191, 191, 191)',
+  }
+  for (const [label, color] of Object.entries(expected)) {
+    assert.equal(difficultyColor(label), color)
+  }
+  assert.equal(difficultyColor('unknown'), 'rgb(191, 191, 191)')
+  assert.equal(difficultyStyle('入门').color, '#fff')
+  assert.equal(difficultyStyle('普及').color, 'rgba(0, 0, 0, 0.7)')
 })
 
 test('Luogu difficulties are populated when the problem is in the snapshot', () => {

@@ -22,15 +22,23 @@ export const DIFFICULTY_WEIGHTS = Object.freeze({
 })
 
 const DIFFICULTY_COLORS = Object.freeze({
-  '入门': 'green',
-  '普及−': 'teal',
-  '普及': 'teal',
-  '普及+/提高−': 'blue',
-  '提高': 'blue',
-  '提高+/省选−': 'olive',
-  '省选/NOI−': 'orange',
-  'NOI/NOI+/CTS': 'red',
+  '暂无评定': 'rgb(191, 191, 191)',
+  '入门': 'rgb(254, 76, 97)',
+  '普及−': 'rgb(243, 156, 17)',
+  '普及': 'rgb(255, 193, 22)',
+  '普及+/提高−': 'rgb(82, 196, 26)',
+  '提高': 'rgb(19, 194, 194)',
+  '提高+/省选−': 'rgb(52, 152, 219)',
+  '省选/NOI−': 'rgb(157, 61, 207)',
+  'NOI/NOI+/CTS': 'rgb(14, 29, 105)',
+  [UNSET_DIFFICULTY]: 'rgb(191, 191, 191)',
 })
+
+const DARK_TEXT_DIFFICULTIES = new Set([
+  UNSET_DIFFICULTY,
+  '暂无评定',
+  '普及',
+])
 
 export function difficultyLabel(difficulty) {
   return difficulty || UNSET_DIFFICULTY
@@ -41,7 +49,20 @@ export function difficultyWeight(difficulty) {
 }
 
 export function difficultyColor(difficulty) {
-  return DIFFICULTY_COLORS[difficulty] ?? ''
+  return DIFFICULTY_COLORS[difficulty] ?? DIFFICULTY_COLORS[UNSET_DIFFICULTY]
+}
+
+export function difficultyTextColor(difficulty) {
+  return DARK_TEXT_DIFFICULTIES.has(difficultyLabel(difficulty))
+    ? 'rgba(0, 0, 0, 0.7)'
+    : '#fff'
+}
+
+export function difficultyStyle(difficulty) {
+  return {
+    backgroundColor: difficultyColor(difficulty),
+    color: difficultyTextColor(difficulty),
+  }
 }
 
 export function difficultyTitle(difficulty) {

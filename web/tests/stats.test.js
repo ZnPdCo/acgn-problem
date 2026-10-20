@@ -61,7 +61,6 @@ test('concentration uses difficulty-weighted unique problems', () => {
   assert.equal(stats.touchedWorkCount, 1)
   assert.equal(stats.ojStats.find((oj) => oj.key === 'luogu').solved, 1)
   assert.equal(stats.achievements.find((item) => item.id === 'first').unlocked, true)
-  assert.equal(stats.achievements.find((item) => item.id === 'complete').unlocked, false)
 })
 
 test('concentration reaches 100% at half of the total difficulty weight', () => {
@@ -96,7 +95,6 @@ test('concentration reaches 100% at half of the total difficulty weight', () => 
   assert.equal(stats.totalWeight, 2)
   assert.equal(stats.targetWeight, 1)
   assert.equal(stats.concentration, 100)
-  assert.equal(stats.achievements.find((item) => item.id === 'complete').unlocked, false)
 })
 
 test('a multi-work problem lights up every column but counts once', () => {
@@ -105,7 +103,6 @@ test('a multi-work problem lights up every column but counts once', () => {
   assert.equal(stats.solvedWeight, 9)
   assert.equal(stats.concentration, 100)
   assert.equal(stats.achievements.find((item) => item.id === 'works3').unlocked, true)
-  assert.equal(stats.achievements.find((item) => item.id === 'complete').unlocked, true)
 })
 
 test('a multi-work problem contributes its difficulty weight once', () => {
@@ -124,18 +121,18 @@ test('weightToNext is based on difficulty points', () => {
 test('tag achievements count weighted points across tagged works', () => {
   const stats = computeStats(dataset, index, { P1: now, P2: now }, tagMap)
   const key = stats.achievements.find((item) => item.id === 'key')
-  assert.equal(key.progress, '4 / 10 点')
+  assert.equal(key.progress, '4 / 50 点')
   assert.equal(key.unlocked, false)
   const touhou = stats.achievements.find((item) => item.id === 'touhou')
-  assert.equal(touhou.progress, '3 / 10 点')
+  assert.equal(touhou.progress, '3 / 50 点')
   const galgame = stats.achievements.find((item) => item.id === 'category-galgame')
-  assert.equal(galgame.progress, '4 / 10 点')
+  assert.equal(galgame.progress, '4 / 50 点')
 })
 
 test('tag achievements stay locked when no tag map is loaded', () => {
   const stats = computeStats(dataset, index, { P1: now, P2: now })
   const key = stats.achievements.find((item) => item.id === 'key')
-  assert.equal(key.progress, '0 / 10 点')
+  assert.equal(key.progress, '0 / 50 点')
 })
 
 test('does not expose time-based statistics', () => {

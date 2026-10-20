@@ -2,8 +2,8 @@
 import { computed, ref, watch } from 'vue'
 import { displayWorkFor } from '../lib/dataset.js'
 import {
-  difficultyColor,
   difficultyLabel,
+  difficultyStyle,
   difficultyTitle,
 } from '../lib/difficulty.js'
 import { formatWeight } from '../lib/format.js'
@@ -79,11 +79,6 @@ function markRecommended() {
 function rankThreshold(min) {
   return min > 0 && min < 0.01 ? '> 0%' : `${min}%`
 }
-
-function difficultyClass(difficulty) {
-  const color = difficultyColor(difficulty)
-  return color ? `ui mini ${color} label` : 'ui mini basic label'
-}
 </script>
 
 <template>
@@ -116,12 +111,6 @@ function difficultyClass(difficulty) {
             </div>
           </div>
 
-          <p class="muted-text weight-line">
-            难度点 {{ formatWeight(stats.solvedWeight) }} /
-            {{ formatWeight(stats.totalWeight) }}
-            · 满浓度目标 {{ formatWeight(stats.targetWeight) }}
-          </p>
-
           <p v-if="stats.nextRank" class="muted-text">
             再获得 <strong>{{ formatWeight(stats.weightToNext) }}</strong> 难度点，晋级
             <strong>{{ stats.nextRank.name }}</strong>
@@ -138,9 +127,27 @@ function difficultyClass(difficulty) {
       </div>
 
       <div class="ten wide column">
-        <div class="ui three column stackable grid">
+        <div class="ui two column stackable grid dashboard-stat-grid">
           <div class="column">
-            <div class="ui segment">
+            <div class="ui segment dashboard-stat-card">
+              <div class="ui small statistic">
+                <div class="value">
+                  {{ formatWeight(stats.solvedWeight) }}<span class="stat-suffix">/ {{ formatWeight(stats.targetWeight) }}</span>
+                </div>
+                <div class="label">难度点</div>
+              </div>
+              <div class="ui mini progress">
+                <div class="bar" :style="{ width: `${progress}%` }"></div>
+              </div>
+              <p class="muted-text">
+                总难度点 {{ formatWeight(stats.totalWeight) }}
+                · 满浓度目标 {{ formatWeight(stats.targetWeight) }}
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="ui segment dashboard-stat-card">
               <div class="ui small statistic">
                 <div class="value">
                   {{ stats.solvedCount }}<span class="stat-suffix">/ {{ stats.problemCount }}</span>
@@ -150,15 +157,12 @@ function difficultyClass(difficulty) {
               <div class="ui mini progress">
                 <div class="bar" :style="{ width: `${Math.min(100, stats.uniquePercent)}%` }"></div>
               </div>
-              <p class="muted-text">
-                题目完成度 {{ stats.uniquePercent.toFixed(1) }}%
-                · 难度点 {{ formatWeight(stats.solvedWeight) }}
-              </p>
+              <p class="muted-text">题目完成度 {{ stats.uniquePercent.toFixed(1) }}%</p>
             </div>
           </div>
 
           <div class="column">
-            <div class="ui segment">
+            <div class="ui segment dashboard-stat-card">
               <div class="ui small statistic">
                 <div class="value">
                   {{ stats.touchedWorkCount }}<span class="stat-suffix">/ {{ stats.workCount }}</span>
@@ -178,7 +182,7 @@ function difficultyClass(difficulty) {
           </div>
 
           <div class="column">
-            <div class="ui segment">
+            <div class="ui segment dashboard-stat-card">
               <div class="ui small statistic">
                 <div class="value">
                   {{ stats.unlockedAchievements }}<span class="stat-suffix">/ {{ stats.achievementCount }}</span>
@@ -249,8 +253,8 @@ function difficultyClass(difficulty) {
               <span class="ui mini label">{{ recommended.problem.key }}</span>
               <span class="ui mini blue label">{{ recommended.problem.ojName }}</span>
               <span
-                class="ui mini label"
-                :class="difficultyClass(recommended.problem.difficulty)"
+                class="ui mini label difficulty-label"
+                :style="difficultyStyle(recommended.problem.difficulty)"
                 :title="difficultyTitle(recommended.problem.difficulty)"
               >
                 {{ difficultyLabel(recommended.problem.difficulty) }}

@@ -3,8 +3,8 @@ import { computed, ref } from 'vue'
 import { useSolved } from '../composables/useSolved.js'
 import { normalizeSearch, ojMeta } from '../lib/dataset.js'
 import {
-  difficultyColor,
   difficultyLabel,
+  difficultyStyle,
   difficultyTitle,
 } from '../lib/difficulty.js'
 
@@ -109,11 +109,6 @@ function ojColor(oj) {
   if (oj === 'uoj') return 'teal'
   if (oj === 'qoj') return 'purple'
   return ''
-}
-
-function difficultyClass(difficulty) {
-  const color = difficultyColor(difficulty)
-  return color ? `ui mini ${color} label` : 'ui mini basic label'
 }
 
 function filterByWork(work) {
@@ -273,8 +268,8 @@ function resetFilters() {
 
                 <td class="difficulty-cell">
                   <span
-                    class="ui mini label"
-                    :class="difficultyClass(row.problem.difficulty)"
+                    class="ui mini label difficulty-label"
+                    :style="difficultyStyle(row.problem.difficulty)"
                     :title="difficultyTitle(row.problem.difficulty)"
                   >
                     {{ difficultyLabel(row.problem.difficulty) }}

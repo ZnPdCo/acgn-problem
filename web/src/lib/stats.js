@@ -112,10 +112,8 @@ export function computeStats(dataset, index, solved, tagMap = {}) {
   })
 
   const metrics = {
-    solvedCount: validSolvedKeys.length,
     weightedSolved: solvedWeight,
     touchedWorkCount: touchedWorks.length,
-    problemCount: index.problemCount,
   }
   const tagMetricCache = new Map()
 
@@ -139,8 +137,7 @@ export function computeStats(dataset, index, solved, tagMap = {}) {
       value = metrics[config.metric] ?? 0
     }
 
-    const threshold =
-      config.threshold === 'problemCount' ? index.problemCount : config.threshold
+    const threshold = config.threshold
     const weighted = config.metric === 'weightedSolved' || config.metric === 'tag'
     const unit = config.unit ?? (weighted ? ' 点' : '')
     const shownValue = Math.min(value, threshold)

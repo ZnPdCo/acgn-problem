@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { ACHIEVEMENTS } from '../src/lib/achievements.js'
-import { difficultyWeight } from '../src/lib/difficulty.js'
+import { UNSET_DIFFICULTY, difficultyWeight } from '../src/lib/difficulty.js'
 
 const dataset = JSON.parse(
   readFileSync(fileURLToPath(new URL('../public/data/acgn.json', import.meta.url)), 'utf8'),
@@ -35,7 +35,7 @@ test('all achievement definitions live in one external config', () => {
   assert.ok(ACHIEVEMENTS.length >= 10)
   assert.ok(ACHIEVEMENTS.some((achievement) => achievement.id === 'category-yuri'))
   assert.ok(ACHIEVEMENTS.some((achievement) => achievement.id === 'category-galgame'))
-  assert.ok(ACHIEVEMENTS.some((achievement) => achievement.id === 'complete'))
+  assert.equal(ACHIEVEMENTS.some((achievement) => achievement.id === 'complete'), false)
 })
 
 test('tag definitions use unique slugs', () => {
@@ -75,7 +75,7 @@ test('untagged works are listed after tagged ones', () => {
   )
 })
 
-test('every tag achievement is reachable with the current tags', () => {
+test('every tag achievement is reachable with the current tags or unset difficulties', () => {
   const taggedKeys = new Map()
   for (const work of dataset.works) {
     for (const tag of tagMap[work.name] ?? []) {
@@ -87,18 +87,25 @@ test('every tag achievement is reachable with the current tags', () => {
   }
   for (const achievement of ACHIEVEMENTS) {
     if (achievement.metric !== 'tag') continue
-    let total = 0
+    let known = 0
+    let unset = 0
     for (const key of taggedKeys.get(achievement.tag) ?? []) {
-      total += difficultyWeight(dataset.problems[key]?.difficulty)
+      const difficulty = dataset.problems[key]?.difficulty
+      if (difficulty === UNSET_DIFFICULTY) {
+        unset += 1
+      } else {
+        known += difficultyWeight(difficulty)
+      }
     }
+    const maxPossible = known + unset * difficultyWeight('NOI/NOI+/CTS')
     assert.ok(
-      total >= achievement.threshold,
-      `${achievement.name} only has ${total} difficulty points, threshold is ${achievement.threshold}`,
+      maxPossible >= achievement.threshold,
+      `${achievement.name} can only reach ${maxPossible} difficulty points, threshold is ${achievement.threshold}`,
     )
   }
 })
 
-test('problem-count achievements use difficulty points', () => {
+test('problem-count achievements use the configured difficulty thresholds', () => {
   const weighted = ACHIEVEMENTS.filter(
     (achievement) =>
       achievement.metric === 'weightedSolved' || achievement.metric === 'tag',
@@ -107,9 +114,16 @@ test('problem-count achievements use difficulty points', () => {
   for (const achievement of weighted) {
     assert.equal(achievement.unit, ' 点', `${achievement.name} should use points`)
   }
-  assert.equal(
-    ACHIEVEMENTS.find((achievement) => achievement.id === 'complete').metric,
-    'solvedCount',
+
+  const categories = ACHIEVEMENTS.filter((achievement) => achievement.metric === 'tag')
+  assert.ok(categories.every((achievement) => achievement.threshold === 50))
+
+  const growth = ACHIEVEMENTS.filter(
+    (achievement) => achievement.metric === 'weightedSolved',
+  )
+  assert.deepEqual(
+    growth.map((achievement) => achievement.threshold),
+    [1, 100, 300, 500, 700, 1000],
   )
 })
 
