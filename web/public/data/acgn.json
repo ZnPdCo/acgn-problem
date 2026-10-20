@@ -3298,7 +3298,8 @@
       "url": "https://www.luogu.com.cn/problem/P12533",
       "works": [
         "wb29bf516"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "UOJ1094": {
       "key": "UOJ1094",
@@ -3309,7 +3310,8 @@
       "url": "https://uoj.ac/problem/1094",
       "works": [
         "w956b247a"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "UOJ1095": {
       "key": "UOJ1095",
@@ -3320,7 +3322,8 @@
       "url": "https://uoj.ac/problem/1095",
       "works": [
         "w956b247a"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P11660": {
       "key": "P11660",
@@ -3331,7 +3334,8 @@
       "url": "https://www.luogu.com.cn/problem/P11660",
       "works": [
         "wa7e20c8e"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P12411": {
       "key": "P12411",
@@ -3342,7 +3346,8 @@
       "url": "https://www.luogu.com.cn/problem/P12411",
       "works": [
         "wa7e20c8e"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P14200": {
       "key": "P14200",
@@ -3353,7 +3358,8 @@
       "url": "https://www.luogu.com.cn/problem/P14200",
       "works": [
         "wa7e20c8e"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P14201": {
       "key": "P14201",
@@ -3364,7 +3370,8 @@
       "url": "https://www.luogu.com.cn/problem/P14201",
       "works": [
         "wa7e20c8e"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P14203": {
       "key": "P14203",
@@ -3375,7 +3382,8 @@
       "url": "https://www.luogu.com.cn/problem/P14203",
       "works": [
         "wa7e20c8e"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17629": {
       "key": "P17629",
@@ -3386,7 +3394,8 @@
       "url": "https://www.luogu.com.cn/problem/P17629",
       "works": [
         "wa7e20c8e"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P17630": {
       "key": "P17630",
@@ -3397,7 +3406,8 @@
       "url": "https://www.luogu.com.cn/problem/P17630",
       "works": [
         "wa7e20c8e"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6038": {
       "key": "P6038",
@@ -3408,7 +3418,8 @@
       "url": "https://www.luogu.com.cn/problem/P6038",
       "works": [
         "w81461713"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6039": {
       "key": "P6039",
@@ -3419,7 +3430,8 @@
       "url": "https://www.luogu.com.cn/problem/P6039",
       "works": [
         "w81461713"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P6040": {
       "key": "P6040",
@@ -3430,7 +3442,8 @@
       "url": "https://www.luogu.com.cn/problem/P6040",
       "works": [
         "w81461713"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P6041": {
       "key": "P6041",
@@ -3441,7 +3454,8 @@
       "url": "https://www.luogu.com.cn/problem/P6041",
       "works": [
         "w81461713"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6042": {
       "key": "P6042",
@@ -3452,7 +3466,8 @@
       "url": "https://www.luogu.com.cn/problem/P6042",
       "works": [
         "w81461713"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6043": {
       "key": "P6043",
@@ -3463,7 +3478,8 @@
       "url": "https://www.luogu.com.cn/problem/P6043",
       "works": [
         "w81461713"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P3694": {
       "key": "P3694",
@@ -3474,7 +3490,8 @@
       "url": "https://www.luogu.com.cn/problem/P3694",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P11472": {
       "key": "P11472",
@@ -3486,7 +3503,8 @@
       "works": [
         "w4fd4d88a",
         "w1b4549a4"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P12539": {
       "key": "P12539",
@@ -3498,7 +3516,8 @@
       "works": [
         "w4fd4d88a",
         "wf973d35a"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P14316": {
       "key": "P14316",
@@ -3509,7 +3528,8 @@
       "url": "https://www.luogu.com.cn/problem/P14316",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P14513": {
       "key": "P14513",
@@ -3520,7 +3540,8 @@
       "url": "https://www.luogu.com.cn/problem/P14513",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P14582": {
       "key": "P14582",
@@ -3531,7 +3552,8 @@
       "url": "https://www.luogu.com.cn/problem/P14582",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P14754": {
       "key": "P14754",
@@ -3542,7 +3564,8 @@
       "url": "https://www.luogu.com.cn/problem/P14754",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P14962": {
       "key": "P14962",
@@ -3553,7 +3576,8 @@
       "url": "https://www.luogu.com.cn/problem/P14962",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P15650": {
       "key": "P15650",
@@ -3564,7 +3588,8 @@
       "url": "https://www.luogu.com.cn/problem/P15650",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17626": {
       "key": "P17626",
@@ -3575,7 +3600,8 @@
       "url": "https://www.luogu.com.cn/problem/P17626",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P17632": {
       "key": "P17632",
@@ -3586,7 +3612,8 @@
       "url": "https://www.luogu.com.cn/problem/P17632",
       "works": [
         "w4fd4d88a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P16331": {
       "key": "P16331",
@@ -3597,7 +3624,8 @@
       "url": "https://www.luogu.com.cn/problem/P16331",
       "works": [
         "w748b6f69"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P1936": {
       "key": "P1936",
@@ -3608,7 +3636,8 @@
       "url": "https://www.luogu.com.cn/problem/P1936",
       "works": [
         "w3acde2c8"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P4542": {
       "key": "P4542",
@@ -3619,7 +3648,8 @@
       "url": "https://www.luogu.com.cn/problem/P4542",
       "works": [
         "w3acde2c8"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4679": {
       "key": "P4679",
@@ -3630,7 +3660,8 @@
       "url": "https://www.luogu.com.cn/problem/P4679",
       "works": [
         "w3acde2c8"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6494": {
       "key": "P6494",
@@ -3641,7 +3672,8 @@
       "url": "https://www.luogu.com.cn/problem/P6494",
       "works": [
         "w3acde2c8"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P13084": {
       "key": "P13084",
@@ -3652,7 +3684,8 @@
       "url": "https://www.luogu.com.cn/problem/P13084",
       "works": [
         "w3acde2c8"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P15844": {
       "key": "P15844",
@@ -3663,7 +3696,8 @@
       "url": "https://www.luogu.com.cn/problem/P15844",
       "works": [
         "w3acde2c8"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P15417": {
       "key": "P15417",
@@ -3674,7 +3708,8 @@
       "url": "https://www.luogu.com.cn/problem/P15417",
       "works": [
         "w0aac4cab"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P16963": {
       "key": "P16963",
@@ -3685,7 +3720,8 @@
       "url": "https://www.luogu.com.cn/problem/P16963",
       "works": [
         "w3b7c192a"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P4828": {
       "key": "P4828",
@@ -3696,7 +3732,8 @@
       "url": "https://www.luogu.com.cn/problem/P4828",
       "works": [
         "w1752a86a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6559": {
       "key": "P6559",
@@ -3707,7 +3744,8 @@
       "url": "https://www.luogu.com.cn/problem/P6559",
       "works": [
         "w1752a86a"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P6560": {
       "key": "P6560",
@@ -3718,7 +3756,8 @@
       "url": "https://www.luogu.com.cn/problem/P6560",
       "works": [
         "w1752a86a"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P6561": {
       "key": "P6561",
@@ -3729,7 +3768,8 @@
       "url": "https://www.luogu.com.cn/problem/P6561",
       "works": [
         "w1752a86a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6563": {
       "key": "P6563",
@@ -3740,7 +3780,8 @@
       "url": "https://www.luogu.com.cn/problem/P6563",
       "works": [
         "w1752a86a"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P16326": {
       "key": "P16326",
@@ -3751,7 +3792,8 @@
       "url": "https://www.luogu.com.cn/problem/P16326",
       "works": [
         "w4cf8a6e1"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P17496": {
       "key": "P17496",
@@ -3762,7 +3804,8 @@
       "url": "https://www.luogu.com.cn/problem/P17496",
       "works": [
         "w4cf8a6e1"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P17498": {
       "key": "P17498",
@@ -3773,7 +3816,8 @@
       "url": "https://www.luogu.com.cn/problem/P17498",
       "works": [
         "w4cf8a6e1"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17500": {
       "key": "P17500",
@@ -3784,7 +3828,8 @@
       "url": "https://www.luogu.com.cn/problem/P17500",
       "works": [
         "w4cf8a6e1"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P17503": {
       "key": "P17503",
@@ -3795,7 +3840,8 @@
       "url": "https://www.luogu.com.cn/problem/P17503",
       "works": [
         "w4cf8a6e1"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P17505": {
       "key": "P17505",
@@ -3806,7 +3852,8 @@
       "url": "https://www.luogu.com.cn/problem/P17505",
       "works": [
         "w4cf8a6e1"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17529": {
       "key": "P17529",
@@ -3817,7 +3864,8 @@
       "url": "https://www.luogu.com.cn/problem/P17529",
       "works": [
         "w4cf8a6e1"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "QOJ18255": {
       "key": "QOJ18255",
@@ -3831,7 +3879,8 @@
         "w7904333b",
         "wed555f35",
         "wb6a2ec6b"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "UOJ984": {
       "key": "UOJ984",
@@ -3842,7 +3891,8 @@
       "url": "https://uoj.ac/problem/984",
       "works": [
         "w65d77feb"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P9336": {
       "key": "P9336",
@@ -3853,7 +3903,8 @@
       "url": "https://www.luogu.com.cn/problem/P9336",
       "works": [
         "w7f200b2e"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P12007": {
       "key": "P12007",
@@ -3864,7 +3915,8 @@
       "url": "https://www.luogu.com.cn/problem/P12007",
       "works": [
         "w6f588074"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P12011": {
       "key": "P12011",
@@ -3875,7 +3927,8 @@
       "url": "https://www.luogu.com.cn/problem/P12011",
       "works": [
         "w8b8f1040"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P14250": {
       "key": "P14250",
@@ -3886,7 +3939,8 @@
       "url": "https://www.luogu.com.cn/problem/P14250",
       "works": [
         "wbabdb600"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "B3655": {
       "key": "B3655",
@@ -3897,7 +3951,8 @@
       "url": "https://www.luogu.com.cn/problem/B3655",
       "works": [
         "wfc4307c1"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "B3705": {
       "key": "B3705",
@@ -3908,7 +3963,8 @@
       "url": "https://www.luogu.com.cn/problem/B3705",
       "works": [
         "wfc4307c1"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P6879": {
       "key": "P6879",
@@ -3919,7 +3975,8 @@
       "url": "https://www.luogu.com.cn/problem/P6879",
       "works": [
         "wfc4307c1"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P7159": {
       "key": "P7159",
@@ -3930,7 +3987,8 @@
       "url": "https://www.luogu.com.cn/problem/P7159",
       "works": [
         "wfc4307c1"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P4099": {
       "key": "P4099",
@@ -3941,7 +3999,8 @@
       "url": "https://www.luogu.com.cn/problem/P4099",
       "works": [
         "w9c694ad3"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "B3709": {
       "key": "B3709",
@@ -3952,7 +4011,8 @@
       "url": "https://www.luogu.com.cn/problem/B3709",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "B3889": {
       "key": "B3889",
@@ -3963,7 +4023,8 @@
       "url": "https://www.luogu.com.cn/problem/B3889",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P1383": {
       "key": "P1383",
@@ -3974,7 +4035,8 @@
       "url": "https://www.luogu.com.cn/problem/P1383",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P1724": {
       "key": "P1724",
@@ -3985,7 +4047,8 @@
       "url": "https://www.luogu.com.cn/problem/P1724",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P1725": {
       "key": "P1725",
@@ -3996,7 +4059,8 @@
       "url": "https://www.luogu.com.cn/problem/P1725",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P1726": {
       "key": "P1726",
@@ -4007,7 +4071,8 @@
       "url": "https://www.luogu.com.cn/problem/P1726",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P1861": {
       "key": "P1861",
@@ -4018,7 +4083,8 @@
       "url": "https://www.luogu.com.cn/problem/P1861",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3241": {
       "key": "P3241",
@@ -4029,7 +4095,8 @@
       "url": "https://www.luogu.com.cn/problem/P3241",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3242": {
       "key": "P3242",
@@ -4040,7 +4107,8 @@
       "url": "https://www.luogu.com.cn/problem/P3242",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3343": {
       "key": "P3343",
@@ -4051,7 +4119,8 @@
       "url": "https://www.luogu.com.cn/problem/P3343",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3344": {
       "key": "P3344",
@@ -4062,7 +4131,8 @@
       "url": "https://www.luogu.com.cn/problem/P3344",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3345": {
       "key": "P3345",
@@ -4073,7 +4143,8 @@
       "url": "https://www.luogu.com.cn/problem/P3345",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3346": {
       "key": "P3346",
@@ -4084,7 +4155,8 @@
       "url": "https://www.luogu.com.cn/problem/P3346",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3347": {
       "key": "P3347",
@@ -4095,7 +4167,8 @@
       "url": "https://www.luogu.com.cn/problem/P3347",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P3598": {
       "key": "P3598",
@@ -4106,7 +4179,8 @@
       "url": "https://www.luogu.com.cn/problem/P3598",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P3599": {
       "key": "P3599",
@@ -4117,7 +4191,8 @@
       "url": "https://www.luogu.com.cn/problem/P3599",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3602": {
       "key": "P3602",
@@ -4128,7 +4203,8 @@
       "url": "https://www.luogu.com.cn/problem/P3602",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3691": {
       "key": "P3691",
@@ -4139,7 +4215,8 @@
       "url": "https://www.luogu.com.cn/problem/P3691",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P3693": {
       "key": "P3693",
@@ -4150,7 +4227,8 @@
       "url": "https://www.luogu.com.cn/problem/P3693",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3708": {
       "key": "P3708",
@@ -4161,7 +4239,8 @@
       "url": "https://www.luogu.com.cn/problem/P3708",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3786": {
       "key": "P3786",
@@ -4172,7 +4251,8 @@
       "url": "https://www.luogu.com.cn/problem/P3786",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3787": {
       "key": "P3787",
@@ -4183,7 +4263,8 @@
       "url": "https://www.luogu.com.cn/problem/P3787",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3788": {
       "key": "P3788",
@@ -4194,7 +4275,8 @@
       "url": "https://www.luogu.com.cn/problem/P3788",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3797": {
       "key": "P3797",
@@ -4205,7 +4287,8 @@
       "url": "https://www.luogu.com.cn/problem/P3797",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3798": {
       "key": "P3798",
@@ -4216,7 +4299,8 @@
       "url": "https://www.luogu.com.cn/problem/P3798",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P3800": {
       "key": "P3800",
@@ -4227,7 +4311,8 @@
       "url": "https://www.luogu.com.cn/problem/P3800",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P3801": {
       "key": "P3801",
@@ -4238,7 +4323,8 @@
       "url": "https://www.luogu.com.cn/problem/P3801",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P3802": {
       "key": "P3802",
@@ -4249,7 +4335,8 @@
       "url": "https://www.luogu.com.cn/problem/P3802",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P3921": {
       "key": "P3921",
@@ -4260,7 +4347,8 @@
       "url": "https://www.luogu.com.cn/problem/P3921",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3922": {
       "key": "P3922",
@@ -4271,7 +4359,8 @@
       "url": "https://www.luogu.com.cn/problem/P3922",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P3923": {
       "key": "P3923",
@@ -4282,7 +4371,8 @@
       "url": "https://www.luogu.com.cn/problem/P3923",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P3931": {
       "key": "P3931",
@@ -4293,7 +4383,8 @@
       "url": "https://www.luogu.com.cn/problem/P3931",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4102": {
       "key": "P4102",
@@ -4304,7 +4395,8 @@
       "url": "https://www.luogu.com.cn/problem/P4102",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4230": {
       "key": "P4230",
@@ -4315,7 +4407,8 @@
       "url": "https://www.luogu.com.cn/problem/P4230",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4231": {
       "key": "P4231",
@@ -4326,7 +4419,8 @@
       "url": "https://www.luogu.com.cn/problem/P4231",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4232": {
       "key": "P4232",
@@ -4337,7 +4431,8 @@
       "url": "https://www.luogu.com.cn/problem/P4232",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4233": {
       "key": "P4233",
@@ -4348,7 +4443,8 @@
       "url": "https://www.luogu.com.cn/problem/P4233",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4275": {
       "key": "P4275",
@@ -4359,7 +4455,8 @@
       "url": "https://www.luogu.com.cn/problem/P4275",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4276": {
       "key": "P4276",
@@ -4370,7 +4467,8 @@
       "url": "https://www.luogu.com.cn/problem/P4276",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4277": {
       "key": "P4277",
@@ -4381,7 +4479,8 @@
       "url": "https://www.luogu.com.cn/problem/P4277",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4336": {
       "key": "P4336",
@@ -4392,7 +4491,8 @@
       "url": "https://www.luogu.com.cn/problem/P4336",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4511": {
       "key": "P4511",
@@ -4403,7 +4503,8 @@
       "url": "https://www.luogu.com.cn/problem/P4511",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4569": {
       "key": "P4569",
@@ -4414,7 +4515,8 @@
       "url": "https://www.luogu.com.cn/problem/P4569",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4822": {
       "key": "P4822",
@@ -4426,7 +4528,8 @@
       "works": [
         "w3e1cf230",
         "w329e5df2"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4831": {
       "key": "P4831",
@@ -4437,7 +4540,8 @@
       "url": "https://www.luogu.com.cn/problem/P4831",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4872": {
       "key": "P4872",
@@ -4448,7 +4552,8 @@
       "url": "https://www.luogu.com.cn/problem/P4872",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4885": {
       "key": "P4885",
@@ -4459,7 +4564,8 @@
       "url": "https://www.luogu.com.cn/problem/P4885",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4910": {
       "key": "P4910",
@@ -4470,7 +4576,8 @@
       "url": "https://www.luogu.com.cn/problem/P4910",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4911": {
       "key": "P4911",
@@ -4481,7 +4588,8 @@
       "url": "https://www.luogu.com.cn/problem/P4911",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4912": {
       "key": "P4912",
@@ -4492,7 +4600,8 @@
       "url": "https://www.luogu.com.cn/problem/P4912",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4914": {
       "key": "P4914",
@@ -4503,7 +4612,8 @@
       "url": "https://www.luogu.com.cn/problem/P4914",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P4915": {
       "key": "P4915",
@@ -4514,7 +4624,8 @@
       "url": "https://www.luogu.com.cn/problem/P4915",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4917": {
       "key": "P4917",
@@ -4525,7 +4636,8 @@
       "url": "https://www.luogu.com.cn/problem/P4917",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4918": {
       "key": "P4918",
@@ -4536,7 +4648,8 @@
       "url": "https://www.luogu.com.cn/problem/P4918",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4919": {
       "key": "P4919",
@@ -4547,7 +4660,8 @@
       "url": "https://www.luogu.com.cn/problem/P4919",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4924": {
       "key": "P4924",
@@ -4559,7 +4673,8 @@
       "works": [
         "w3e1cf230",
         "w329e5df2"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P4925": {
       "key": "P4925",
@@ -4571,7 +4686,8 @@
       "works": [
         "w3e1cf230",
         "w49d03aa6"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4926": {
       "key": "P4926",
@@ -4582,7 +4698,8 @@
       "url": "https://www.luogu.com.cn/problem/P4926",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P4971": {
       "key": "P4971",
@@ -4593,7 +4710,8 @@
       "url": "https://www.luogu.com.cn/problem/P4971",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P5129": {
       "key": "P5129",
@@ -4604,7 +4722,8 @@
       "url": "https://www.luogu.com.cn/problem/P5129",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P5130": {
       "key": "P5130",
@@ -4615,7 +4734,8 @@
       "url": "https://www.luogu.com.cn/problem/P5130",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5131": {
       "key": "P5131",
@@ -4626,7 +4746,8 @@
       "url": "https://www.luogu.com.cn/problem/P5131",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P5192": {
       "key": "P5192",
@@ -4637,7 +4758,8 @@
       "url": "https://www.luogu.com.cn/problem/P5192",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5239": {
       "key": "P5239",
@@ -4648,7 +4770,8 @@
       "url": "https://www.luogu.com.cn/problem/P5239",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P5278": {
       "key": "P5278",
@@ -4659,7 +4782,8 @@
       "url": "https://www.luogu.com.cn/problem/P5278",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5316": {
       "key": "P5316",
@@ -4670,7 +4794,8 @@
       "url": "https://www.luogu.com.cn/problem/P5316",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P5384": {
       "key": "P5384",
@@ -4681,7 +4806,8 @@
       "url": "https://www.luogu.com.cn/problem/P5384",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P5385": {
       "key": "P5385",
@@ -4692,7 +4818,8 @@
       "url": "https://www.luogu.com.cn/problem/P5385",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5387": {
       "key": "P5387",
@@ -4703,7 +4830,8 @@
       "url": "https://www.luogu.com.cn/problem/P5387",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5389": {
       "key": "P5389",
@@ -4714,7 +4842,8 @@
       "url": "https://www.luogu.com.cn/problem/P5389",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P5390": {
       "key": "P5390",
@@ -4725,7 +4854,8 @@
       "url": "https://www.luogu.com.cn/problem/P5390",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P5391": {
       "key": "P5391",
@@ -4736,7 +4866,8 @@
       "url": "https://www.luogu.com.cn/problem/P5391",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5392": {
       "key": "P5392",
@@ -4747,7 +4878,8 @@
       "url": "https://www.luogu.com.cn/problem/P5392",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5433": {
       "key": "P5433",
@@ -4758,7 +4890,8 @@
       "url": "https://www.luogu.com.cn/problem/P5433",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5514": {
       "key": "P5514",
@@ -4769,7 +4902,8 @@
       "url": "https://www.luogu.com.cn/problem/P5514",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P5515": {
       "key": "P5515",
@@ -4780,7 +4914,8 @@
       "url": "https://www.luogu.com.cn/problem/P5515",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P5516": {
       "key": "P5516",
@@ -4791,7 +4926,8 @@
       "url": "https://www.luogu.com.cn/problem/P5516",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5517": {
       "key": "P5517",
@@ -4802,7 +4938,8 @@
       "url": "https://www.luogu.com.cn/problem/P5517",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5518": {
       "key": "P5518",
@@ -4813,7 +4950,8 @@
       "url": "https://www.luogu.com.cn/problem/P5518",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5519": {
       "key": "P5519",
@@ -4824,7 +4962,8 @@
       "url": "https://www.luogu.com.cn/problem/P5519",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6159": {
       "key": "P6159",
@@ -4835,7 +4974,8 @@
       "url": "https://www.luogu.com.cn/problem/P6159",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P6160": {
       "key": "P6160",
@@ -4846,7 +4986,8 @@
       "url": "https://www.luogu.com.cn/problem/P6160",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P6161": {
       "key": "P6161",
@@ -4857,7 +4998,8 @@
       "url": "https://www.luogu.com.cn/problem/P6161",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P6162": {
       "key": "P6162",
@@ -4868,7 +5010,8 @@
       "url": "https://www.luogu.com.cn/problem/P6162",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6163": {
       "key": "P6163",
@@ -4879,7 +5022,8 @@
       "url": "https://www.luogu.com.cn/problem/P6163",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6199": {
       "key": "P6199",
@@ -4890,7 +5034,8 @@
       "url": "https://www.luogu.com.cn/problem/P6199",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6306": {
       "key": "P6306",
@@ -4901,7 +5046,8 @@
       "url": "https://www.luogu.com.cn/problem/P6306",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P6307": {
       "key": "P6307",
@@ -4912,7 +5058,8 @@
       "url": "https://www.luogu.com.cn/problem/P6307",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6308": {
       "key": "P6308",
@@ -4923,7 +5070,8 @@
       "url": "https://www.luogu.com.cn/problem/P6308",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6309": {
       "key": "P6309",
@@ -4934,7 +5082,8 @@
       "url": "https://www.luogu.com.cn/problem/P6309",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6310": {
       "key": "P6310",
@@ -4945,7 +5094,8 @@
       "url": "https://www.luogu.com.cn/problem/P6310",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6523": {
       "key": "P6523",
@@ -4956,7 +5106,8 @@
       "url": "https://www.luogu.com.cn/problem/P6523",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P6524": {
       "key": "P6524",
@@ -4967,7 +5118,8 @@
       "url": "https://www.luogu.com.cn/problem/P6524",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6525": {
       "key": "P6525",
@@ -4978,7 +5130,8 @@
       "url": "https://www.luogu.com.cn/problem/P6525",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6526": {
       "key": "P6526",
@@ -4989,7 +5142,8 @@
       "url": "https://www.luogu.com.cn/problem/P6526",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6527": {
       "key": "P6527",
@@ -5000,7 +5154,8 @@
       "url": "https://www.luogu.com.cn/problem/P6527",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6528": {
       "key": "P6528",
@@ -5011,7 +5166,8 @@
       "url": "https://www.luogu.com.cn/problem/P6528",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6733": {
       "key": "P6733",
@@ -5022,7 +5178,8 @@
       "url": "https://www.luogu.com.cn/problem/P6733",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P6734": {
       "key": "P6734",
@@ -5033,7 +5190,8 @@
       "url": "https://www.luogu.com.cn/problem/P6734",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6735": {
       "key": "P6735",
@@ -5044,7 +5202,8 @@
       "url": "https://www.luogu.com.cn/problem/P6735",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6736": {
       "key": "P6736",
@@ -5055,7 +5214,8 @@
       "url": "https://www.luogu.com.cn/problem/P6736",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6832": {
       "key": "P6832",
@@ -5066,7 +5226,8 @@
       "url": "https://www.luogu.com.cn/problem/P6832",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P6833": {
       "key": "P6833",
@@ -5077,7 +5238,8 @@
       "url": "https://www.luogu.com.cn/problem/P6833",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P6834": {
       "key": "P6834",
@@ -5088,7 +5250,8 @@
       "url": "https://www.luogu.com.cn/problem/P6834",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6835": {
       "key": "P6835",
@@ -5099,7 +5262,8 @@
       "url": "https://www.luogu.com.cn/problem/P6835",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P7493": {
       "key": "P7493",
@@ -5110,7 +5274,8 @@
       "url": "https://www.luogu.com.cn/problem/P7493",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7505": {
       "key": "P7505",
@@ -5121,7 +5286,8 @@
       "url": "https://www.luogu.com.cn/problem/P7505",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P7506": {
       "key": "P7506",
@@ -5132,7 +5298,8 @@
       "url": "https://www.luogu.com.cn/problem/P7506",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P7507": {
       "key": "P7507",
@@ -5143,7 +5310,8 @@
       "url": "https://www.luogu.com.cn/problem/P7507",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7508": {
       "key": "P7508",
@@ -5154,7 +5322,8 @@
       "url": "https://www.luogu.com.cn/problem/P7508",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P7705": {
       "key": "P7705",
@@ -5165,7 +5334,8 @@
       "url": "https://www.luogu.com.cn/problem/P7705",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P7706": {
       "key": "P7706",
@@ -5176,7 +5346,8 @@
       "url": "https://www.luogu.com.cn/problem/P7706",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P7707": {
       "key": "P7707",
@@ -5187,7 +5358,8 @@
       "url": "https://www.luogu.com.cn/problem/P7707",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7708": {
       "key": "P7708",
@@ -5198,7 +5370,8 @@
       "url": "https://www.luogu.com.cn/problem/P7708",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7709": {
       "key": "P7709",
@@ -5209,7 +5382,8 @@
       "url": "https://www.luogu.com.cn/problem/P7709",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P7835": {
       "key": "P7835",
@@ -5220,7 +5394,8 @@
       "url": "https://www.luogu.com.cn/problem/P7835",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P7836": {
       "key": "P7836",
@@ -5231,7 +5406,8 @@
       "url": "https://www.luogu.com.cn/problem/P7836",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7837": {
       "key": "P7837",
@@ -5242,7 +5418,8 @@
       "url": "https://www.luogu.com.cn/problem/P7837",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P7838": {
       "key": "P7838",
@@ -5253,7 +5430,8 @@
       "url": "https://www.luogu.com.cn/problem/P7838",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7839": {
       "key": "P7839",
@@ -5264,7 +5442,8 @@
       "url": "https://www.luogu.com.cn/problem/P7839",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P7869": {
       "key": "P7869",
@@ -5275,7 +5454,8 @@
       "url": "https://www.luogu.com.cn/problem/P7869",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P7870": {
       "key": "P7870",
@@ -5286,7 +5466,8 @@
       "url": "https://www.luogu.com.cn/problem/P7870",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P7871": {
       "key": "P7871",
@@ -5297,7 +5478,8 @@
       "url": "https://www.luogu.com.cn/problem/P7871",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P7872": {
       "key": "P7872",
@@ -5308,7 +5490,8 @@
       "url": "https://www.luogu.com.cn/problem/P7872",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P7938": {
       "key": "P7938",
@@ -5319,7 +5502,8 @@
       "url": "https://www.luogu.com.cn/problem/P7938",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P7939": {
       "key": "P7939",
@@ -5330,7 +5514,8 @@
       "url": "https://www.luogu.com.cn/problem/P7939",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P7940": {
       "key": "P7940",
@@ -5341,7 +5526,8 @@
       "url": "https://www.luogu.com.cn/problem/P7940",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P7941": {
       "key": "P7941",
@@ -5352,7 +5538,8 @@
       "url": "https://www.luogu.com.cn/problem/P7941",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P7942": {
       "key": "P7942",
@@ -5363,7 +5550,8 @@
       "url": "https://www.luogu.com.cn/problem/P7942",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P7943": {
       "key": "P7943",
@@ -5374,7 +5562,8 @@
       "url": "https://www.luogu.com.cn/problem/P7943",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P7944": {
       "key": "P7944",
@@ -5385,7 +5574,8 @@
       "url": "https://www.luogu.com.cn/problem/P7944",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P7945": {
       "key": "P7945",
@@ -5396,7 +5586,8 @@
       "url": "https://www.luogu.com.cn/problem/P7945",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P7946": {
       "key": "P7946",
@@ -5407,7 +5598,8 @@
       "url": "https://www.luogu.com.cn/problem/P7946",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8007": {
       "key": "P8007",
@@ -5418,7 +5610,8 @@
       "url": "https://www.luogu.com.cn/problem/P8007",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8008": {
       "key": "P8008",
@@ -5429,7 +5622,8 @@
       "url": "https://www.luogu.com.cn/problem/P8008",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8009": {
       "key": "P8009",
@@ -5440,7 +5634,8 @@
       "url": "https://www.luogu.com.cn/problem/P8009",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8010": {
       "key": "P8010",
@@ -5451,7 +5646,8 @@
       "url": "https://www.luogu.com.cn/problem/P8010",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8011": {
       "key": "P8011",
@@ -5462,7 +5658,8 @@
       "url": "https://www.luogu.com.cn/problem/P8011",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8106": {
       "key": "P8106",
@@ -5473,7 +5670,8 @@
       "url": "https://www.luogu.com.cn/problem/P8106",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8107": {
       "key": "P8107",
@@ -5484,7 +5682,8 @@
       "url": "https://www.luogu.com.cn/problem/P8107",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8108": {
       "key": "P8108",
@@ -5495,7 +5694,8 @@
       "url": "https://www.luogu.com.cn/problem/P8108",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8109": {
       "key": "P8109",
@@ -5506,7 +5706,8 @@
       "url": "https://www.luogu.com.cn/problem/P8109",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8110": {
       "key": "P8110",
@@ -5517,7 +5718,8 @@
       "url": "https://www.luogu.com.cn/problem/P8110",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8111": {
       "key": "P8111",
@@ -5528,7 +5730,8 @@
       "url": "https://www.luogu.com.cn/problem/P8111",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8112": {
       "key": "P8112",
@@ -5539,7 +5742,8 @@
       "url": "https://www.luogu.com.cn/problem/P8112",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8113": {
       "key": "P8113",
@@ -5550,7 +5754,8 @@
       "url": "https://www.luogu.com.cn/problem/P8113",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8114": {
       "key": "P8114",
@@ -5561,7 +5766,8 @@
       "url": "https://www.luogu.com.cn/problem/P8114",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8116": {
       "key": "P8116",
@@ -5572,7 +5778,8 @@
       "url": "https://www.luogu.com.cn/problem/P8116",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8117": {
       "key": "P8117",
@@ -5583,7 +5790,8 @@
       "url": "https://www.luogu.com.cn/problem/P8117",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8119": {
       "key": "P8119",
@@ -5594,7 +5802,8 @@
       "url": "https://www.luogu.com.cn/problem/P8119",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8225": {
       "key": "P8225",
@@ -5605,7 +5814,8 @@
       "url": "https://www.luogu.com.cn/problem/P8225",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P8226": {
       "key": "P8226",
@@ -5616,7 +5826,8 @@
       "url": "https://www.luogu.com.cn/problem/P8226",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8227": {
       "key": "P8227",
@@ -5627,7 +5838,8 @@
       "url": "https://www.luogu.com.cn/problem/P8227",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8228": {
       "key": "P8228",
@@ -5638,7 +5850,8 @@
       "url": "https://www.luogu.com.cn/problem/P8228",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8322": {
       "key": "P8322",
@@ -5649,7 +5862,8 @@
       "url": "https://www.luogu.com.cn/problem/P8322",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8344": {
       "key": "P8344",
@@ -5660,7 +5874,8 @@
       "url": "https://www.luogu.com.cn/problem/P8344",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8345": {
       "key": "P8345",
@@ -5671,7 +5886,8 @@
       "url": "https://www.luogu.com.cn/problem/P8345",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8346": {
       "key": "P8346",
@@ -5682,7 +5898,8 @@
       "url": "https://www.luogu.com.cn/problem/P8346",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8347": {
       "key": "P8347",
@@ -5693,7 +5910,8 @@
       "url": "https://www.luogu.com.cn/problem/P8347",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8348": {
       "key": "P8348",
@@ -5704,7 +5922,8 @@
       "url": "https://www.luogu.com.cn/problem/P8348",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8444": {
       "key": "P8444",
@@ -5715,7 +5934,8 @@
       "url": "https://www.luogu.com.cn/problem/P8444",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8445": {
       "key": "P8445",
@@ -5726,7 +5946,8 @@
       "url": "https://www.luogu.com.cn/problem/P8445",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8446": {
       "key": "P8446",
@@ -5737,7 +5958,8 @@
       "url": "https://www.luogu.com.cn/problem/P8446",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8466": {
       "key": "P8466",
@@ -5748,7 +5970,8 @@
       "url": "https://www.luogu.com.cn/problem/P8466",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P8468": {
       "key": "P8468",
@@ -5759,7 +5982,8 @@
       "url": "https://www.luogu.com.cn/problem/P8468",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8469": {
       "key": "P8469",
@@ -5770,7 +5994,8 @@
       "url": "https://www.luogu.com.cn/problem/P8469",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8471": {
       "key": "P8471",
@@ -5781,7 +6006,8 @@
       "url": "https://www.luogu.com.cn/problem/P8471",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8473": {
       "key": "P8473",
@@ -5792,7 +6018,8 @@
       "url": "https://www.luogu.com.cn/problem/P8473",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8488": {
       "key": "P8488",
@@ -5803,7 +6030,8 @@
       "url": "https://www.luogu.com.cn/problem/P8488",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8489": {
       "key": "P8489",
@@ -5814,7 +6042,8 @@
       "url": "https://www.luogu.com.cn/problem/P8489",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P8530": {
       "key": "P8530",
@@ -5825,7 +6054,8 @@
       "url": "https://www.luogu.com.cn/problem/P8530",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8532": {
       "key": "P8532",
@@ -5836,7 +6066,8 @@
       "url": "https://www.luogu.com.cn/problem/P8532",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8534": {
       "key": "P8534",
@@ -5847,7 +6078,8 @@
       "url": "https://www.luogu.com.cn/problem/P8534",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P8535": {
       "key": "P8535",
@@ -5858,7 +6090,8 @@
       "url": "https://www.luogu.com.cn/problem/P8535",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8536": {
       "key": "P8536",
@@ -5869,7 +6102,8 @@
       "url": "https://www.luogu.com.cn/problem/P8536",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8537": {
       "key": "P8537",
@@ -5880,7 +6114,8 @@
       "url": "https://www.luogu.com.cn/problem/P8537",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8538": {
       "key": "P8538",
@@ -5891,7 +6126,8 @@
       "url": "https://www.luogu.com.cn/problem/P8538",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8539": {
       "key": "P8539",
@@ -5902,7 +6138,8 @@
       "url": "https://www.luogu.com.cn/problem/P8539",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8540": {
       "key": "P8540",
@@ -5913,7 +6150,8 @@
       "url": "https://www.luogu.com.cn/problem/P8540",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8541": {
       "key": "P8541",
@@ -5924,7 +6162,8 @@
       "url": "https://www.luogu.com.cn/problem/P8541",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8542": {
       "key": "P8542",
@@ -5935,7 +6174,8 @@
       "url": "https://www.luogu.com.cn/problem/P8542",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8543": {
       "key": "P8543",
@@ -5946,7 +6186,8 @@
       "url": "https://www.luogu.com.cn/problem/P8543",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8544": {
       "key": "P8544",
@@ -5957,7 +6198,8 @@
       "url": "https://www.luogu.com.cn/problem/P8544",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8545": {
       "key": "P8545",
@@ -5968,7 +6210,8 @@
       "url": "https://www.luogu.com.cn/problem/P8545",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8869": {
       "key": "P8869",
@@ -5979,7 +6222,8 @@
       "url": "https://www.luogu.com.cn/problem/P8869",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P8870": {
       "key": "P8870",
@@ -5990,7 +6234,8 @@
       "url": "https://www.luogu.com.cn/problem/P8870",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8871": {
       "key": "P8871",
@@ -6001,7 +6246,8 @@
       "url": "https://www.luogu.com.cn/problem/P8871",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8872": {
       "key": "P8872",
@@ -6012,7 +6258,8 @@
       "url": "https://www.luogu.com.cn/problem/P8872",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8873": {
       "key": "P8873",
@@ -6023,7 +6270,8 @@
       "url": "https://www.luogu.com.cn/problem/P8873",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8874": {
       "key": "P8874",
@@ -6034,7 +6282,8 @@
       "url": "https://www.luogu.com.cn/problem/P8874",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8875": {
       "key": "P8875",
@@ -6045,7 +6294,8 @@
       "url": "https://www.luogu.com.cn/problem/P8875",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8876": {
       "key": "P8876",
@@ -6056,7 +6306,8 @@
       "url": "https://www.luogu.com.cn/problem/P8876",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8877": {
       "key": "P8877",
@@ -6067,7 +6318,8 @@
       "url": "https://www.luogu.com.cn/problem/P8877",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8927": {
       "key": "P8927",
@@ -6078,7 +6330,8 @@
       "url": "https://www.luogu.com.cn/problem/P8927",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P9007": {
       "key": "P9007",
@@ -6089,7 +6342,8 @@
       "url": "https://www.luogu.com.cn/problem/P9007",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P9070": {
       "key": "P9070",
@@ -6100,7 +6354,8 @@
       "url": "https://www.luogu.com.cn/problem/P9070",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P9203": {
       "key": "P9203",
@@ -6111,7 +6366,8 @@
       "url": "https://www.luogu.com.cn/problem/P9203",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P9204": {
       "key": "P9204",
@@ -6122,7 +6378,8 @@
       "url": "https://www.luogu.com.cn/problem/P9204",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P9205": {
       "key": "P9205",
@@ -6133,7 +6390,8 @@
       "url": "https://www.luogu.com.cn/problem/P9205",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P9206": {
       "key": "P9206",
@@ -6144,7 +6402,8 @@
       "url": "https://www.luogu.com.cn/problem/P9206",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P9207": {
       "key": "P9207",
@@ -6155,7 +6414,8 @@
       "url": "https://www.luogu.com.cn/problem/P9207",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P9208": {
       "key": "P9208",
@@ -6166,7 +6426,8 @@
       "url": "https://www.luogu.com.cn/problem/P9208",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P9209": {
       "key": "P9209",
@@ -6177,7 +6438,8 @@
       "url": "https://www.luogu.com.cn/problem/P9209",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P9210": {
       "key": "P9210",
@@ -6188,7 +6450,8 @@
       "url": "https://www.luogu.com.cn/problem/P9210",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P9211": {
       "key": "P9211",
@@ -6199,7 +6462,8 @@
       "url": "https://www.luogu.com.cn/problem/P9211",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P9212": {
       "key": "P9212",
@@ -6210,7 +6474,8 @@
       "url": "https://www.luogu.com.cn/problem/P9212",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P10176": {
       "key": "P10176",
@@ -6221,7 +6486,8 @@
       "url": "https://www.luogu.com.cn/problem/P10176",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P10268": {
       "key": "P10268",
@@ -6232,7 +6498,8 @@
       "url": "https://www.luogu.com.cn/problem/P10268",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P10605": {
       "key": "P10605",
@@ -6243,7 +6510,8 @@
       "url": "https://www.luogu.com.cn/problem/P10605",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P10606": {
       "key": "P10606",
@@ -6254,7 +6522,8 @@
       "url": "https://www.luogu.com.cn/problem/P10606",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P10607": {
       "key": "P10607",
@@ -6265,7 +6534,8 @@
       "url": "https://www.luogu.com.cn/problem/P10607",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P10608": {
       "key": "P10608",
@@ -6276,7 +6546,8 @@
       "url": "https://www.luogu.com.cn/problem/P10608",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P10609": {
       "key": "P10609",
@@ -6287,7 +6558,8 @@
       "url": "https://www.luogu.com.cn/problem/P10609",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P10610": {
       "key": "P10610",
@@ -6298,7 +6570,8 @@
       "url": "https://www.luogu.com.cn/problem/P10610",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P10611": {
       "key": "P10611",
@@ -6309,7 +6582,8 @@
       "url": "https://www.luogu.com.cn/problem/P10611",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11772": {
       "key": "P11772",
@@ -6320,7 +6594,8 @@
       "url": "https://www.luogu.com.cn/problem/P11772",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P12717": {
       "key": "P12717",
@@ -6331,7 +6606,8 @@
       "url": "https://www.luogu.com.cn/problem/P12717",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P15561": {
       "key": "P15561",
@@ -6342,7 +6618,8 @@
       "url": "https://www.luogu.com.cn/problem/P15561",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P16349": {
       "key": "P16349",
@@ -6353,7 +6630,8 @@
       "url": "https://www.luogu.com.cn/problem/P16349",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P16350": {
       "key": "P16350",
@@ -6364,7 +6642,8 @@
       "url": "https://www.luogu.com.cn/problem/P16350",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P16351": {
       "key": "P16351",
@@ -6375,7 +6654,8 @@
       "url": "https://www.luogu.com.cn/problem/P16351",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P16352": {
       "key": "P16352",
@@ -6386,7 +6666,8 @@
       "url": "https://www.luogu.com.cn/problem/P16352",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P16411": {
       "key": "P16411",
@@ -6397,7 +6678,8 @@
       "url": "https://www.luogu.com.cn/problem/P16411",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P16683": {
       "key": "P16683",
@@ -6408,7 +6690,8 @@
       "url": "https://www.luogu.com.cn/problem/P16683",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P16686": {
       "key": "P16686",
@@ -6419,7 +6702,8 @@
       "url": "https://www.luogu.com.cn/problem/P16686",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P16919": {
       "key": "P16919",
@@ -6430,7 +6714,8 @@
       "url": "https://www.luogu.com.cn/problem/P16919",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P17225": {
       "key": "P17225",
@@ -6441,7 +6726,8 @@
       "url": "https://www.luogu.com.cn/problem/P17225",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17246": {
       "key": "P17246",
@@ -6452,7 +6738,8 @@
       "url": "https://www.luogu.com.cn/problem/P17246",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P17247": {
       "key": "P17247",
@@ -6463,7 +6750,8 @@
       "url": "https://www.luogu.com.cn/problem/P17247",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P17248": {
       "key": "P17248",
@@ -6474,7 +6762,8 @@
       "url": "https://www.luogu.com.cn/problem/P17248",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17249": {
       "key": "P17249",
@@ -6485,7 +6774,8 @@
       "url": "https://www.luogu.com.cn/problem/P17249",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17483": {
       "key": "P17483",
@@ -6496,7 +6786,8 @@
       "url": "https://www.luogu.com.cn/problem/P17483",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P17484": {
       "key": "P17484",
@@ -6507,7 +6798,8 @@
       "url": "https://www.luogu.com.cn/problem/P17484",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P17485": {
       "key": "P17485",
@@ -6518,7 +6810,8 @@
       "url": "https://www.luogu.com.cn/problem/P17485",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17486": {
       "key": "P17486",
@@ -6529,7 +6822,8 @@
       "url": "https://www.luogu.com.cn/problem/P17486",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17487": {
       "key": "P17487",
@@ -6540,7 +6834,8 @@
       "url": "https://www.luogu.com.cn/problem/P17487",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17488": {
       "key": "P17488",
@@ -6551,7 +6846,8 @@
       "url": "https://www.luogu.com.cn/problem/P17488",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17489": {
       "key": "P17489",
@@ -6562,7 +6858,8 @@
       "url": "https://www.luogu.com.cn/problem/P17489",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17693": {
       "key": "P17693",
@@ -6573,7 +6870,8 @@
       "url": "https://www.luogu.com.cn/problem/P17693",
       "works": [
         "w3e1cf230"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P4474": {
       "key": "P4474",
@@ -6584,7 +6882,8 @@
       "url": "https://www.luogu.com.cn/problem/P4474",
       "works": [
         "w05207708"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5664": {
       "key": "P5664",
@@ -6595,7 +6894,8 @@
       "url": "https://www.luogu.com.cn/problem/P5664",
       "works": [
         "w05207708"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P10242": {
       "key": "P10242",
@@ -6606,7 +6906,8 @@
       "url": "https://www.luogu.com.cn/problem/P10242",
       "works": [
         "w05207708"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17118": {
       "key": "P17118",
@@ -6617,7 +6918,8 @@
       "url": "https://www.luogu.com.cn/problem/P17118",
       "works": [
         "w05207708"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "UOJ213": {
       "key": "UOJ213",
@@ -6628,7 +6930,8 @@
       "url": "https://uoj.ac/problem/213",
       "works": [
         "w05207708"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P5398": {
       "key": "P5398",
@@ -6639,7 +6942,8 @@
       "url": "https://www.luogu.com.cn/problem/P5398",
       "works": [
         "wf47c5fe8"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4961": {
       "key": "P4961",
@@ -6650,7 +6954,8 @@
       "url": "https://www.luogu.com.cn/problem/P4961",
       "works": [
         "wa00c8966"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P4987": {
       "key": "P4987",
@@ -6661,7 +6966,8 @@
       "url": "https://www.luogu.com.cn/problem/P4987",
       "works": [
         "wa00c8966"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4988": {
       "key": "P4988",
@@ -6672,7 +6978,8 @@
       "url": "https://www.luogu.com.cn/problem/P4988",
       "works": [
         "wa00c8966"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4989": {
       "key": "P4989",
@@ -6683,7 +6990,8 @@
       "url": "https://www.luogu.com.cn/problem/P4989",
       "works": [
         "wa00c8966"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4990": {
       "key": "P4990",
@@ -6694,7 +7002,8 @@
       "url": "https://www.luogu.com.cn/problem/P4990",
       "works": [
         "wa00c8966"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P9220": {
       "key": "P9220",
@@ -6705,7 +7014,8 @@
       "url": "https://www.luogu.com.cn/problem/P9220",
       "works": [
         "wbd5e5468"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P6579": {
       "key": "P6579",
@@ -6716,7 +7026,8 @@
       "url": "https://www.luogu.com.cn/problem/P6579",
       "works": [
         "wd1c48e65"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5935": {
       "key": "P5935",
@@ -6727,7 +7038,8 @@
       "url": "https://www.luogu.com.cn/problem/P5935",
       "works": [
         "w63c61e91"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P11566": {
       "key": "P11566",
@@ -6738,7 +7050,8 @@
       "url": "https://www.luogu.com.cn/problem/P11566",
       "works": [
         "w63c61e91"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P13826": {
       "key": "P13826",
@@ -6749,7 +7062,8 @@
       "url": "https://www.luogu.com.cn/problem/P13826",
       "works": [
         "w4f248947"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P13827": {
       "key": "P13827",
@@ -6760,7 +7074,8 @@
       "url": "https://www.luogu.com.cn/problem/P13827",
       "works": [
         "w4f248947"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P13828": {
       "key": "P13828",
@@ -6771,7 +7086,8 @@
       "url": "https://www.luogu.com.cn/problem/P13828",
       "works": [
         "w4f248947"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4964": {
       "key": "P4964",
@@ -6782,7 +7098,8 @@
       "url": "https://www.luogu.com.cn/problem/P4964",
       "works": [
         "wb49bea22"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3687": {
       "key": "P3687",
@@ -6793,7 +7110,8 @@
       "url": "https://www.luogu.com.cn/problem/P3687",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3688": {
       "key": "P3688",
@@ -6804,7 +7122,8 @@
       "url": "https://www.luogu.com.cn/problem/P3688",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3689": {
       "key": "P3689",
@@ -6815,7 +7134,8 @@
       "url": "https://www.luogu.com.cn/problem/P3689",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4063": {
       "key": "P4063",
@@ -6826,7 +7146,8 @@
       "url": "https://www.luogu.com.cn/problem/P4063",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4064": {
       "key": "P4064",
@@ -6837,7 +7158,8 @@
       "url": "https://www.luogu.com.cn/problem/P4064",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4065": {
       "key": "P4065",
@@ -6848,7 +7170,8 @@
       "url": "https://www.luogu.com.cn/problem/P4065",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4227": {
       "key": "P4227",
@@ -6859,7 +7182,8 @@
       "url": "https://www.luogu.com.cn/problem/P4227",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4337": {
       "key": "P4337",
@@ -6870,7 +7194,8 @@
       "url": "https://www.luogu.com.cn/problem/P4337",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4338": {
       "key": "P4338",
@@ -6881,7 +7206,8 @@
       "url": "https://www.luogu.com.cn/problem/P4338",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4339": {
       "key": "P4339",
@@ -6892,7 +7218,8 @@
       "url": "https://www.luogu.com.cn/problem/P4339",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4500": {
       "key": "P4500",
@@ -6903,7 +7230,8 @@
       "url": "https://www.luogu.com.cn/problem/P4500",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4501": {
       "key": "P4501",
@@ -6914,7 +7242,8 @@
       "url": "https://www.luogu.com.cn/problem/P4501",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4502": {
       "key": "P4502",
@@ -6925,7 +7254,8 @@
       "url": "https://www.luogu.com.cn/problem/P4502",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4561": {
       "key": "P4561",
@@ -6936,7 +7266,8 @@
       "url": "https://www.luogu.com.cn/problem/P4561",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4562": {
       "key": "P4562",
@@ -6947,7 +7278,8 @@
       "url": "https://www.luogu.com.cn/problem/P4562",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4563": {
       "key": "P4563",
@@ -6958,7 +7290,8 @@
       "url": "https://www.luogu.com.cn/problem/P4563",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4557": {
       "key": "P4557",
@@ -6969,7 +7302,8 @@
       "url": "https://www.luogu.com.cn/problem/P4557",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4558": {
       "key": "P4558",
@@ -6980,7 +7314,8 @@
       "url": "https://www.luogu.com.cn/problem/P4558",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4559": {
       "key": "P4559",
@@ -6991,7 +7326,8 @@
       "url": "https://www.luogu.com.cn/problem/P4559",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5209": {
       "key": "P5209",
@@ -7002,7 +7338,8 @@
       "url": "https://www.luogu.com.cn/problem/P5209",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5210": {
       "key": "P5210",
@@ -7013,7 +7350,8 @@
       "url": "https://www.luogu.com.cn/problem/P5210",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5279": {
       "key": "P5279",
@@ -7024,7 +7362,8 @@
       "url": "https://www.luogu.com.cn/problem/P5279",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5280": {
       "key": "P5280",
@@ -7035,7 +7374,8 @@
       "url": "https://www.luogu.com.cn/problem/P5280",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5281": {
       "key": "P5281",
@@ -7046,7 +7386,8 @@
       "url": "https://www.luogu.com.cn/problem/P5281",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5299": {
       "key": "P5299",
@@ -7057,7 +7398,8 @@
       "url": "https://www.luogu.com.cn/problem/P5299",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5326": {
       "key": "P5326",
@@ -7068,7 +7410,8 @@
       "url": "https://www.luogu.com.cn/problem/P5326",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5327": {
       "key": "P5327",
@@ -7079,7 +7422,8 @@
       "url": "https://www.luogu.com.cn/problem/P5327",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5328": {
       "key": "P5328",
@@ -7090,7 +7434,8 @@
       "url": "https://www.luogu.com.cn/problem/P5328",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5370": {
       "key": "P5370",
@@ -7101,7 +7446,8 @@
       "url": "https://www.luogu.com.cn/problem/P5370",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5467": {
       "key": "P5467",
@@ -7112,7 +7458,8 @@
       "url": "https://www.luogu.com.cn/problem/P5467",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8329": {
       "key": "P8329",
@@ -7123,7 +7470,8 @@
       "url": "https://www.luogu.com.cn/problem/P8329",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8330": {
       "key": "P8330",
@@ -7134,7 +7482,8 @@
       "url": "https://www.luogu.com.cn/problem/P8330",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8331": {
       "key": "P8331",
@@ -7145,7 +7494,8 @@
       "url": "https://www.luogu.com.cn/problem/P8331",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8332": {
       "key": "P8332",
@@ -7156,7 +7506,8 @@
       "url": "https://www.luogu.com.cn/problem/P8332",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8333": {
       "key": "P8333",
@@ -7167,7 +7518,8 @@
       "url": "https://www.luogu.com.cn/problem/P8333",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8334": {
       "key": "P8334",
@@ -7178,7 +7530,8 @@
       "url": "https://www.luogu.com.cn/problem/P8334",
       "works": [
         "wcecd1641"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11561": {
       "key": "P11561",
@@ -7189,7 +7542,8 @@
       "url": "https://www.luogu.com.cn/problem/P11561",
       "works": [
         "w0cffd239"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P11563": {
       "key": "P11563",
@@ -7200,7 +7554,8 @@
       "url": "https://www.luogu.com.cn/problem/P11563",
       "works": [
         "w0cffd239"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P11564": {
       "key": "P11564",
@@ -7211,7 +7566,8 @@
       "url": "https://www.luogu.com.cn/problem/P11564",
       "works": [
         "w0cffd239"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17281": {
       "key": "P17281",
@@ -7222,7 +7578,8 @@
       "url": "https://www.luogu.com.cn/problem/P17281",
       "works": [
         "w62e25954"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P4890": {
       "key": "P4890",
@@ -7233,7 +7590,8 @@
       "url": "https://www.luogu.com.cn/problem/P4890",
       "works": [
         "w1dc0dc52"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5692": {
       "key": "P5692",
@@ -7244,7 +7602,8 @@
       "url": "https://www.luogu.com.cn/problem/P5692",
       "works": [
         "w1dc0dc52"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5287": {
       "key": "P5287",
@@ -7255,7 +7614,8 @@
       "url": "https://www.luogu.com.cn/problem/P5287",
       "works": [
         "w28796be6"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P7511": {
       "key": "P7511",
@@ -7266,7 +7626,8 @@
       "url": "https://www.luogu.com.cn/problem/P7511",
       "works": [
         "w28796be6"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P16330": {
       "key": "P16330",
@@ -7277,7 +7638,8 @@
       "url": "https://www.luogu.com.cn/problem/P16330",
       "works": [
         "w12604f45"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4832": {
       "key": "P4832",
@@ -7288,7 +7650,8 @@
       "url": "https://www.luogu.com.cn/problem/P4832",
       "works": [
         "w92cc4447"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4833": {
       "key": "P4833",
@@ -7299,7 +7662,8 @@
       "url": "https://www.luogu.com.cn/problem/P4833",
       "works": [
         "w92cc4447"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4834": {
       "key": "P4834",
@@ -7310,7 +7674,8 @@
       "url": "https://www.luogu.com.cn/problem/P4834",
       "works": [
         "w92cc4447"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P9337": {
       "key": "P9337",
@@ -7321,7 +7686,8 @@
       "url": "https://www.luogu.com.cn/problem/P9337",
       "works": [
         "w3d714dd3"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P14591": {
       "key": "P14591",
@@ -7332,7 +7698,8 @@
       "url": "https://www.luogu.com.cn/problem/P14591",
       "works": [
         "w0eb7c2aa"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7845": {
       "key": "P7845",
@@ -7343,7 +7710,8 @@
       "url": "https://www.luogu.com.cn/problem/P7845",
       "works": [
         "w22bbf24b"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "B4488": {
       "key": "B4488",
@@ -7354,7 +7722,8 @@
       "url": "https://www.luogu.com.cn/problem/B4488",
       "works": [
         "w22bbf24b"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "B4491": {
       "key": "B4491",
@@ -7365,7 +7734,8 @@
       "url": "https://www.luogu.com.cn/problem/B4491",
       "works": [
         "w22bbf24b"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "B4494": {
       "key": "B4494",
@@ -7376,7 +7746,8 @@
       "url": "https://www.luogu.com.cn/problem/B4494",
       "works": [
         "w22bbf24b"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P16942": {
       "key": "P16942",
@@ -7387,7 +7758,8 @@
       "url": "https://www.luogu.com.cn/problem/P16942",
       "works": [
         "w22bbf24b"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P3651": {
       "key": "P3651",
@@ -7398,7 +7770,8 @@
       "url": "https://www.luogu.com.cn/problem/P3651",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3654": {
       "key": "P3654",
@@ -7409,7 +7782,8 @@
       "url": "https://www.luogu.com.cn/problem/P3654",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P3655": {
       "key": "P3655",
@@ -7420,7 +7794,8 @@
       "url": "https://www.luogu.com.cn/problem/P3655",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P3695": {
       "key": "P3695",
@@ -7431,7 +7806,8 @@
       "url": "https://www.luogu.com.cn/problem/P3695",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3697": {
       "key": "P3697",
@@ -7442,7 +7818,8 @@
       "url": "https://www.luogu.com.cn/problem/P3697",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3741": {
       "key": "P3741",
@@ -7453,7 +7830,8 @@
       "url": "https://www.luogu.com.cn/problem/P3741",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P3742": {
       "key": "P3742",
@@ -7464,7 +7842,8 @@
       "url": "https://www.luogu.com.cn/problem/P3742",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P3743": {
       "key": "P3743",
@@ -7475,7 +7854,8 @@
       "url": "https://www.luogu.com.cn/problem/P3743",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P3946": {
       "key": "P3946",
@@ -7486,7 +7866,8 @@
       "url": "https://www.luogu.com.cn/problem/P3946",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3947": {
       "key": "P3947",
@@ -7497,7 +7878,8 @@
       "url": "https://www.luogu.com.cn/problem/P3947",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P4851": {
       "key": "P4851",
@@ -7508,7 +7890,8 @@
       "url": "https://www.luogu.com.cn/problem/P4851",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P4852": {
       "key": "P4852",
@@ -7519,7 +7902,8 @@
       "url": "https://www.luogu.com.cn/problem/P4852",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4853": {
       "key": "P4853",
@@ -7530,7 +7914,8 @@
       "url": "https://www.luogu.com.cn/problem/P4853",
       "works": [
         "w20166c1a"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P9335": {
       "key": "P9335",
@@ -7541,7 +7926,8 @@
       "url": "https://www.luogu.com.cn/problem/P9335",
       "works": [
         "wda5e93d0"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17229": {
       "key": "P17229",
@@ -7552,7 +7938,8 @@
       "url": "https://www.luogu.com.cn/problem/P17229",
       "works": [
         "w17016981"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P15851": {
       "key": "P15851",
@@ -7563,7 +7950,8 @@
       "url": "https://www.luogu.com.cn/problem/P15851",
       "works": [
         "wed555f35"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P11028": {
       "key": "P11028",
@@ -7574,7 +7962,8 @@
       "url": "https://www.luogu.com.cn/problem/P11028",
       "works": [
         "w6ec5a0b3"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P15444": {
       "key": "P15444",
@@ -7585,7 +7974,8 @@
       "url": "https://www.luogu.com.cn/problem/P15444",
       "works": [
         "w451cce0f"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P12602": {
       "key": "P12602",
@@ -7596,7 +7986,8 @@
       "url": "https://www.luogu.com.cn/problem/P12602",
       "works": [
         "w40e52fb0"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P3934": {
       "key": "P3934",
@@ -7607,7 +7998,8 @@
       "url": "https://www.luogu.com.cn/problem/P3934",
       "works": [
         "w6f833515"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P4688": {
       "key": "P4688",
@@ -7618,7 +8010,8 @@
       "url": "https://www.luogu.com.cn/problem/P4688",
       "works": [
         "w6f833515"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4689": {
       "key": "P4689",
@@ -7629,7 +8022,8 @@
       "url": "https://www.luogu.com.cn/problem/P4689",
       "works": [
         "w6f833515"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4690": {
       "key": "P4690",
@@ -7640,7 +8034,8 @@
       "url": "https://www.luogu.com.cn/problem/P4690",
       "works": [
         "w6f833515"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4692": {
       "key": "P4692",
@@ -7651,7 +8046,8 @@
       "url": "https://www.luogu.com.cn/problem/P4692",
       "works": [
         "w6f833515"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4693": {
       "key": "P4693",
@@ -7662,7 +8058,8 @@
       "url": "https://www.luogu.com.cn/problem/P4693",
       "works": [
         "w6f833515"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6580": {
       "key": "P6580",
@@ -7673,7 +8070,8 @@
       "url": "https://www.luogu.com.cn/problem/P6580",
       "works": [
         "w6f833515"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11369": {
       "key": "P11369",
@@ -7684,7 +8082,8 @@
       "url": "https://www.luogu.com.cn/problem/P11369",
       "works": [
         "w609eb0dc"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8323": {
       "key": "P8323",
@@ -7695,7 +8094,8 @@
       "url": "https://www.luogu.com.cn/problem/P8323",
       "works": [
         "wf9d33b28"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P10704": {
       "key": "P10704",
@@ -7706,7 +8106,8 @@
       "url": "https://www.luogu.com.cn/problem/P10704",
       "works": [
         "wf9d33b28"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P12538": {
       "key": "P12538",
@@ -7717,7 +8118,8 @@
       "url": "https://www.luogu.com.cn/problem/P12538",
       "works": [
         "wf9d33b28"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P15370": {
       "key": "P15370",
@@ -7728,7 +8130,8 @@
       "url": "https://www.luogu.com.cn/problem/P15370",
       "works": [
         "wf9d33b28"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17464": {
       "key": "P17464",
@@ -7739,7 +8142,8 @@
       "url": "https://www.luogu.com.cn/problem/P17464",
       "works": [
         "wf9d33b28"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P2101": {
       "key": "P2101",
@@ -7750,7 +8154,8 @@
       "url": "https://www.luogu.com.cn/problem/P2101",
       "works": [
         "w1b4549a4"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P8147": {
       "key": "P8147",
@@ -7761,7 +8166,8 @@
       "url": "https://www.luogu.com.cn/problem/P8147",
       "works": [
         "w1b4549a4"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7948": {
       "key": "P7948",
@@ -7772,7 +8178,8 @@
       "url": "https://www.luogu.com.cn/problem/P7948",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P7949": {
       "key": "P7949",
@@ -7783,7 +8190,8 @@
       "url": "https://www.luogu.com.cn/problem/P7949",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7950": {
       "key": "P7950",
@@ -7794,7 +8202,8 @@
       "url": "https://www.luogu.com.cn/problem/P7950",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P7951": {
       "key": "P7951",
@@ -7805,7 +8214,8 @@
       "url": "https://www.luogu.com.cn/problem/P7951",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P7982": {
       "key": "P7982",
@@ -7816,7 +8226,8 @@
       "url": "https://www.luogu.com.cn/problem/P7982",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P7983": {
       "key": "P7983",
@@ -7827,7 +8238,8 @@
       "url": "https://www.luogu.com.cn/problem/P7983",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8569": {
       "key": "P8569",
@@ -7838,7 +8250,8 @@
       "url": "https://www.luogu.com.cn/problem/P8569",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8571": {
       "key": "P8571",
@@ -7849,7 +8262,8 @@
       "url": "https://www.luogu.com.cn/problem/P8571",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P12477": {
       "key": "P12477",
@@ -7860,7 +8274,8 @@
       "url": "https://www.luogu.com.cn/problem/P12477",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P14472": {
       "key": "P14472",
@@ -7871,7 +8286,8 @@
       "url": "https://www.luogu.com.cn/problem/P14472",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P15108": {
       "key": "P15108",
@@ -7882,7 +8298,8 @@
       "url": "https://www.luogu.com.cn/problem/P15108",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17280": {
       "key": "P17280",
@@ -7893,7 +8310,8 @@
       "url": "https://www.luogu.com.cn/problem/P17280",
       "works": [
         "w95835a5d"
-      ]
+      ],
+      "difficulty": "暂无评定"
     },
     "P15971": {
       "key": "P15971",
@@ -7904,7 +8322,8 @@
       "url": "https://www.luogu.com.cn/problem/P15971",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P16329": {
       "key": "P16329",
@@ -7915,7 +8334,8 @@
       "url": "https://www.luogu.com.cn/problem/P16329",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17597": {
       "key": "P17597",
@@ -7926,7 +8346,8 @@
       "url": "https://www.luogu.com.cn/problem/P17597",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17598": {
       "key": "P17598",
@@ -7937,7 +8358,8 @@
       "url": "https://www.luogu.com.cn/problem/P17598",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17599": {
       "key": "P17599",
@@ -7948,7 +8370,8 @@
       "url": "https://www.luogu.com.cn/problem/P17599",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P17600": {
       "key": "P17600",
@@ -7959,7 +8382,8 @@
       "url": "https://www.luogu.com.cn/problem/P17600",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P17601": {
       "key": "P17601",
@@ -7970,7 +8394,8 @@
       "url": "https://www.luogu.com.cn/problem/P17601",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17602": {
       "key": "P17602",
@@ -7981,7 +8406,8 @@
       "url": "https://www.luogu.com.cn/problem/P17602",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17603": {
       "key": "P17603",
@@ -7992,7 +8418,8 @@
       "url": "https://www.luogu.com.cn/problem/P17603",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17604": {
       "key": "P17604",
@@ -8003,7 +8430,8 @@
       "url": "https://www.luogu.com.cn/problem/P17604",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P17605": {
       "key": "P17605",
@@ -8014,7 +8442,8 @@
       "url": "https://www.luogu.com.cn/problem/P17605",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P17606": {
       "key": "P17606",
@@ -8025,7 +8454,8 @@
       "url": "https://www.luogu.com.cn/problem/P17606",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P17607": {
       "key": "P17607",
@@ -8036,7 +8466,8 @@
       "url": "https://www.luogu.com.cn/problem/P17607",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17608": {
       "key": "P17608",
@@ -8047,7 +8478,8 @@
       "url": "https://www.luogu.com.cn/problem/P17608",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17609": {
       "key": "P17609",
@@ -8058,7 +8490,8 @@
       "url": "https://www.luogu.com.cn/problem/P17609",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17610": {
       "key": "P17610",
@@ -8069,7 +8502,8 @@
       "url": "https://www.luogu.com.cn/problem/P17610",
       "works": [
         "w7a2f5c7d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5047": {
       "key": "P5047",
@@ -8080,7 +8514,8 @@
       "url": "https://www.luogu.com.cn/problem/P5047",
       "works": [
         "w3355ee68"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6578": {
       "key": "P6578",
@@ -8091,7 +8526,8 @@
       "url": "https://www.luogu.com.cn/problem/P6578",
       "works": [
         "w3355ee68"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11367": {
       "key": "P11367",
@@ -8102,7 +8538,8 @@
       "url": "https://www.luogu.com.cn/problem/P11367",
       "works": [
         "w3355ee68"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4859": {
       "key": "P4859",
@@ -8113,7 +8550,8 @@
       "url": "https://www.luogu.com.cn/problem/P4859",
       "works": [
         "w329e5df2"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5437": {
       "key": "P5437",
@@ -8124,7 +8562,8 @@
       "url": "https://www.luogu.com.cn/problem/P5437",
       "works": [
         "w329e5df2"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8560": {
       "key": "P8560",
@@ -8135,7 +8574,8 @@
       "url": "https://www.luogu.com.cn/problem/P8560",
       "works": [
         "w329e5df2"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11144": {
       "key": "P11144",
@@ -8146,7 +8586,8 @@
       "url": "https://www.luogu.com.cn/problem/P11144",
       "works": [
         "w329e5df2"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P11145": {
       "key": "P11145",
@@ -8157,7 +8598,8 @@
       "url": "https://www.luogu.com.cn/problem/P11145",
       "works": [
         "w329e5df2"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P14944": {
       "key": "P14944",
@@ -8168,7 +8610,8 @@
       "url": "https://www.luogu.com.cn/problem/P14944",
       "works": [
         "w329e5df2"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5113": {
       "key": "P5113",
@@ -8179,7 +8622,8 @@
       "url": "https://www.luogu.com.cn/problem/P5113",
       "works": [
         "w26871207"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P9576": {
       "key": "P9576",
@@ -8190,7 +8634,8 @@
       "url": "https://www.luogu.com.cn/problem/P9576",
       "works": [
         "w26871207"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P11191": {
       "key": "P11191",
@@ -8201,7 +8646,8 @@
       "url": "https://www.luogu.com.cn/problem/P11191",
       "works": [
         "w26871207"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17080": {
       "key": "P17080",
@@ -8212,7 +8658,8 @@
       "url": "https://www.luogu.com.cn/problem/P17080",
       "works": [
         "w26871207"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17081": {
       "key": "P17081",
@@ -8223,7 +8670,8 @@
       "url": "https://www.luogu.com.cn/problem/P17081",
       "works": [
         "w26871207"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P13908": {
       "key": "P13908",
@@ -8234,7 +8682,8 @@
       "url": "https://www.luogu.com.cn/problem/P13908",
       "works": [
         "w6f8904ca"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17316": {
       "key": "P17316",
@@ -8245,7 +8694,8 @@
       "url": "https://www.luogu.com.cn/problem/P17316",
       "works": [
         "w6f8904ca"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17568": {
       "key": "P17568",
@@ -8256,7 +8706,8 @@
       "url": "https://www.luogu.com.cn/problem/P17568",
       "works": [
         "w6f8904ca"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P1947": {
       "key": "P1947",
@@ -8267,7 +8718,8 @@
       "url": "https://www.luogu.com.cn/problem/P1947",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P3932": {
       "key": "P3932",
@@ -8278,7 +8730,8 @@
       "url": "https://www.luogu.com.cn/problem/P3932",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P3933": {
       "key": "P3933",
@@ -8289,7 +8742,8 @@
       "url": "https://www.luogu.com.cn/problem/P3933",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P3987": {
       "key": "P3987",
@@ -8300,7 +8754,8 @@
       "url": "https://www.luogu.com.cn/problem/P3987",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4118": {
       "key": "P4118",
@@ -8311,7 +8766,8 @@
       "url": "https://www.luogu.com.cn/problem/P4118",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4691": {
       "key": "P4691",
@@ -8322,7 +8778,8 @@
       "url": "https://www.luogu.com.cn/problem/P4691",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P5062": {
       "key": "P5062",
@@ -8333,7 +8790,8 @@
       "url": "https://www.luogu.com.cn/problem/P5062",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5063": {
       "key": "P5063",
@@ -8344,7 +8802,8 @@
       "url": "https://www.luogu.com.cn/problem/P5063",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5064": {
       "key": "P5064",
@@ -8355,7 +8814,8 @@
       "url": "https://www.luogu.com.cn/problem/P5064",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5065": {
       "key": "P5065",
@@ -8366,7 +8826,8 @@
       "url": "https://www.luogu.com.cn/problem/P5065",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5066": {
       "key": "P5066",
@@ -8377,7 +8838,8 @@
       "url": "https://www.luogu.com.cn/problem/P5066",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5067": {
       "key": "P5067",
@@ -8388,7 +8850,8 @@
       "url": "https://www.luogu.com.cn/problem/P5067",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5068": {
       "key": "P5068",
@@ -8399,7 +8862,8 @@
       "url": "https://www.luogu.com.cn/problem/P5068",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5069": {
       "key": "P5069",
@@ -8410,7 +8874,8 @@
       "url": "https://www.luogu.com.cn/problem/P5069",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5070": {
       "key": "P5070",
@@ -8421,7 +8886,8 @@
       "url": "https://www.luogu.com.cn/problem/P5070",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5071": {
       "key": "P5071",
@@ -8432,7 +8898,8 @@
       "url": "https://www.luogu.com.cn/problem/P5071",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5072": {
       "key": "P5072",
@@ -8443,7 +8910,8 @@
       "url": "https://www.luogu.com.cn/problem/P5072",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5073": {
       "key": "P5073",
@@ -8454,7 +8922,8 @@
       "url": "https://www.luogu.com.cn/problem/P5073",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8458": {
       "key": "P8458",
@@ -8465,7 +8934,8 @@
       "url": "https://www.luogu.com.cn/problem/P8458",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8460": {
       "key": "P8460",
@@ -8476,7 +8946,8 @@
       "url": "https://www.luogu.com.cn/problem/P8460",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8461": {
       "key": "P8461",
@@ -8487,7 +8958,8 @@
       "url": "https://www.luogu.com.cn/problem/P8461",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8462": {
       "key": "P8462",
@@ -8498,7 +8970,8 @@
       "url": "https://www.luogu.com.cn/problem/P8462",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P8463": {
       "key": "P8463",
@@ -8509,7 +8982,8 @@
       "url": "https://www.luogu.com.cn/problem/P8463",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P8464": {
       "key": "P8464",
@@ -8520,7 +8994,8 @@
       "url": "https://www.luogu.com.cn/problem/P8464",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8465": {
       "key": "P8465",
@@ -8531,7 +9006,8 @@
       "url": "https://www.luogu.com.cn/problem/P8465",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17149": {
       "key": "P17149",
@@ -8542,7 +9018,8 @@
       "url": "https://www.luogu.com.cn/problem/P17149",
       "works": [
         "wfacc342c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4770": {
       "key": "P4770",
@@ -8553,7 +9030,8 @@
       "url": "https://www.luogu.com.cn/problem/P4770",
       "works": [
         "w618d3c37"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P7811": {
       "key": "P7811",
@@ -8564,7 +9042,8 @@
       "url": "https://www.luogu.com.cn/problem/P7811",
       "works": [
         "w618d3c37"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P13242": {
       "key": "P13242",
@@ -8575,7 +9054,8 @@
       "url": "https://www.luogu.com.cn/problem/P13242",
       "works": [
         "w618d3c37"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P14471": {
       "key": "P14471",
@@ -8586,7 +9066,8 @@
       "url": "https://www.luogu.com.cn/problem/P14471",
       "works": [
         "w618d3c37"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8527": {
       "key": "P8527",
@@ -8597,7 +9078,8 @@
       "url": "https://www.luogu.com.cn/problem/P8527",
       "works": [
         "wb5910dc0"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P11647": {
       "key": "P11647",
@@ -8608,7 +9090,8 @@
       "url": "https://www.luogu.com.cn/problem/P11647",
       "works": [
         "w720c026e"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6151": {
       "key": "P6151",
@@ -8619,7 +9102,8 @@
       "url": "https://www.luogu.com.cn/problem/P6151",
       "works": [
         "w8a1f4da0"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P3792": {
       "key": "P3792",
@@ -8630,7 +9114,8 @@
       "url": "https://www.luogu.com.cn/problem/P3792",
       "works": [
         "w73bc15bf"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P17063": {
       "key": "P17063",
@@ -8641,7 +9126,8 @@
       "url": "https://www.luogu.com.cn/problem/P17063",
       "works": [
         "w73bc15bf"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17226": {
       "key": "P17226",
@@ -8652,7 +9138,8 @@
       "url": "https://www.luogu.com.cn/problem/P17226",
       "works": [
         "w462a296e"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P10158": {
       "key": "P10158",
@@ -8663,7 +9150,8 @@
       "url": "https://www.luogu.com.cn/problem/P10158",
       "works": [
         "w8ba6158f"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "B4487": {
       "key": "B4487",
@@ -8674,7 +9162,8 @@
       "url": "https://www.luogu.com.cn/problem/B4487",
       "works": [
         "wafa71bfc"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "B4489": {
       "key": "B4489",
@@ -8685,7 +9174,8 @@
       "url": "https://www.luogu.com.cn/problem/B4489",
       "works": [
         "wafa71bfc"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "B4490": {
       "key": "B4490",
@@ -8696,7 +9186,8 @@
       "url": "https://www.luogu.com.cn/problem/B4490",
       "works": [
         "wafa71bfc"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "B4492": {
       "key": "B4492",
@@ -8707,7 +9198,8 @@
       "url": "https://www.luogu.com.cn/problem/B4492",
       "works": [
         "wafa71bfc"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "B4493": {
       "key": "B4493",
@@ -8718,7 +9210,8 @@
       "url": "https://www.luogu.com.cn/problem/B4493",
       "works": [
         "wafa71bfc"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P7346": {
       "key": "P7346",
@@ -8729,7 +9222,8 @@
       "url": "https://www.luogu.com.cn/problem/P7346",
       "works": [
         "wa087549b"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P7524": {
       "key": "P7524",
@@ -8740,7 +9234,8 @@
       "url": "https://www.luogu.com.cn/problem/P7524",
       "works": [
         "wa087549b"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17079": {
       "key": "P17079",
@@ -8751,7 +9246,8 @@
       "url": "https://www.luogu.com.cn/problem/P17079",
       "works": [
         "we8b32482"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P3674": {
       "key": "P3674",
@@ -8762,7 +9258,8 @@
       "url": "https://www.luogu.com.cn/problem/P3674",
       "works": [
         "w1626f1a8"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P17315": {
       "key": "P17315",
@@ -8773,7 +9270,8 @@
       "url": "https://www.luogu.com.cn/problem/P17315",
       "works": [
         "w5484a92f"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P15416": {
       "key": "P15416",
@@ -8784,7 +9282,8 @@
       "url": "https://www.luogu.com.cn/problem/P15416",
       "works": [
         "wd3a395f5"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P15368": {
       "key": "P15368",
@@ -8795,7 +9294,8 @@
       "url": "https://www.luogu.com.cn/problem/P15368",
       "works": [
         "wb9464949"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P10574": {
       "key": "P10574",
@@ -8806,7 +9306,8 @@
       "url": "https://www.luogu.com.cn/problem/P10574",
       "works": [
         "we69f2583"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11695": {
       "key": "P11695",
@@ -8817,7 +9318,8 @@
       "url": "https://www.luogu.com.cn/problem/P11695",
       "works": [
         "we69f2583"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11803": {
       "key": "P11803",
@@ -8828,7 +9330,8 @@
       "url": "https://www.luogu.com.cn/problem/P11803",
       "works": [
         "w2957c621"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P16125": {
       "key": "P16125",
@@ -8839,7 +9342,8 @@
       "url": "https://www.luogu.com.cn/problem/P16125",
       "works": [
         "w8c8ec4de"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5397": {
       "key": "P5397",
@@ -8850,7 +9354,8 @@
       "url": "https://www.luogu.com.cn/problem/P5397",
       "works": [
         "weed0f387"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P13664": {
       "key": "P13664",
@@ -8861,7 +9366,8 @@
       "url": "https://www.luogu.com.cn/problem/P13664",
       "works": [
         "w6fc3b7ca"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11645": {
       "key": "P11645",
@@ -8872,7 +9378,8 @@
       "url": "https://www.luogu.com.cn/problem/P11645",
       "works": [
         "w70197817"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P5399": {
       "key": "P5399",
@@ -8883,7 +9390,8 @@
       "url": "https://www.luogu.com.cn/problem/P5399",
       "works": [
         "w5e336c94"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P3603": {
       "key": "P3603",
@@ -8894,7 +9402,8 @@
       "url": "https://www.luogu.com.cn/problem/P3603",
       "works": [
         "wed4f9247"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4119": {
       "key": "P4119",
@@ -8905,7 +9414,8 @@
       "url": "https://www.luogu.com.cn/problem/P4119",
       "works": [
         "wed4f9247"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P5354": {
       "key": "P5354",
@@ -8916,7 +9426,8 @@
       "url": "https://www.luogu.com.cn/problem/P5354",
       "works": [
         "wed4f9247"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5355": {
       "key": "P5355",
@@ -8927,7 +9438,8 @@
       "url": "https://www.luogu.com.cn/problem/P5355",
       "works": [
         "wed4f9247"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5356": {
       "key": "P5356",
@@ -8938,7 +9450,8 @@
       "url": "https://www.luogu.com.cn/problem/P5356",
       "works": [
         "wed4f9247"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P14322": {
       "key": "P14322",
@@ -8949,7 +9462,8 @@
       "url": "https://www.luogu.com.cn/problem/P14322",
       "works": [
         "w671f4b80"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P11690": {
       "key": "P11690",
@@ -8960,7 +9474,8 @@
       "url": "https://www.luogu.com.cn/problem/P11690",
       "works": [
         "w671f4b80"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11691": {
       "key": "P11691",
@@ -8971,7 +9486,8 @@
       "url": "https://www.luogu.com.cn/problem/P11691",
       "works": [
         "w671f4b80"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11692": {
       "key": "P11692",
@@ -8982,7 +9498,8 @@
       "url": "https://www.luogu.com.cn/problem/P11692",
       "works": [
         "w671f4b80"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P10316": {
       "key": "P10316",
@@ -8993,7 +9510,8 @@
       "url": "https://www.luogu.com.cn/problem/P10316",
       "works": [
         "w4eb1f5d0"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P8570": {
       "key": "P8570",
@@ -9004,7 +9522,8 @@
       "url": "https://www.luogu.com.cn/problem/P8570",
       "works": [
         "wd846eee8"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P16957": {
       "key": "P16957",
@@ -9015,7 +9534,8 @@
       "url": "https://www.luogu.com.cn/problem/P16957",
       "works": [
         "w8fb160ba"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P16960": {
       "key": "P16960",
@@ -9026,7 +9546,8 @@
       "url": "https://www.luogu.com.cn/problem/P16960",
       "works": [
         "w8fb160ba"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P13665": {
       "key": "P13665",
@@ -9037,7 +9558,8 @@
       "url": "https://www.luogu.com.cn/problem/P13665",
       "works": [
         "we6cff908"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P15419": {
       "key": "P15419",
@@ -9048,7 +9570,8 @@
       "url": "https://www.luogu.com.cn/problem/P15419",
       "works": [
         "w9dd1fb15"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P4117": {
       "key": "P4117",
@@ -9059,7 +9582,8 @@
       "url": "https://www.luogu.com.cn/problem/P4117",
       "works": [
         "w23616a52"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P8937": {
       "key": "P8937",
@@ -9070,7 +9594,8 @@
       "url": "https://www.luogu.com.cn/problem/P8937",
       "works": [
         "w23616a52"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11643": {
       "key": "P11643",
@@ -9081,7 +9606,8 @@
       "url": "https://www.luogu.com.cn/problem/P11643",
       "works": [
         "w23616a52"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P12009": {
       "key": "P12009",
@@ -9092,7 +9618,8 @@
       "url": "https://www.luogu.com.cn/problem/P12009",
       "works": [
         "wf56d3a95"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P4935": {
       "key": "P4935",
@@ -9103,7 +9630,8 @@
       "url": "https://www.luogu.com.cn/problem/P4935",
       "works": [
         "w811495b5"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11696": {
       "key": "P11696",
@@ -9114,7 +9642,8 @@
       "url": "https://www.luogu.com.cn/problem/P11696",
       "works": [
         "w811495b5"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "UOJ431": {
       "key": "UOJ431",
@@ -9125,7 +9654,8 @@
       "url": "https://uoj.ac/problem/431",
       "works": [
         "w811495b5"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "UOJ1035": {
       "key": "UOJ1035",
@@ -9136,7 +9666,8 @@
       "url": "https://uoj.ac/problem/1035",
       "works": [
         "w1d68278d"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P15418": {
       "key": "P15418",
@@ -9147,7 +9678,8 @@
       "url": "https://www.luogu.com.cn/problem/P15418",
       "works": [
         "w0d0af890"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P3924": {
       "key": "P3924",
@@ -9158,7 +9690,8 @@
       "url": "https://www.luogu.com.cn/problem/P3924",
       "works": [
         "wfd7d1b28"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P15367": {
       "key": "P15367",
@@ -9169,7 +9702,8 @@
       "url": "https://www.luogu.com.cn/problem/P15367",
       "works": [
         "wb7af2d22"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P16637": {
       "key": "P16637",
@@ -9180,7 +9714,8 @@
       "url": "https://www.luogu.com.cn/problem/P16637",
       "works": [
         "wb7af2d22"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P10081": {
       "key": "P10081",
@@ -9191,7 +9726,8 @@
       "url": "https://www.luogu.com.cn/problem/P10081",
       "works": [
         "w9308451d"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11365": {
       "key": "P11365",
@@ -9202,7 +9738,8 @@
       "url": "https://www.luogu.com.cn/problem/P11365",
       "works": [
         "w9308451d"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P13699": {
       "key": "P13699",
@@ -9213,7 +9750,8 @@
       "url": "https://www.luogu.com.cn/problem/P13699",
       "works": [
         "w0c5405ec"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "UOJ983": {
       "key": "UOJ983",
@@ -9224,7 +9762,8 @@
       "url": "https://uoj.ac/problem/983",
       "works": [
         "w345a1ffb"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P17078": {
       "key": "P17078",
@@ -9235,7 +9774,8 @@
       "url": "https://www.luogu.com.cn/problem/P17078",
       "works": [
         "wfaf2bfb3"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P11801": {
       "key": "P11801",
@@ -9246,7 +9786,8 @@
       "url": "https://www.luogu.com.cn/problem/P11801",
       "works": [
         "w622d9d13"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P4927": {
       "key": "P4927",
@@ -9257,7 +9798,8 @@
       "url": "https://www.luogu.com.cn/problem/P4927",
       "works": [
         "w70161d0e"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P11642": {
       "key": "P11642",
@@ -9268,7 +9810,8 @@
       "url": "https://www.luogu.com.cn/problem/P11642",
       "works": [
         "w2e8c3599"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P12521": {
       "key": "P12521",
@@ -9279,7 +9822,8 @@
       "url": "https://www.luogu.com.cn/problem/P12521",
       "works": [
         "w9165dc3a"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17627": {
       "key": "P17627",
@@ -9290,7 +9834,8 @@
       "url": "https://www.luogu.com.cn/problem/P17627",
       "works": [
         "w661ddfa6"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P17628": {
       "key": "P17628",
@@ -9301,7 +9846,8 @@
       "url": "https://www.luogu.com.cn/problem/P17628",
       "works": [
         "w661ddfa6"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P12732": {
       "key": "P12732",
@@ -9312,7 +9858,8 @@
       "url": "https://www.luogu.com.cn/problem/P12732",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P12733": {
       "key": "P12733",
@@ -9323,7 +9870,8 @@
       "url": "https://www.luogu.com.cn/problem/P12733",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P12734": {
       "key": "P12734",
@@ -9334,7 +9882,8 @@
       "url": "https://www.luogu.com.cn/problem/P12734",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P12735": {
       "key": "P12735",
@@ -9345,7 +9894,8 @@
       "url": "https://www.luogu.com.cn/problem/P12735",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P12777": {
       "key": "P12777",
@@ -9356,7 +9906,8 @@
       "url": "https://www.luogu.com.cn/problem/P12777",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P14257": {
       "key": "P14257",
@@ -9367,7 +9918,8 @@
       "url": "https://www.luogu.com.cn/problem/P14257",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P14258": {
       "key": "P14258",
@@ -9378,7 +9930,8 @@
       "url": "https://www.luogu.com.cn/problem/P14258",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P14259": {
       "key": "P14259",
@@ -9389,7 +9942,8 @@
       "url": "https://www.luogu.com.cn/problem/P14259",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P14260": {
       "key": "P14260",
@@ -9400,7 +9954,8 @@
       "url": "https://www.luogu.com.cn/problem/P14260",
       "works": [
         "w68d11e9f"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P1196": {
       "key": "P1196",
@@ -9411,7 +9966,8 @@
       "url": "https://www.luogu.com.cn/problem/P1196",
       "works": [
         "w60290047"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P4847": {
       "key": "P4847",
@@ -9422,7 +9978,8 @@
       "url": "https://www.luogu.com.cn/problem/P4847",
       "works": [
         "w60290047"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "UOJ182": {
       "key": "UOJ182",
@@ -9433,7 +9990,8 @@
       "url": "https://uoj.ac/problem/182",
       "works": [
         "w702165e8"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P17695": {
       "key": "P17695",
@@ -9444,7 +10002,8 @@
       "url": "https://www.luogu.com.cn/problem/P17695",
       "works": [
         "wbb88ad51"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11270": {
       "key": "P11270",
@@ -9455,7 +10014,8 @@
       "url": "https://www.luogu.com.cn/problem/P11270",
       "works": [
         "w659afb0c"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P10882": {
       "key": "P10882",
@@ -9466,7 +10026,8 @@
       "url": "https://www.luogu.com.cn/problem/P10882",
       "works": [
         "wcd3e65aa"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11959": {
       "key": "P11959",
@@ -9477,7 +10038,8 @@
       "url": "https://www.luogu.com.cn/problem/P11959",
       "works": [
         "wcd3e65aa"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P12082": {
       "key": "P12082",
@@ -9488,7 +10050,8 @@
       "url": "https://www.luogu.com.cn/problem/P12082",
       "works": [
         "wcd3e65aa"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P12083": {
       "key": "P12083",
@@ -9499,7 +10062,8 @@
       "url": "https://www.luogu.com.cn/problem/P12083",
       "works": [
         "wcd3e65aa"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "UOJ1089": {
       "key": "UOJ1089",
@@ -9510,7 +10074,8 @@
       "url": "https://uoj.ac/problem/1089",
       "works": [
         "wcd3e65aa"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "UOJ1091": {
       "key": "UOJ1091",
@@ -9521,7 +10086,8 @@
       "url": "https://uoj.ac/problem/1091",
       "works": [
         "wcd3e65aa"
-      ]
+      ],
+      "difficulty": "未设置难度"
     },
     "P9355": {
       "key": "P9355",
@@ -9532,7 +10098,8 @@
       "url": "https://www.luogu.com.cn/problem/P9355",
       "works": [
         "wfa9a169c"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P11661": {
       "key": "P11661",
@@ -9543,7 +10110,8 @@
       "url": "https://www.luogu.com.cn/problem/P11661",
       "works": [
         "wfa9a169c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P11799": {
       "key": "P11799",
@@ -9554,7 +10122,8 @@
       "url": "https://www.luogu.com.cn/problem/P11799",
       "works": [
         "wfa9a169c"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P14949": {
       "key": "P14949",
@@ -9565,7 +10134,8 @@
       "url": "https://www.luogu.com.cn/problem/P14949",
       "works": [
         "wfa9a169c"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P16966": {
       "key": "P16966",
@@ -9576,7 +10146,8 @@
       "url": "https://www.luogu.com.cn/problem/P16966",
       "works": [
         "wfa9a169c"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6380": {
       "key": "P6380",
@@ -9587,7 +10158,8 @@
       "url": "https://www.luogu.com.cn/problem/P6380",
       "works": [
         "w081bb0dc"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P6749": {
       "key": "P6749",
@@ -9598,7 +10170,8 @@
       "url": "https://www.luogu.com.cn/problem/P6749",
       "works": [
         "w081bb0dc"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P7339": {
       "key": "P7339",
@@ -9609,7 +10182,8 @@
       "url": "https://www.luogu.com.cn/problem/P7339",
       "works": [
         "w081bb0dc"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P11657": {
       "key": "P11657",
@@ -9620,7 +10194,8 @@
       "url": "https://www.luogu.com.cn/problem/P11657",
       "works": [
         "w081bb0dc"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P16928": {
       "key": "P16928",
@@ -9631,7 +10206,8 @@
       "url": "https://www.luogu.com.cn/problem/P16928",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P16929": {
       "key": "P16929",
@@ -9642,7 +10218,8 @@
       "url": "https://www.luogu.com.cn/problem/P16929",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P16930": {
       "key": "P16930",
@@ -9653,7 +10230,8 @@
       "url": "https://www.luogu.com.cn/problem/P16930",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P16931": {
       "key": "P16931",
@@ -9664,7 +10242,8 @@
       "url": "https://www.luogu.com.cn/problem/P16931",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P16932": {
       "key": "P16932",
@@ -9675,7 +10254,8 @@
       "url": "https://www.luogu.com.cn/problem/P16932",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P16933": {
       "key": "P16933",
@@ -9686,7 +10266,8 @@
       "url": "https://www.luogu.com.cn/problem/P16933",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P16934": {
       "key": "P16934",
@@ -9697,7 +10278,8 @@
       "url": "https://www.luogu.com.cn/problem/P16934",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P16935": {
       "key": "P16935",
@@ -9708,7 +10290,8 @@
       "url": "https://www.luogu.com.cn/problem/P16935",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P16936": {
       "key": "P16936",
@@ -9719,7 +10302,8 @@
       "url": "https://www.luogu.com.cn/problem/P16936",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "普及−"
     },
     "P16937": {
       "key": "P16937",
@@ -9730,7 +10314,8 @@
       "url": "https://www.luogu.com.cn/problem/P16937",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P16938": {
       "key": "P16938",
@@ -9741,7 +10326,8 @@
       "url": "https://www.luogu.com.cn/problem/P16938",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "入门"
     },
     "P16939": {
       "key": "P16939",
@@ -9752,7 +10338,8 @@
       "url": "https://www.luogu.com.cn/problem/P16939",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P17520": {
       "key": "P17520",
@@ -9763,7 +10350,8 @@
       "url": "https://www.luogu.com.cn/problem/P17520",
       "works": [
         "wed6dd8cd"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P14652": {
       "key": "P14652",
@@ -9774,7 +10362,8 @@
       "url": "https://www.luogu.com.cn/problem/P14652",
       "works": [
         "wf2c10bb7"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P11646": {
       "key": "P11646",
@@ -9785,7 +10374,8 @@
       "url": "https://www.luogu.com.cn/problem/P11646",
       "works": [
         "w0c1cf7ea"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P5617": {
       "key": "P5617",
@@ -9796,7 +10386,8 @@
       "url": "https://www.luogu.com.cn/problem/P5617",
       "works": [
         "w65f22552"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6455": {
       "key": "P6455",
@@ -9807,7 +10398,8 @@
       "url": "https://www.luogu.com.cn/problem/P6455",
       "works": [
         "w65f22552"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P6672": {
       "key": "P6672",
@@ -9818,7 +10410,8 @@
       "url": "https://www.luogu.com.cn/problem/P6672",
       "works": [
         "w65f22552"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P7289": {
       "key": "P7289",
@@ -9829,7 +10422,8 @@
       "url": "https://www.luogu.com.cn/problem/P7289",
       "works": [
         "w65f22552"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P13993": {
       "key": "P13993",
@@ -9840,7 +10434,8 @@
       "url": "https://www.luogu.com.cn/problem/P13993",
       "works": [
         "we773bba6"
-      ]
+      ],
+      "difficulty": "普及"
     },
     "P4965": {
       "key": "P4965",
@@ -9851,7 +10446,8 @@
       "url": "https://www.luogu.com.cn/problem/P4965",
       "works": [
         "w8c729fc6"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P12012": {
       "key": "P12012",
@@ -9862,7 +10458,8 @@
       "url": "https://www.luogu.com.cn/problem/P12012",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "提高+/省选−"
     },
     "P12013": {
       "key": "P12013",
@@ -9873,7 +10470,8 @@
       "url": "https://www.luogu.com.cn/problem/P12013",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "提高"
     },
     "P12014": {
       "key": "P12014",
@@ -9884,7 +10482,8 @@
       "url": "https://www.luogu.com.cn/problem/P12014",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P12461": {
       "key": "P12461",
@@ -9895,7 +10494,8 @@
       "url": "https://www.luogu.com.cn/problem/P12461",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P12462": {
       "key": "P12462",
@@ -9906,7 +10506,8 @@
       "url": "https://www.luogu.com.cn/problem/P12462",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P12463": {
       "key": "P12463",
@@ -9917,7 +10518,8 @@
       "url": "https://www.luogu.com.cn/problem/P12463",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P13129": {
       "key": "P13129",
@@ -9928,7 +10530,8 @@
       "url": "https://www.luogu.com.cn/problem/P13129",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P13130": {
       "key": "P13130",
@@ -9939,7 +10542,8 @@
       "url": "https://www.luogu.com.cn/problem/P13130",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     },
     "P13131": {
       "key": "P13131",
@@ -9950,7 +10554,8 @@
       "url": "https://www.luogu.com.cn/problem/P13131",
       "works": [
         "w19f2d56e"
-      ]
+      ],
+      "difficulty": "NOI/NOI+/CTS"
     }
   }
 }

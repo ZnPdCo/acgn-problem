@@ -21,3 +21,6 @@ Thumbs.db
 # local scratch
 *.log
 .tmp*
+
+# temporary Luogu difficulty snapshot (never commit)
+*.ndjson.gz

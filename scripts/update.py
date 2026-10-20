@@ -36,6 +36,17 @@ from fetch_article import (  # noqa: E402
     article_from_file,
     fetch_article,
 )
+from difficulty import (  # noqa: E402
+    DEFAULT_DIFFICULTY_FILE,
+    DEFAULT_DIFFICULTY_URL,
+    DIFFICULTY_LABELS,
+    UNSET_DIFFICULTY,
+    DifficultyError,
+    apply_difficulties,
+    difficulties_from_dataset,
+    fetch_luogu_difficulties,
+    load_difficulty_file,
+)
 from work_tags import (  # noqa: E402
     DEFAULT_TAG_FILE,
     TagFileError,
@@ -92,7 +103,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--from-file",
         type=Path,
-        help="parse local Markdown instead of fetching (for offline testing)",
+        help="parse local Markdown instead of fetching (add --skip-difficulty for offline runs)",
     )
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument(
@@ -100,6 +111,28 @@ def main(argv: list[str] | None = None) -> int:
         type=Path,
         default=DEFAULT_TAG_FILE,
         help="per-work tag mapping (default: web/public/data/tags.json)",
+    )
+    parser.add_argument(
+        "--difficulty-file",
+        type=Path,
+        default=DEFAULT_DIFFICULTY_FILE,
+        help="manual UOJ/QOJ difficulty mapping (default: data/difficulty.json)",
+    )
+    parser.add_argument(
+        "--difficulty-url",
+        default=DEFAULT_DIFFICULTY_URL,
+        help="Luogu NDJSON difficulty snapshot URL",
+    )
+    parser.add_argument(
+        "--difficulty-timeout",
+        type=float,
+        default=120.0,
+        help="timeout for the Luogu difficulty download",
+    )
+    parser.add_argument(
+        "--skip-difficulty",
+        action="store_true",
+        help="do not download the Luogu difficulty snapshot; keep previous labels",
     )
     parser.add_argument(
         "--raw-output",
@@ -138,6 +171,54 @@ def main(argv: list[str] | None = None) -> int:
         print(f"error: could not read tag file: {exc}", file=sys.stderr)
         return 1
 
+    previous = _load_existing(args.output)
+    previous_difficulties = difficulties_from_dataset(previous)
+
+    try:
+        extra_difficulties = load_difficulty_file(args.difficulty_file)
+    except DifficultyError as exc:
+        print(f"error: could not read difficulty file: {exc}", file=sys.stderr)
+        return 1
+
+    luogu_keys = [
+        key
+        for key, problem in dataset["problems"].items()
+        if problem.get("oj") == "luogu"
+    ]
+    luogu_difficulties: dict[str, str] = {}
+    difficulty_fetch_failed = False
+    if luogu_keys and not args.skip_difficulty:
+        try:
+            luogu_difficulties = fetch_luogu_difficulties(
+                luogu_keys,
+                url=args.difficulty_url,
+                timeout=args.difficulty_timeout,
+            )
+        except DifficultyError as exc:
+            difficulty_fetch_failed = True
+            print(f"warning: {exc}", file=sys.stderr)
+            print(
+                "warning: falling back to difficulties from the previous acgn.json",
+                file=sys.stderr,
+            )
+    elif args.skip_difficulty:
+        luogu_difficulties = {
+            key: previous_difficulties[key]
+            for key in luogu_keys
+            if key in previous_difficulties
+        }
+
+    try:
+        difficulty_report = apply_difficulties(
+            dataset,
+            luogu_difficulties=luogu_difficulties,
+            extra_difficulties=extra_difficulties,
+            previous_difficulties=previous_difficulties,
+        )
+    except DifficultyError as exc:
+        print(f"error: could not apply difficulties: {exc}", file=sys.stderr)
+        return 1
+
     errors = validate_dataset(dataset)
     if errors:
         print("dataset validation failed:", file=sys.stderr)
@@ -161,7 +242,6 @@ def main(argv: list[str] | None = None) -> int:
         )
         return 1
 
-    previous = _load_existing(args.output)
     if previous and not args.allow_shrink:
         old_problems = len(previous.get("problems") or {})
         old_works = len(previous.get("works") or [])
@@ -205,6 +285,33 @@ def main(argv: list[str] | None = None) -> int:
         print(
             f"warning: {len(tag_report.untagged)} work(s) still need tags: "
             f"{preview}{more}",
+            file=sys.stderr,
+        )
+    difficulty_parts = [
+        f"{label} {difficulty_report.counts[label]}"
+        for label in (*DIFFICULTY_LABELS, UNSET_DIFFICULTY)
+        if difficulty_report.counts.get(label)
+    ]
+    if difficulty_parts:
+        print("difficulty: " + ", ".join(difficulty_parts))
+    if (
+        difficulty_report.missing_luogu
+        and not args.skip_difficulty
+        and not difficulty_fetch_failed
+    ):
+        preview = ", ".join(difficulty_report.missing_luogu[:12])
+        more = " ..." if len(difficulty_report.missing_luogu) > 12 else ""
+        print(
+            f"warning: {len(difficulty_report.missing_luogu)} Luogu problem(s) "
+            f"not found in the difficulty snapshot: {preview}{more}",
+            file=sys.stderr,
+        )
+    if difficulty_report.missing_extra:
+        preview = ", ".join(difficulty_report.missing_extra[:12])
+        more = " ..." if len(difficulty_report.missing_extra) > 12 else ""
+        print(
+            f"warning: {len(difficulty_report.missing_extra)} UOJ/QOJ problem(s) "
+            f"have no entry in {args.difficulty_file}: {preview}{more}",
             file=sys.stderr,
         )
     for warning in parsed.warnings:
