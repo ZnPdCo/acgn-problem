@@ -355,6 +355,7 @@ Some other fun facts:
   - [P17489 王牌无论何时都是坏棋](/problem/P17489)
   - [P17693 砕月](/problem/P17693)
 - Fate
+  - [P3239 [HNOI2015] 亚瑟王](/problem/P3239)
   - [P4474 王者之剑](/problem/P4474)
   - [P5664 [CSP-S 2019] Emiya 家今天的饭](/problem/P5664)
   - [P10242 [THUSC 2021] Emiya 家明天的饭](/problem/P10242)
@@ -370,6 +371,8 @@ Some other fun facts:
   - [P4988 重排DL](/problem/P4988)
   - [P4989 二进制之谜](/problem/P4989)
   - [P4990 小埋与刺客传奇](/problem/P4990)
+- 工作细胞 $\jp{はたらく細胞}$
+  - [P4960 血小板与凝血因子](/problem/P4960)
 - 孤独摇滚！ $\jp{ぼっち・ざ・ろっく！}$
   - [P12539 [XJTUPC 2025] 结束乐队](/problem/P12539)
 - 关于我在无意间被隔壁的天使变成废柴这件事 $\jp{お隣の天使様にいつの間にか駄目人間にされていた件}$
@@ -451,6 +454,7 @@ Some other fun facts:
   - [B4494 [语言月赛 202602] 弹珠方阵](/problem/B4494)
   - [P16942 「LAOI-18」铃喵](/problem/P16942)
 - Love Live! $\jp{ラブライブ!}$
+  - [P3239 [HNOI2015] 亚瑟王](/problem/P3239)
   - [P3651 展翅翱翔之时 (はばたきのとき)](/problem/P3651)
   - [P3654 First Step (ファーストステップ) ](/problem/P3654)
   - [P3655 不成熟的梦想家 (未熟 DREAMER)](/problem/P3655)
@@ -527,6 +531,7 @@ Some other fun facts:
   - [P17608 「RiOI-8」沢渡 ココ](/problem/P17608)
   - [P17609 「RiOI-8」氷上 メルル](/problem/P17609)
   - [P17610 「RiOI-8」月代 ユキ](/problem/P17610)
+  - [QOJ14975 Judgment of Mahou Shoujo](https://qoj.ac/problem/14975)
 - 魔法少女网站 $\jp{魔法少女サイト}$
   - [P5047 [Ynoi2019 模拟赛] Yuno loves sqrt technology II](/problem/P5047)
   - [P6578 [Ynoi2019] 魔法少女网站](/problem/P6578)
@@ -621,6 +626,8 @@ Some other fun facts:
   - [P11803 【MX-X9-T7】『GROI-R3』此花绽放之时](/problem/P11803)
 - TARI TARI
   - [P16125 [USTCPC 2026] Melody](/problem/P16125)
+- 天才麻将少女 $\jp{咲-Saki-}$
+  - [P17738 [ICPC 2019 Xuzhou R] Yuuki and a problem](/problem/P17738)
 - 天降之物 $\jp{そらのおとしもの}$
   - [P5397 [Ynoi2018] 天降之物](/problem/P5397)
 - 天气之子 $\jp{天気の子}$
@@ -724,6 +731,8 @@ Some other fun facts:
   - [P11799 【MX-X9-T3】『GROI-R3』Powerless](/problem/P11799)
   - [P14949 游戏人生](/problem/P14949)
   - [P16966 [SCCPC 2026] 献给空白的无败冠冕](/problem/P16966)
+- 游戏王 $\jp{遊☆戯☆王}$
+  - [P6672 [清华集训 2016] 你的生命已如风中残烛](/problem/P6672)
 - 约会大作战 $\jp{デート・ア・ライブ}$
   - [P6380 『MdOI R2』Mayuri](/problem/P6380)
   - [P6749 『MdOI R3』Yoshino](/problem/P6749)

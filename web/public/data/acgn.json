@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "url": "https://www.luogu.com.cn/article/93r0yhdc",
-    "fetchedAt": "2026-10-23T23:12:53Z"
+    "fetchedAt": "2026-10-24T22:33:13Z"
   },
   "works": [
     {
@@ -1336,6 +1336,10 @@
       "original": "",
       "problems": [
         {
+          "key": "P3239",
+          "title": "[HNOI2015] 亚瑟王"
+        },
+        {
           "key": "P4474",
           "title": "王者之剑"
         },
@@ -1403,6 +1407,17 @@
         {
           "key": "P4990",
           "title": "小埋与刺客传奇"
+        }
+      ]
+    },
+    {
+      "id": "wc80704e7",
+      "name": "工作细胞",
+      "original": "はたらく細胞",
+      "problems": [
+        {
+          "key": "P4960",
+          "title": "血小板与凝血因子"
         }
       ]
     },
@@ -1780,6 +1795,10 @@
       "original": "ラブライブ!",
       "problems": [
         {
+          "key": "P3239",
+          "title": "[HNOI2015] 亚瑟王"
+        },
+        {
           "key": "P3651",
           "title": "展翅翱翔之时 (はばたきのとき)"
         },
@@ -2118,6 +2137,10 @@
         {
           "key": "P17610",
           "title": "「RiOI-8」月代 ユキ"
+        },
+        {
+          "key": "QOJ14975",
+          "title": "Judgment of Mahou Shoujo"
         }
       ]
     },
@@ -2560,6 +2583,17 @@
         {
           "key": "P16125",
           "title": "[USTCPC 2026] Melody"
+        }
+      ]
+    },
+    {
+      "id": "w217b584f",
+      "name": "天才麻将少女",
+      "original": "咲-Saki-",
+      "problems": [
+        {
+          "key": "P17738",
+          "title": "[ICPC 2019 Xuzhou R] Yuuki and a problem"
         }
       ]
     },
@@ -3077,6 +3111,17 @@
         {
           "key": "P16966",
           "title": "[SCCPC 2026] 献给空白的无败冠冕"
+        }
+      ]
+    },
+    {
+      "id": "w235bbcfe",
+      "name": "游戏王",
+      "original": "遊☆戯☆王",
+      "problems": [
+        {
+          "key": "P6672",
+          "title": "[清华集训 2016] 你的生命已如风中残烛"
         }
       ]
     },
@@ -6873,6 +6918,19 @@
       ],
       "difficulty": "提高+/省选−"
     },
+    "P3239": {
+      "key": "P3239",
+      "id": "P3239",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "[HNOI2015] 亚瑟王",
+      "url": "https://www.luogu.com.cn/problem/P3239",
+      "works": [
+        "w05207708",
+        "w20166c1a"
+      ],
+      "difficulty": "省选/NOI−"
+    },
     "P4474": {
       "key": "P4474",
       "id": "P4474",
@@ -7004,6 +7062,18 @@
         "wa00c8966"
       ],
       "difficulty": "省选/NOI−"
+    },
+    "P4960": {
+      "key": "P4960",
+      "id": "P4960",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "血小板与凝血因子",
+      "url": "https://www.luogu.com.cn/problem/P4960",
+      "works": [
+        "wc80704e7"
+      ],
+      "difficulty": "普及"
     },
     "P9220": {
       "key": "P9220",
@@ -8505,6 +8575,18 @@
       ],
       "difficulty": "NOI/NOI+/CTS"
     },
+    "QOJ14975": {
+      "key": "QOJ14975",
+      "id": "QOJ14975",
+      "oj": "qoj",
+      "ojName": "QOJ",
+      "title": "Judgment of Mahou Shoujo",
+      "url": "https://qoj.ac/problem/14975",
+      "works": [
+        "w7a2f5c7d"
+      ],
+      "difficulty": "未设置难度"
+    },
     "P5047": {
       "key": "P5047",
       "id": "P5047",
@@ -9345,6 +9427,18 @@
       ],
       "difficulty": "省选/NOI−"
     },
+    "P17738": {
+      "key": "P17738",
+      "id": "P17738",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "[ICPC 2019 Xuzhou R] Yuuki and a problem",
+      "url": "https://www.luogu.com.cn/problem/P17738",
+      "works": [
+        "w217b584f"
+      ],
+      "difficulty": "省选/NOI−"
+    },
     "P5397": {
       "key": "P5397",
       "id": "P5397",
@@ -10149,6 +10243,19 @@
       ],
       "difficulty": "NOI/NOI+/CTS"
     },
+    "P6672": {
+      "key": "P6672",
+      "id": "P6672",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "[清华集训 2016] 你的生命已如风中残烛",
+      "url": "https://www.luogu.com.cn/problem/P6672",
+      "works": [
+        "w235bbcfe",
+        "w65f22552"
+      ],
+      "difficulty": "省选/NOI−"
+    },
     "P6380": {
       "key": "P6380",
       "id": "P6380",
@@ -10400,18 +10507,6 @@
         "w65f22552"
       ],
       "difficulty": "NOI/NOI+/CTS"
-    },
-    "P6672": {
-      "key": "P6672",
-      "id": "P6672",
-      "oj": "luogu",
-      "ojName": "洛谷",
-      "title": "[清华集训 2016] 你的生命已如风中残烛",
-      "url": "https://www.luogu.com.cn/problem/P6672",
-      "works": [
-        "w65f22552"
-      ],
-      "difficulty": "省选/NOI−"
     },
     "P7289": {
       "key": "P7289",
