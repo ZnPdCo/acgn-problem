@@ -2,9 +2,20 @@
   "schemaVersion": 1,
   "source": {
     "url": "https://www.luogu.com.cn/article/93r0yhdc",
-    "fetchedAt": "2026-10-24T22:33:13Z"
+    "fetchedAt": "2026-10-26T23:56:15Z"
   },
   "works": [
+    {
+      "id": "wd0b49b39",
+      "name": "1 与 1/2",
+      "original": "1×1/2-イチトニブンノイチ",
+      "problems": [
+        {
+          "key": "P17783",
+          "title": "森井飞鸟不是罪过"
+        }
+      ]
+    },
     {
       "id": "wb29bf516",
       "name": "9-nine-",
@@ -63,6 +74,18 @@
         {
           "key": "P17630",
           "title": "安达与岛村"
+        },
+        {
+          "key": "P17774",
+          "title": "安达樱不是罪过"
+        },
+        {
+          "key": "P17776",
+          "title": "岛村抱月不是罪过"
+        },
+        {
+          "key": "P17788",
+          "title": "樽见不是罪过"
         }
       ]
     },
@@ -145,6 +168,14 @@
         {
           "key": "P17632",
           "title": "[ICPC 2019 Yinchuan R] Girls Band Party"
+        },
+        {
+          "key": "P17781",
+          "title": "千早爱音不是罪过"
+        },
+        {
+          "key": "P17782",
+          "title": "若叶睦不是罪过"
         }
       ]
     },
@@ -156,6 +187,17 @@
         {
           "key": "P16331",
           "title": "After All ～綴る想い～"
+        }
+      ]
+    },
+    {
+      "id": "w47fcd448",
+      "name": "败给了性格恶劣的天才青梅，初体验全部被夺走的那些事",
+      "original": "性悪天才幼馴染との勝負に負けて初体験を全部奪われる話",
+      "problems": [
+        {
+          "key": "P17779",
+          "title": "梅园小牧不是罪过"
         }
       ]
     },
@@ -1429,6 +1471,10 @@
         {
           "key": "P12539",
           "title": "[XJTUPC 2025] 结束乐队"
+        },
+        {
+          "key": "P17784",
+          "title": "山田凉不是罪过"
         }
       ]
     },
@@ -1884,6 +1930,10 @@
           "title": "[NOISG 2026 Finals] 柠檬 / Lemon"
         },
         {
+          "key": "P17778",
+          "title": "锦木千束不是罪过"
+        },
+        {
           "key": "QOJ18255",
           "title": "Secret Key Transfer"
         }
@@ -2245,6 +2295,10 @@
         {
           "key": "P17568",
           "title": "「FAOI-R15」XOR and Trivial Construction"
+        },
+        {
+          "key": "P17787",
+          "title": "伊蕾娜不是罪过"
         }
       ]
     },
@@ -2524,6 +2578,10 @@
         {
           "key": "P17315",
           "title": "[KismetOI 2026 I] Gujyo Senpai and Chin-Lan's Game"
+        },
+        {
+          "key": "P17785",
+          "title": "上伊那牡丹不是罪过"
         }
       ]
     },
@@ -2546,6 +2604,10 @@
         {
           "key": "P15368",
           "title": "『ICerOI Round 1』快进来听歌！"
+        },
+        {
+          "key": "P17775",
+          "title": "安和昴不是罪过"
         }
       ]
     },
@@ -2721,6 +2783,17 @@
         {
           "key": "P8570",
           "title": "[JRKSJ R6] 牵连的世界"
+        }
+      ]
+    },
+    {
+      "id": "wab18453a",
+      "name": "我们不可能成为恋人！绝对不行。 (※似乎可行？)",
+      "original": "わたしが恋人になれるわけないじゃん、ムリムリ! (※ムリじゃなかった!?)",
+      "problems": [
+        {
+          "key": "P17777",
+          "title": "甘织玲奈子不是罪过"
         }
       ]
     },
@@ -3262,6 +3335,18 @@
       "original": "やがて君になる",
       "problems": [
         {
+          "key": "P17780",
+          "title": "七海灯子不是罪过"
+        },
+        {
+          "key": "P17786",
+          "title": "小糸侑不是罪过"
+        },
+        {
+          "key": "P17789",
+          "title": "佐伯沙弥香不是罪过"
+        },
+        {
           "key": "QOJ18255",
           "title": "Secret Key Transfer"
         }
@@ -3334,6 +3419,18 @@
     }
   ],
   "problems": {
+    "P17783": {
+      "key": "P17783",
+      "id": "P17783",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "森井飞鸟不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17783",
+      "works": [
+        "wd0b49b39"
+      ],
+      "difficulty": "NOI/NOI+/CTS"
+    },
     "P12533": {
       "key": "P12533",
       "id": "P12533",
@@ -3453,6 +3550,42 @@
         "wa7e20c8e"
       ],
       "difficulty": "NOI/NOI+/CTS"
+    },
+    "P17774": {
+      "key": "P17774",
+      "id": "P17774",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "安达樱不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17774",
+      "works": [
+        "wa7e20c8e"
+      ],
+      "difficulty": "普及"
+    },
+    "P17776": {
+      "key": "P17776",
+      "id": "P17776",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "岛村抱月不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17776",
+      "works": [
+        "wa7e20c8e"
+      ],
+      "difficulty": "省选/NOI−"
+    },
+    "P17788": {
+      "key": "P17788",
+      "id": "P17788",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "樽见不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17788",
+      "works": [
+        "wa7e20c8e"
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P6038": {
       "key": "P6038",
@@ -3660,6 +3793,30 @@
       ],
       "difficulty": "提高"
     },
+    "P17781": {
+      "key": "P17781",
+      "id": "P17781",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "千早爱音不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17781",
+      "works": [
+        "w4fd4d88a"
+      ],
+      "difficulty": "省选/NOI−"
+    },
+    "P17782": {
+      "key": "P17782",
+      "id": "P17782",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "若叶睦不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17782",
+      "works": [
+        "w4fd4d88a"
+      ],
+      "difficulty": "NOI/NOI+/CTS"
+    },
     "P16331": {
       "key": "P16331",
       "id": "P16331",
@@ -3671,6 +3828,18 @@
         "w748b6f69"
       ],
       "difficulty": "NOI/NOI+/CTS"
+    },
+    "P17779": {
+      "key": "P17779",
+      "id": "P17779",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "梅园小牧不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17779",
+      "works": [
+        "w47fcd448"
+      ],
+      "difficulty": "提高"
     },
     "P1936": {
       "key": "P1936",
@@ -7075,6 +7244,18 @@
       ],
       "difficulty": "普及"
     },
+    "P17784": {
+      "key": "P17784",
+      "id": "P17784",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "山田凉不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17784",
+      "works": [
+        "wf973d35a"
+      ],
+      "difficulty": "普及"
+    },
     "P9220": {
       "key": "P9220",
       "id": "P9220",
@@ -8023,6 +8204,18 @@
       ],
       "difficulty": "NOI/NOI+/CTS"
     },
+    "P17778": {
+      "key": "P17778",
+      "id": "P17778",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "锦木千束不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17778",
+      "works": [
+        "wed555f35"
+      ],
+      "difficulty": "提高"
+    },
     "P11028": {
       "key": "P11028",
       "id": "P11028",
@@ -8791,6 +8984,18 @@
       ],
       "difficulty": "提高"
     },
+    "P17787": {
+      "key": "P17787",
+      "id": "P17787",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "伊蕾娜不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17787",
+      "works": [
+        "w6f8904ca"
+      ],
+      "difficulty": "入门"
+    },
     "P1947": {
       "key": "P1947",
       "id": "P1947",
@@ -9355,6 +9560,18 @@
       ],
       "difficulty": "普及+/提高−"
     },
+    "P17785": {
+      "key": "P17785",
+      "id": "P17785",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "上伊那牡丹不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17785",
+      "works": [
+        "w5484a92f"
+      ],
+      "difficulty": "提高+/省选−"
+    },
     "P15416": {
       "key": "P15416",
       "id": "P15416",
@@ -9378,6 +9595,18 @@
         "wb9464949"
       ],
       "difficulty": "普及−"
+    },
+    "P17775": {
+      "key": "P17775",
+      "id": "P17775",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "安和昴不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17775",
+      "works": [
+        "wb9464949"
+      ],
+      "difficulty": "提高"
     },
     "P10574": {
       "key": "P10574",
@@ -9618,6 +9847,18 @@
         "wd846eee8"
       ],
       "difficulty": "NOI/NOI+/CTS"
+    },
+    "P17777": {
+      "key": "P17777",
+      "id": "P17777",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "甘织玲奈子不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17777",
+      "works": [
+        "wab18453a"
+      ],
+      "difficulty": "提高"
     },
     "P16957": {
       "key": "P16957",
@@ -10517,6 +10758,42 @@
       "url": "https://www.luogu.com.cn/problem/P7289",
       "works": [
         "w65f22552"
+      ],
+      "difficulty": "NOI/NOI+/CTS"
+    },
+    "P17780": {
+      "key": "P17780",
+      "id": "P17780",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "七海灯子不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17780",
+      "works": [
+        "wb6a2ec6b"
+      ],
+      "difficulty": "提高"
+    },
+    "P17786": {
+      "key": "P17786",
+      "id": "P17786",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "小糸侑不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17786",
+      "works": [
+        "wb6a2ec6b"
+      ],
+      "difficulty": "省选/NOI−"
+    },
+    "P17789": {
+      "key": "P17789",
+      "id": "P17789",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "佐伯沙弥香不是罪过",
+      "url": "https://www.luogu.com.cn/problem/P17789",
+      "works": [
+        "wb6a2ec6b"
       ],
       "difficulty": "NOI/NOI+/CTS"
     },

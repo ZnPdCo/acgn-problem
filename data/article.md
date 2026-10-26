@@ -37,6 +37,8 @@ Some other fun facts:
 
 ---
 
+- 1 与 1/2 $\jp{1×1/2-イチトニブンノイチ}$
+  - [P17783 森井飞鸟不是罪过](/problem/P17783)
 - 9-nine-
   - [P12533 [XJTUPC 2025] 9-Nine](/problem/P12533)
 - anemoi $\jp{anemoi -アネモイ-}$
@@ -50,6 +52,9 @@ Some other fun facts:
   - [P14203 这次要永远 做朋友](/problem/P14203)
   - [P17629 永远的朋友](/problem/P17629)
   - [P17630 安达与岛村](/problem/P17630)
+  - [P17774 安达樱不是罪过](/problem/P17774)
+  - [P17776 岛村抱月不是罪过](/problem/P17776)
+  - [P17788 樽见不是罪过](/problem/P17788)
 - 暗杀教室 $\jp{暗殺教室}$
   - [P6038 「ACOI2020」惊吓路径](/problem/P6038)
   - [P6039 「ACOI2020」音速](/problem/P6039)
@@ -69,8 +74,12 @@ Some other fun facts:
   - [P15650 [省选联考 2026] 摩卡串 / string](/problem/P15650)
   - [P17626 多首的怪物](/problem/P17626)
   - [P17632 [ICPC 2019 Yinchuan R] Girls Band Party](/problem/P17632)
+  - [P17781 千早爱音不是罪过](/problem/P17781)
+  - [P17782 若叶睦不是罪过](/problem/P17782)
 - 白色相簿 2 $\jp{WHITE ALBUM2}$
   - [P16331 After All ～綴る想い～](/problem/P16331)
+- 败给了性格恶劣的天才青梅，初体验全部被夺走的那些事 $\jp{性悪天才幼馴染との勝負に負けて初体験を全部奪われる話}$
+  - [P17779 梅园小牧不是罪过](/problem/P17779)
 - 宝可梦 $\jp{ポケットモンスター}$
   - [P1936 水晶灯火灵](/problem/P1936)
   - [P4542 [ZJOI2011] 营救皮卡丘](/problem/P4542)
@@ -375,6 +384,7 @@ Some other fun facts:
   - [P4960 血小板与凝血因子](/problem/P4960)
 - 孤独摇滚！ $\jp{ぼっち・ざ・ろっく！}$
   - [P12539 [XJTUPC 2025] 结束乐队](/problem/P12539)
+  - [P17784 山田凉不是罪过](/problem/P17784)
 - 关于我在无意间被隔壁的天使变成废柴这件事 $\jp{お隣の天使様にいつの間にか駄目人間にされていた件}$
   - [P9220 「TAOI-1」椎名真昼](/problem/P9220)
 - Happy Sugar Life ～幸福甜蜜生活～ $\jp{ハッピーシュガーライフ}$
@@ -474,6 +484,7 @@ Some other fun facts:
   - [P17229 [Math×Girl²] 英雄变奏曲](/problem/P17229)
 - 莉可丽丝 $\jp{リコリス・リコイル}$
   - [P15851 [NOISG 2026 Finals] 柠檬 / Lemon](/problem/P15851)
+  - [P17778 锦木千束不是罪过](/problem/P17778)
   - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
 - 龙猫 $\jp{となりのトトロ}$
   - [P11028 [COTS 2020] 龙猫 Totoro](/problem/P11028)
@@ -555,6 +566,7 @@ Some other fun facts:
   - [P13908 「TFXOI Round 3」旅者之树](/problem/P13908)
   - [P17316 [KismetOI 2026 I] 孤独绽放的彼岸花](/problem/P17316)
   - [P17568 「FAOI-R15」XOR and Trivial Construction](/problem/P17568)
+  - [P17787 伊蕾娜不是罪过](/problem/P17787)
 - 末日时在做什么？有没有空？可以来拯救吗？ $\jp{終末なにしてますか？ 忙しいですか？ 救ってもらっていいですか？}$
   - [P1947 猜数](/problem/P1947) 
   - [P3932 浮游大陆的68号岛](/problem/P3932)
@@ -615,10 +627,12 @@ Some other fun facts:
   - [P3674 小清新人渣的本愿](/problem/P3674)
 - 上伊那牡丹，酒醉身姿似百合花般 $\jp{上伊那ぼたん、酔へる姿は百合の花}$
   - [P17315 [KismetOI 2026 I] Gujyo Senpai and Chin-Lan's Game](/problem/P17315)
+  - [P17785 上伊那牡丹不是罪过](/problem/P17785)
 - 少女星间漂流记 $\jp{少女星間漂流記}$
   - [P15416 「yrOI R1」夏日已逝](/problem/P15416)
 - 少女乐队的呐喊 $\jp{ガールズバンドクライ}$
   - [P15368 『ICerOI Round 1』快进来听歌！](/problem/P15368)
+  - [P17775 安和昴不是罪过](/problem/P17775)
 - 少女终末旅行 $\jp{少女終末旅行}$
   - [P10574 [JRKSJ R8] 暴风雪](/problem/P10574)
   - [P11695 [JRKSJ ExR] 昼寝](/problem/P11695)
@@ -653,6 +667,8 @@ Some other fun facts:
   - [P4925 [1007] Scarlet的字符串不可能这么可爱](/problem/P4925)
 - 我的青春恋爱物语果然有问题。 $\jp{やはり俺の青春ラブコメはまちがっている。}$
   - [P8570 [JRKSJ R6] 牵连的世界](/problem/P8570)
+- 我们不可能成为恋人！绝对不行。 (※似乎可行？) $\jp{わたしが恋人になれるわけないじゃん、ムリムリ! (※ムリじゃなかった!?)}$
+  - [P17777 甘织玲奈子不是罪过](/problem/P17777)
 - 我们仍未知道那天所看见的花的名字。 $\jp{あの日見た花の名前を僕達はまだ知らない。}$
   - [P16957 [SCCPC 2026] 那一年的秘密基地](/problem/P16957)
   - [P16960 [SCCPC 2026] 那一天的回文字符串](/problem/P16960)
@@ -763,6 +779,9 @@ Some other fun facts:
   - [P7289 「EZEC-5」「KrOI2021」Chasse Neige](/problem/P7289)
   - [P7292 「EZEC-5」「KrOI2021」Chasse Neige 加强版](/problem/P7289)
 - 终将成为你 $\jp{やがて君になる}$
+  - [P17780 七海灯子不是罪过](/problem/P17780)
+  - [P17786 小糸侑不是罪过](/problem/P17786)
+  - [P17789 佐伯沙弥香不是罪过](/problem/P17789)
   - [QOJ18255 Secret Key Transfer](https://qoj.ac/problem/18255)
 - 咒术回战 $\jp{呪術廻戦}$
   - [P13993 【MX-X19-T2】「LAOI-14」SPECIALZ](/problem/P13993)
