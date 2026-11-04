@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "url": "https://www.luogu.com.cn/article/93r0yhdc",
-    "fetchedAt": "2026-10-31T23:27:16Z"
+    "fetchedAt": "2026-11-04T00:40:18Z"
   },
   "works": [
     {
@@ -223,6 +223,10 @@
           "title": "[COCI 2016/2017 #2] Go"
         },
         {
+          "key": "P11333",
+          "title": "[NOISG 2020 Finals] Discharging"
+        },
+        {
           "key": "P13084",
           "title": "[NOISG 2017] I want to be the very best too! / 宝可梦大师"
         },
@@ -240,6 +244,21 @@
         {
           "key": "P15417",
           "title": "「yrOI R1」彼时蓝星"
+        }
+      ]
+    },
+    {
+      "id": "wf1a10a55",
+      "name": "别当欧尼酱了！",
+      "original": "お兄ちゃんはおしまい！",
+      "problems": [
+        {
+          "key": "P10266",
+          "title": "高效清理"
+        },
+        {
+          "key": "P10267",
+          "title": "机器人"
         }
       ]
     },
@@ -2249,6 +2268,10 @@
         {
           "key": "P14944",
           "title": "已经没有什么好构造的了"
+        },
+        {
+          "key": "P17846",
+          "title": "回天"
         }
       ]
     },
@@ -2299,6 +2322,10 @@
         {
           "key": "P17787",
           "title": "伊蕾娜不是罪过"
+        },
+        {
+          "key": "P17847",
+          "title": "猫猫的表白小作文"
         }
       ]
     },
@@ -2736,6 +2763,10 @@
       "original": "ブルーアーカイブ -Blue Archive-",
       "problems": [
         {
+          "key": "P10815",
+          "title": "【模板】快速读入"
+        },
+        {
           "key": "P14322",
           "title": "「ALFR Round 11」E 空崎ヒナ"
         },
@@ -2772,6 +2803,10 @@
         {
           "key": "P4925",
           "title": "[1007] Scarlet的字符串不可能这么可爱"
+        },
+        {
+          "key": "P5351",
+          "title": "Ruri Loves Maschera"
         }
       ]
     },
@@ -3889,6 +3924,18 @@
       ],
       "difficulty": "普及−"
     },
+    "P11333": {
+      "key": "P11333",
+      "id": "P11333",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "[NOISG 2020 Finals] Discharging",
+      "url": "https://www.luogu.com.cn/problem/P11333",
+      "works": [
+        "w3acde2c8"
+      ],
+      "difficulty": "省选/NOI−"
+    },
     "P13084": {
       "key": "P13084",
       "id": "P13084",
@@ -3924,6 +3971,30 @@
         "w0aac4cab"
       ],
       "difficulty": "提高"
+    },
+    "P10266": {
+      "key": "P10266",
+      "id": "P10266",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "高效清理",
+      "url": "https://www.luogu.com.cn/problem/P10266",
+      "works": [
+        "wf1a10a55"
+      ],
+      "difficulty": "提高"
+    },
+    "P10267": {
+      "key": "P10267",
+      "id": "P10267",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "机器人",
+      "url": "https://www.luogu.com.cn/problem/P10267",
+      "works": [
+        "wf1a10a55"
+      ],
+      "difficulty": "普及+/提高−"
     },
     "P16963": {
       "key": "P16963",
@@ -8888,6 +8959,18 @@
       ],
       "difficulty": "省选/NOI−"
     },
+    "P17846": {
+      "key": "P17846",
+      "id": "P17846",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "回天",
+      "url": "https://www.luogu.com.cn/problem/P17846",
+      "works": [
+        "w329e5df2"
+      ],
+      "difficulty": "暂无评定"
+    },
     "P5113": {
       "key": "P5113",
       "id": "P5113",
@@ -8995,6 +9078,18 @@
         "w6f8904ca"
       ],
       "difficulty": "入门"
+    },
+    "P17847": {
+      "key": "P17847",
+      "id": "P17847",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "猫猫的表白小作文",
+      "url": "https://www.luogu.com.cn/problem/P17847",
+      "works": [
+        "w6f8904ca"
+      ],
+      "difficulty": "暂无评定"
     },
     "P1947": {
       "key": "P1947",
@@ -9776,6 +9871,18 @@
       ],
       "difficulty": "省选/NOI−"
     },
+    "P10815": {
+      "key": "P10815",
+      "id": "P10815",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "【模板】快速读入",
+      "url": "https://www.luogu.com.cn/problem/P10815",
+      "works": [
+        "w671f4b80"
+      ],
+      "difficulty": "普及−"
+    },
     "P14322": {
       "key": "P14322",
       "id": "P14322",
@@ -9835,6 +9942,18 @@
         "w4eb1f5d0"
       ],
       "difficulty": "普及"
+    },
+    "P5351": {
+      "key": "P5351",
+      "id": "P5351",
+      "oj": "luogu",
+      "ojName": "洛谷",
+      "title": "Ruri Loves Maschera",
+      "url": "https://www.luogu.com.cn/problem/P5351",
+      "works": [
+        "w49d03aa6"
+      ],
+      "difficulty": "省选/NOI−"
     },
     "P8570": {
       "key": "P8570",

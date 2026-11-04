@@ -85,10 +85,14 @@ Some other fun facts:
   - [P4542 [ZJOI2011] 营救皮卡丘](/problem/P4542)
   - [P4679 [ZJOI2011] 道馆之战](/problem/P4679)
   - [P6494 [COCI 2016/2017 #2] Go](/problem/P6494)
+  - [P11333 [NOISG 2020 Finals] Discharging](/problem/P11333)
   - [P13084 [NOISG 2017] I want to be the very best too! / 宝可梦大师](/problem/P13084)
   - [P15844 [Bulgarian NOI 2024] 宝可梦 / pokemons](/problem/P15844)
 - 彼时蓝星 $\jp{あの頃の青い星}$
   - [P15417 「yrOI R1」彼时蓝星](/problem/P15417)
+- 别当欧尼酱了！ $\jp{お兄ちゃんはおしまい！}$
+  - [P10266 高效清理](/problem/P10266)
+  - [P10267 机器人](/problem/P10267)
 - 不正经的魔术讲师与禁忌教典 $\jp{ロクでなし魔術講師と禁忌教典}$
   - [P16963 [SCCPC 2026] 禁忌教典的消失咒文](/problem/P16963)
 - CLANNAD $\jp{CLANNAD -クラナド-}$
@@ -556,6 +560,7 @@ Some other fun facts:
   - [P11144 「SFMOI Round I」Strange Madoka Game](/problem/P11144)
   - [P11145 「SFMOI Round I」Strange Homura Game](/problem/P11145)
   - [P14944 已经没有什么好构造的了](/problem/P14944)
+  - [P17846 回天](/problem/P17846)
 - 魔女的夜宴 $\jp{サノバウィッチ}$
   - [P5113 Sabbat of the witch](/problem/P5113)
   - [P9576 「TAOI-2」Ciallo～(∠・ω< )⌒★](/problem/P9576)
@@ -567,6 +572,7 @@ Some other fun facts:
   - [P17316 [KismetOI 2026 I] 孤独绽放的彼岸花](/problem/P17316)
   - [P17568 「FAOI-R15」XOR and Trivial Construction](/problem/P17568)
   - [P17787 伊蕾娜不是罪过](/problem/P17787)
+  - [P17847 猫猫的表白小作文](/problem/P17847)
 - 末日时在做什么？有没有空？可以来拯救吗？ $\jp{終末なにしてますか？ 忙しいですか？ 救ってもらっていいですか？}$
   - [P1947 猜数](/problem/P1947) 
   - [P3932 浮游大陆的68号岛](/problem/P3932)
@@ -657,6 +663,7 @@ Some other fun facts:
   - [P5355 [Ynoi Easy Round 2017] 由乃的玉米田](/problem/P5355)
   - [P5356 [Ynoi Easy Round 2017] 由乃打扑克](/problem/P5356)
 - 蔚蓝档案 $\jp{ブルーアーカイブ -Blue Archive-}$
+  - [P10815 【模板】快速读入](/problem/P10815)
   - [P14322 「ALFR Round 11」E 空崎ヒナ](/problem/P14322)
   - [P11690 [Ynoi Hard Round 2025] 《十字神名的预言者》理解（色彩）](/problem/P11690)
   - [P11691 [Ynoi Hard Round 2025] 《十字神名的预言者》慈悲（色彩）](/problem/P11691)
@@ -665,6 +672,7 @@ Some other fun facts:
   - [P10316 [SHUPC 2024] 为美好的世界献上爆焰！](/problem/P10316)
 - 我的妹妹哪有这么可爱！ $\jp{俺の妹がこんなに可愛いわけがない}$
   - [P4925 [1007] Scarlet的字符串不可能这么可爱](/problem/P4925)
+  - [P5351 Ruri Loves Maschera](/problem/P5351)
 - 我的青春恋爱物语果然有问题。 $\jp{やはり俺の青春ラブコメはまちがっている。}$
   - [P8570 [JRKSJ R6] 牵连的世界](/problem/P8570)
 - 我们不可能成为恋人！绝对不行。 (※似乎可行？) $\jp{わたしが恋人になれるわけないじゃん、ムリムリ! (※ムリじゃなかった!?)}$
