@@ -23,9 +23,9 @@ Boring Collections.
 
 排序基本以 [Bangumi](https://bgm.tv/) 显示的作品中文翻译为基准，但是会给出原作品名；排序方式比较显然，但是如果有你想找的，推荐 **Ctrl+F** 搜索，不过需要注意可能的翻译差异。
 
-作品的续作会被归为同一栏，如 Fate 系列、樱之诗系列等。
-
-若一个作品 neta 了多个作品，会在多个对应栏下展示。
+- 作品的续作会被归为同一栏，如 Fate 系列、樱之诗系列等。
+- 若一个题目 neta 了多个作品，会在多个对应栏下展示。
+- 有些题目会借用某个角色来代指出题人自己。但只要原本的角色指代明确，我们仍然计入下表。
 
 $\gdef\jp#1{\quad\color{999999}\footnotesize\textsf{#1}}$
 
@@ -367,6 +367,7 @@ Some other fun facts:
   - [P17488 故乡之星倒映之海](/problem/P17488)
   - [P17489 王牌无论何时都是坏棋](/problem/P17489)
   - [P17693 砕月](/problem/P17693)
+  - [UOJ135 【UR #9】包子晚宴](https://uoj.ac/problem/135)
 - Fate
   - [P3239 [HNOI2015] 亚瑟王](/problem/P3239)
   - [P4474 王者之剑](/problem/P4474)
@@ -439,6 +440,10 @@ Some other fun facts:
   - [P8332 [ZJOI2022] 面条](/problem/P8332)
   - [P8333 [ZJOI2022] 计算几何](/problem/P8333)
   - [P8334 [ZJOI2022] 深搜](/problem/P8334)
+  - [UOJ215 【UNR #1】果冻运输](https://uoj.ac/problem/215)
+  - [UOJ218 【UNR #1】火车管理](https://uoj.ac/problem/218)
+  - [UOJ309 【UNR #2】排兵布阵](https://uoj.ac/problem/309)
+  - [UOJ640 【美团杯2021】D. 德州扑克](https://uoj.ac/problem/640)
 - 回转企鹅罐 $\jp{輪るピングドラム}$
   - [P11561 【MX-X7-T2】[LSOT-3] 姬誉蛙](/problem/P11561)
   - [P11563 【MX-X7-T4】[LSOT-3] 命运](/problem/P11563)
@@ -629,6 +634,7 @@ Some other fun facts:
   - [P7524 魔女的茶会](/problem/P7524)
 - RIDDLE JOKER
   - [P17079 Lab](/problem/P17079)
+  - [UOJ1084 【UR #34】死亡回归](https://uoj.ac/problem/1084)
 - 人渣的本愿 $\jp{クズの本懐}$
   - [P3674 小清新人渣的本愿](/problem/P3674)
 - 上伊那牡丹，酒醉身姿似百合花般 $\jp{上伊那ぼたん、酔へる姿は百合の花}$
@@ -670,6 +676,7 @@ Some other fun facts:
   - [P11692 [Ynoi Hard Round 2025] 《十字神名的预言者》宏伟（色彩）](/problem/P11692)
 - 为美好的世界献上祝福！ $\jp{この素晴らしい世界に祝福を！}$
   - [P10316 [SHUPC 2024] 为美好的世界献上爆焰！](/problem/P10316)
+  - [UOJ1083 【UR #34】爆裂魔法](https://uoj.ac/problem/1083)
 - 我的妹妹哪有这么可爱！ $\jp{俺の妹がこんなに可愛いわけがない}$
   - [P4925 [1007] Scarlet的字符串不可能这么可爱](/problem/P4925)
   - [P5351 Ruri Loves Maschera](/problem/P5351)
@@ -708,6 +715,7 @@ Some other fun facts:
   - [P11365 [Ynoi2024] 新本格魔法少女りすか](/problem/P11365)
 - 新世纪福音战士 $\jp{新世紀エヴァンゲリオン}$
   - [P13699 「CyOI」YZZYWW：Doomed Doom](/problem/P13699)
+  - [UOJ193 【UR #14】人类补完计划](https://uoj.ac/problem/193)
 - 星空的记忆 $\jp{星空のメモリア}$
   - [UOJ983 【UNR #9】星图](https://uoj.ac/problem/983)
 - 星光咖啡馆与死神之蝶 $\jp{喫茶ステラと死神の蝶}$

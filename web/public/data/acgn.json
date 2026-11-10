@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "url": "https://www.luogu.com.cn/article/93r0yhdc",
-    "fetchedAt": "2026-11-07T00:08:38Z"
+    "fetchedAt": "2026-11-10T02:47:12Z"
   },
   "works": [
     {
@@ -1388,6 +1388,10 @@
         {
           "key": "P17693",
           "title": "砕月"
+        },
+        {
+          "key": "UOJ135",
+          "title": "【UR #9】包子晚宴"
         }
       ]
     },
@@ -1712,6 +1716,22 @@
         {
           "key": "P8334",
           "title": "[ZJOI2022] 深搜"
+        },
+        {
+          "key": "UOJ215",
+          "title": "【UNR #1】果冻运输"
+        },
+        {
+          "key": "UOJ218",
+          "title": "【UNR #1】火车管理"
+        },
+        {
+          "key": "UOJ309",
+          "title": "【UNR #2】排兵布阵"
+        },
+        {
+          "key": "UOJ640",
+          "title": "【美团杯2021】D. 德州扑克"
         }
       ]
     },
@@ -2583,6 +2603,10 @@
         {
           "key": "P17079",
           "title": "Lab"
+        },
+        {
+          "key": "UOJ1084",
+          "title": "【UR #34】死亡回归"
         }
       ]
     },
@@ -2792,6 +2816,10 @@
         {
           "key": "P10316",
           "title": "[SHUPC 2024] 为美好的世界献上爆焰！"
+        },
+        {
+          "key": "UOJ1083",
+          "title": "【UR #34】爆裂魔法"
         }
       ]
     },
@@ -2989,6 +3017,10 @@
         {
           "key": "P13699",
           "title": "「CyOI」YZZYWW：Doomed Doom"
+        },
+        {
+          "key": "UOJ193",
+          "title": "【UR #14】人类补完计划"
         }
       ]
     },
@@ -7158,6 +7190,18 @@
       ],
       "difficulty": "提高+/省选−"
     },
+    "UOJ135": {
+      "key": "UOJ135",
+      "id": "UOJ135",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UR #9】包子晚宴",
+      "url": "https://uoj.ac/problem/135",
+      "works": [
+        "w3e1cf230"
+      ],
+      "difficulty": "未设置难度"
+    },
     "P3239": {
       "key": "P3239",
       "id": "P3239",
@@ -7854,6 +7898,54 @@
         "wcecd1641"
       ],
       "difficulty": "NOI/NOI+/CTS"
+    },
+    "UOJ215": {
+      "key": "UOJ215",
+      "id": "UOJ215",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UNR #1】果冻运输",
+      "url": "https://uoj.ac/problem/215",
+      "works": [
+        "wcecd1641"
+      ],
+      "difficulty": "未设置难度"
+    },
+    "UOJ218": {
+      "key": "UOJ218",
+      "id": "UOJ218",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UNR #1】火车管理",
+      "url": "https://uoj.ac/problem/218",
+      "works": [
+        "wcecd1641"
+      ],
+      "difficulty": "未设置难度"
+    },
+    "UOJ309": {
+      "key": "UOJ309",
+      "id": "UOJ309",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UNR #2】排兵布阵",
+      "url": "https://uoj.ac/problem/309",
+      "works": [
+        "wcecd1641"
+      ],
+      "difficulty": "未设置难度"
+    },
+    "UOJ640": {
+      "key": "UOJ640",
+      "id": "UOJ640",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【美团杯2021】D. 德州扑克",
+      "url": "https://uoj.ac/problem/640",
+      "works": [
+        "wcecd1641"
+      ],
+      "difficulty": "未设置难度"
     },
     "P11561": {
       "key": "P11561",
@@ -9631,6 +9723,18 @@
       ],
       "difficulty": "普及+/提高−"
     },
+    "UOJ1084": {
+      "key": "UOJ1084",
+      "id": "UOJ1084",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UR #34】死亡回归",
+      "url": "https://uoj.ac/problem/1084",
+      "works": [
+        "we8b32482"
+      ],
+      "difficulty": "未设置难度"
+    },
     "P3674": {
       "key": "P3674",
       "id": "P3674",
@@ -9665,7 +9769,7 @@
       "works": [
         "w5484a92f"
       ],
-      "difficulty": "提高+/省选−"
+      "difficulty": "提高"
     },
     "P15416": {
       "key": "P15416",
@@ -9943,6 +10047,18 @@
       ],
       "difficulty": "普及"
     },
+    "UOJ1083": {
+      "key": "UOJ1083",
+      "id": "UOJ1083",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UR #34】爆裂魔法",
+      "url": "https://uoj.ac/problem/1083",
+      "works": [
+        "w4eb1f5d0"
+      ],
+      "difficulty": "未设置难度"
+    },
     "P5351": {
       "key": "P5351",
       "id": "P5351",
@@ -10206,6 +10322,18 @@
         "w0c5405ec"
       ],
       "difficulty": "NOI/NOI+/CTS"
+    },
+    "UOJ193": {
+      "key": "UOJ193",
+      "id": "UOJ193",
+      "oj": "uoj",
+      "ojName": "UOJ",
+      "title": "【UR #14】人类补完计划",
+      "url": "https://uoj.ac/problem/193",
+      "works": [
+        "w0c5405ec"
+      ],
+      "difficulty": "未设置难度"
     },
     "UOJ983": {
       "key": "UOJ983",
